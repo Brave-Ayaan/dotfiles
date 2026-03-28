@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/wtype
+usr/share/
+usr/share/licenses/
+usr/share/licenses/wtype/
+usr/share/licenses/wtype/LICENSE
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/wtype.1.gz
+

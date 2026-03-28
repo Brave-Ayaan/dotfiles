@@ -1,0 +1,53 @@
+%NAME%
+serd
+
+%VERSION%
+0.32.8-1
+
+%BASE%
+serd
+
+%DESC%
+Lightweight C library for RDF syntax supporting reading/ writing Turtle and NTriples
+
+%URL%
+https://drobilla.net/software/serd.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771375684
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%SIZE%
+171884
+
+%REASON%
+1
+
+%LICENSE%
+0BSD OR ISC
+BSD-3-Clause
+ISC
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+serd-docs: for developer documentation
+
+%PROVIDES%
+libserd-0.so=0-64
+
+%XDATA%
+pkgtype=split
+

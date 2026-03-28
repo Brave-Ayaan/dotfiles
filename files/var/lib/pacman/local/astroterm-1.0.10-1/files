@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/astroterm
+usr/share/
+usr/share/doc/
+usr/share/doc/astroterm/
+usr/share/doc/astroterm/README.md
+usr/share/licenses/
+usr/share/licenses/astroterm/
+usr/share/licenses/astroterm/LICENSE
+

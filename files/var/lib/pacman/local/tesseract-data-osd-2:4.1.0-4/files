@@ -1,0 +1,6 @@
+%FILES%
+usr/
+usr/share/
+usr/share/tessdata/
+usr/share/tessdata/osd.traineddata
+

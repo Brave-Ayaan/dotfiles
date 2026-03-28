@@ -1,0 +1,10 @@
+%FILES%
+usr/
+usr/include/
+usr/include/blockdev/
+usr/include/blockdev/mdraid.h
+usr/lib/
+usr/lib/libbd_mdraid.so
+usr/lib/libbd_mdraid.so.3
+usr/lib/libbd_mdraid.so.3.0.0
+

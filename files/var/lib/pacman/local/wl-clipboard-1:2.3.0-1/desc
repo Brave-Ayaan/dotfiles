@@ -1,0 +1,47 @@
+%NAME%
+wl-clipboard
+
+%VERSION%
+1:2.3.0-1
+
+%BASE%
+wl-clipboard
+
+%DESC%
+Command-line copy/paste utilities for Wayland
+
+%URL%
+https://github.com/bugaevc/wl-clipboard
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774207000
+
+%INSTALLDATE%
+1774487406
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%SIZE%
+103042
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+wayland
+
+%OPTDEPENDS%
+xdg-utils: for content type inference in wl-copy
+mailcap: for type inference in wl-paste
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,62 @@
+%NAME%
+zen-browser-bin
+
+%VERSION%
+1.19.3b-1
+
+%BASE%
+zen-browser-bin
+
+%DESC%
+Performance oriented Firefox-based web browser
+
+%URL%
+https://github.com/zen-browser/desktop
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774189634
+
+%INSTALLDATE%
+1774189646
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+367407767
+
+%LICENSE%
+MPL-2.0
+
+%VALIDATION%
+none
+
+%DEPENDS%
+gtk3
+libxt
+mime-types
+dbus-glib
+nss
+ttf-font
+systemd
+ffmpeg4.4
+
+%OPTDEPENDS%
+networkmanager: Location detection via available WiFi networks
+libnotify: Notification integration
+pulse-native-provider: Audio support
+speech-dispatcher: Text-to-Speech
+hunspell-en_US: Spell checking, American English
+
+%CONFLICTS%
+zen-browser
+
+%PROVIDES%
+zen-browser=1.19.3b
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,61 @@
+%NAME%
+libportal
+
+%VERSION%
+0.9.1-2
+
+%BASE%
+libportal
+
+%DESC%
+GIO-style async APIs for most Flatpak portals
+
+%URL%
+https://github.com/flatpak/libportal
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1747000490
+
+%INSTALLDATE%
+1774147147
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+609170
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+
+%OPTDEPENDS%
+libportal-docs: API documentation
+libportal-gtk3: GTK 3 backend
+libportal-gtk4: GTK 4 backend
+libportal-qt5: Qt 5 backend
+libportal-qt6: Qt 6 backend
+xdg-desktop-portal: Portal service
+
+%PROVIDES%
+libportal.so=1-64
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,15 @@
+%FILES%
+usr/
+usr/share/
+usr/share/fonts/
+usr/share/fonts/TTF/
+usr/share/fonts/TTF/Phosphor-Bold.ttf
+usr/share/fonts/TTF/Phosphor-Duotone.ttf
+usr/share/fonts/TTF/Phosphor-Fill.ttf
+usr/share/fonts/TTF/Phosphor-Light.ttf
+usr/share/fonts/TTF/Phosphor-Thin.ttf
+usr/share/fonts/TTF/Phosphor.ttf
+usr/share/licenses/
+usr/share/licenses/ttf-phosphor-icons/
+usr/share/licenses/ttf-phosphor-icons/LICENSE
+

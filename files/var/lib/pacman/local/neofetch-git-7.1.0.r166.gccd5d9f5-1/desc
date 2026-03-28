@@ -1,0 +1,62 @@
+%NAME%
+neofetch-git
+
+%VERSION%
+7.1.0.r166.gccd5d9f5-1
+
+%BASE%
+neofetch-git
+
+%DESC%
+A CLI system information tool written in BASH that supports displaying images.
+
+%URL%
+https://github.com/dylanaraps/neofetch
+
+%ARCH%
+any
+
+%BUILDDATE%
+1774300802
+
+%INSTALLDATE%
+1774300806
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+382831
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+none
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+feh: Wallpaper Display
+imagemagick: Image cropping / Thumbnail creation / Take a screenshot
+nitrogen: Wallpaper Display
+w3m: Display Images
+catimg: Display Images
+jp2a: Display Images
+libcaca: Display Images
+xdotool: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal
+xorg-xdpyinfo: Resolution detection (Single Monitor)
+xorg-xprop: Desktop Environment and Window Manager
+xorg-xrandr: Resolution detection (Multi Monitor + Refresh rates)
+xorg-xwininfo: See https://github.com/dylanaraps/neofetch/wiki/Images-in-the-terminal
+
+%CONFLICTS%
+neofetch
+
+%PROVIDES%
+neofetch
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,10 @@
+%FILES%
+usr/
+usr/share/
+usr/share/icons/
+usr/share/icons/default/
+usr/share/icons/default/index.theme
+
+%BACKUP%
+usr/share/icons/default/index.theme	1a9667ab2fb40b97c346b46ca5abc49c
+

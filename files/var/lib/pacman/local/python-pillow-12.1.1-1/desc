@@ -1,0 +1,64 @@
+%NAME%
+python-pillow
+
+%VERSION%
+12.1.1-1
+
+%BASE%
+python-pillow
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%URL%
+https://pillow.readthedocs.io
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770795863
+
+%INSTALLDATE%
+1774147147
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%SIZE%
+5030106
+
+%REASON%
+1
+
+%LICENSE%
+MIT-CMU
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+python
+python-packaging
+freetype2
+lcms2
+libavif
+libraqm
+libtiff
+openjpeg2
+libjpeg-turbo
+libimagequant
+libxcb
+zlib
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt6: for the ImageQt module
+python-defusedxml: for reading XMP tags
+
+%XDATA%
+pkgtype=pkg
+

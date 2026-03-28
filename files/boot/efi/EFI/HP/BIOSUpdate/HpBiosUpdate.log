@@ -1,0 +1,361 @@
+2021-03-01 23:01:05  EFI HP BIOS Update 3.9.1.1 Started
+2021-03-01 23:01:05  [L]> System ID: 87C5
+2021-03-01 23:01:05  HP BIOS Image Interface Protocol Version 2.0
+2021-03-01 23:01:05  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-03-01 23:01:05  Type 11 1 tables
+2021-03-01 23:01:05  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2021-03-01 23:01:05  HPBATDET: Environment Variable not found.
+2021-03-01 23:01:05  BATDET: Date 7//10//2020 
+2021-03-01 23:01:05  BATDET: 0
+2021-03-01 23:01:05  [L]> BATDET: HP
+2021-03-01 23:01:05  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-03-01 23:01:05  [L]> 0 UART device path node found.
+2021-03-01 23:01:05  All Required Protocols Located
+2021-03-01 23:01:05  HpBiosUpdate.Mode = 0
+2021-03-01 23:01:05  WRITE_BB = 0
+2021-03-01 23:01:05  Current Directory = \EFI\HP\BIOSUpdate\
+2021-03-01 23:01:05  [L]> System ID: 87C5
+2021-03-01 23:01:05  SMBIOS Init Success
+2021-03-01 23:01:05  SystemFamily = 2
+2021-03-01 23:01:05  [L]> PlatformLang reported as en-US.
+2021-03-01 23:01:05  [L]> Language Selected is currently (eng).
+2021-03-01 23:01:05  Starting BIOS Update Process
+2021-03-01 23:01:05  Setting BIOS Update Token
+2021-03-01 23:01:05  Getting BIOS Detail Information
+2021-03-01 23:01:05  IsBiosSixDigits = 0
+2021-03-01 23:01:05  BIOS Returned BiosID '087C5'
+2021-03-01 23:01:05  QueryImageDetail: 64K Block Size detected.
+2021-03-01 23:01:05  Skip Addresses:
+2021-03-01 23:01:05  Loading BIOS Image
+2021-03-01 23:01:05  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-03-01 23:01:05  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2021-03-01 23:01:05  Getting BIOS version from file image
+2021-03-01 23:01:05  Bios Version = F.05
+2021-03-01 23:01:05  Verifying AC or Battery Power Status
+2021-03-01 23:01:05  AC Power Disconnected
+2021-03-01 23:01:06  [L]> Battery_0: Remain(2842), Full(3594) Percent(79%).
+2021-03-01 23:01:06  Primary Battery Capacity Is Sufficient (79%)
+2021-03-01 23:01:14  Verifying Binary match
+2021-03-01 23:01:14  Loading Signature File
+2021-03-01 23:01:14  Loading Password File if required
+2021-03-01 23:01:14  BIOS Password not required.
+2021-03-01 23:01:14  Writing BIOS Image
+2021-03-01 23:03:10  Verifying Written BIOS Image
+2021-03-01 23:03:10  VerifyImage: 64K Block Size detected.
+2021-03-01 23:03:10  VerifyImage: TotalNumberOfBlocks in 4k = 4096
+2021-03-01 23:03:36  Updating BIOS files
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2021-03-01 23:03:36  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-03-01 23:03:36  Will delete file EFI\HP\BIOS\New\087C5.bin
+2021-03-01 23:03:36  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2021-03-01 23:03:36  Will delete file EFI\HP\BIOS\New\087C5.sig
+2021-03-01 23:03:36  EfiBiosUpdateLibEntry(): Result is 0x0
+2021-03-01 23:03:36  Setting Flash Completion Status
+2021-03-01 23:03:36  BIOS Update Process Complete
+2021-03-01 23:03:36  BIOS Update Successful
+2021-07-20 21:42:15  EFI HP BIOS Update 3.9.1.1 Started
+2021-07-20 21:42:15  [L]> System ID: 87C5
+2021-07-20 21:42:15  HP BIOS Image Interface Protocol Version 2.0
+2021-07-20 21:42:15  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-07-20 21:42:15  Type 11 1 tables
+2021-07-20 21:42:15  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2021-07-20 21:42:15  HPBATDET: Environment Variable not found.
+2021-07-20 21:42:15  BATDET: Date 7//10//2020 
+2021-07-20 21:42:15  BATDET: 0
+2021-07-20 21:42:15  [L]> BATDET: HP
+2021-07-20 21:42:15  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-07-20 21:42:15  [L]> 0 UART device path node found.
+2021-07-20 21:42:15  All Required Protocols Located
+2021-07-20 21:42:15  HpBiosUpdate.Mode = 0
+2021-07-20 21:42:15  WRITE_BB = 0
+2021-07-20 21:42:15  Current Directory = \EFI\HP\BIOSUpdate\
+2021-07-20 21:42:15  [L]> System ID: 87C5
+2021-07-20 21:42:15  SMBIOS Init Success
+2021-07-20 21:42:15  SystemFamily = 2
+2021-07-20 21:42:15  [L]> PlatformLang reported as en-US.
+2021-07-20 21:42:15  [L]> Language Selected is currently (eng).
+2021-07-20 21:42:15  Starting BIOS Update Process
+2021-07-20 21:42:15  Setting BIOS Update Token
+2021-07-20 21:42:15  Getting BIOS Detail Information
+2021-07-20 21:42:15  IsBiosSixDigits = 0
+2021-07-20 21:42:15  BIOS Returned BiosID '087C5'
+2021-07-20 21:42:15  QueryImageDetail: 64K Block Size detected.
+2021-07-20 21:42:15  Skip Addresses:
+2021-07-20 21:42:15  Loading BIOS Image
+2021-07-20 21:42:15  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-07-20 21:42:15  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2021-07-20 21:42:15  Getting BIOS version from file image
+2021-07-20 21:42:15  Bios Version = F.12
+2021-07-20 21:42:15  Verifying AC or Battery Power Status
+2021-07-20 21:42:15  AC Power Disconnected
+2021-07-20 21:42:15  [L]> Battery_0: Remain(1823), Full(3131) Percent(58%).
+2021-07-20 21:42:15  Primary Battery Capacity Is Sufficient (58%)
+2021-07-20 21:42:26  Verifying Binary match
+2021-07-20 21:42:26  Loading Signature File
+2021-07-20 21:42:26  Loading Password File if required
+2021-07-20 21:42:26  BIOS Password not required.
+2021-07-20 21:42:26  Writing BIOS Image
+2021-07-20 21:44:21  Verifying Written BIOS Image
+2021-07-20 21:44:21  VerifyImage: 64K Block Size detected.
+2021-07-20 21:44:21  VerifyImage: TotalNumberOfBlocks in 4k = 4096
+2021-07-20 21:44:47  Updating BIOS files
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2021-07-20 21:44:47  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-07-20 21:44:47  Will delete file EFI\HP\BIOS\New\087C5.bin
+2021-07-20 21:44:47  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2021-07-20 21:44:47  Will delete file EFI\HP\BIOS\New\087C5.sig
+2021-07-20 21:44:47  EfiBiosUpdateLibEntry(): Result is 0x0
+2021-07-20 21:44:47  Setting Flash Completion Status
+2021-07-20 21:44:47  BIOS Update Process Complete
+2021-07-20 21:44:47  BIOS Update Successful
+2021-11-08 03:45:15  EFI HP BIOS Update 3.9.1.1 Started
+2021-11-08 03:45:15  [L]> System ID: 87C5
+2021-11-08 03:45:15  HP BIOS Image Interface Protocol Version 2.0
+2021-11-08 03:45:15  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2021-11-08 03:45:15  Type 11 1 tables
+2021-11-08 03:45:15  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2021-11-08 03:45:15  HPBATDET: Environment Variable not found.
+2021-11-08 03:45:16  BATDET: Date 7//10//2020 
+2021-11-08 03:45:16  BATDET: 0
+2021-11-08 03:45:16  [L]> BATDET: HP
+2021-11-08 03:45:16  [L]> Found 1 Absolute Pointer Protocol(s)
+2021-11-08 03:45:16  [L]> 0 UART device path node found.
+2021-11-08 03:45:16  All Required Protocols Located
+2021-11-08 03:45:16  HpBiosUpdate.Mode = 0
+2021-11-08 03:45:16  WRITE_BB = 0
+2021-11-08 03:45:16  Current Directory = \EFI\HP\BIOSUpdate\
+2021-11-08 03:45:16  [L]> System ID: 87C5
+2021-11-08 03:45:16  SMBIOS Init Success
+2021-11-08 03:45:16  SystemFamily = 2
+2021-11-08 03:45:16  [L]> PlatformLang reported as en-US.
+2021-11-08 03:45:16  [L]> Language Selected is currently (eng).
+2021-11-08 03:45:16  Starting BIOS Update Process
+2021-11-08 03:45:16  Setting BIOS Update Token
+2021-11-08 03:45:16  Getting BIOS Detail Information
+2021-11-08 03:45:16  IsBiosSixDigits = 0
+2021-11-08 03:45:16  BIOS Returned BiosID '087C5'
+2021-11-08 03:45:16  QueryImageDetail: 64K Block Size detected.
+2021-11-08 03:45:16  Skip Addresses:
+2021-11-08 03:45:16  Loading BIOS Image
+2021-11-08 03:45:16  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-11-08 03:45:16  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2021-11-08 03:45:16  Getting BIOS version from file image
+2021-11-08 03:45:16  Bios Version = F.15
+2021-11-08 03:45:16  Verifying AC or Battery Power Status
+2021-11-08 03:45:31  Verifying Binary match
+2021-11-08 03:45:31  Loading Signature File
+2021-11-08 03:45:31  Loading Password File if required
+2021-11-08 03:45:31  BIOS Password not required.
+2021-11-08 03:45:31  Writing BIOS Image
+2021-11-08 03:47:27  Verifying Written BIOS Image
+2021-11-08 03:47:27  VerifyImage: 64K Block Size detected.
+2021-11-08 03:47:27  VerifyImage: TotalNumberOfBlocks in 4k = 4096
+2021-11-08 03:47:53  Updating BIOS files
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2021-11-08 03:47:53  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2021-11-08 03:47:53  Will delete file EFI\HP\BIOS\New\087C5.bin
+2021-11-08 03:47:53  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2021-11-08 03:47:53  Will delete file EFI\HP\BIOS\New\087C5.sig
+2021-11-08 03:47:53  EfiBiosUpdateLibEntry(): Result is 0x0
+2021-11-08 03:47:53  Setting Flash Completion Status
+2021-11-08 03:47:53  BIOS Update Process Complete
+2021-11-08 03:47:53  BIOS Update Successful
+2022-05-21 03:19:40  EFI HP BIOS Update 3.9.1.1 Started
+2022-05-21 03:19:40  [L]> System ID: 87C5
+2022-05-21 03:19:40  HP BIOS Image Interface Protocol Version 2.0
+2022-05-21 03:19:40  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2022-05-21 03:19:40  Type 11 1 tables
+2022-05-21 03:19:40  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2022-05-21 03:19:40  HPBATDET: Environment Variable not found.
+2022-05-21 03:19:41  BATDET: Date 7//10//2020 
+2022-05-21 03:19:41  BATDET: 0
+2022-05-21 03:19:41  [L]> BATDET: HP
+2022-05-21 03:19:41  [L]> Found 1 Absolute Pointer Protocol(s)
+2022-05-21 03:19:41  [L]> 0 UART device path node found.
+2022-05-21 03:19:41  All Required Protocols Located
+2022-05-21 03:19:41  HpBiosUpdate.Mode = 0
+2022-05-21 03:19:41  WRITE_BB = 0
+2022-05-21 03:19:41  Current Directory = \EFI\HP\BIOSUpdate\
+2022-05-21 03:19:41  [L]> System ID: 87C5
+2022-05-21 03:19:41  SMBIOS Init Success
+2022-05-21 03:19:41  SystemFamily = 2
+2022-05-21 03:19:41  [L]> PlatformLang reported as en-US.
+2022-05-21 03:19:41  [L]> Language Selected is currently (eng).
+2022-05-21 03:19:41  Starting BIOS Update Process
+2022-05-21 03:19:41  Setting BIOS Update Token
+2022-05-21 03:19:41  Getting BIOS Detail Information
+2022-05-21 03:19:41  IsBiosSixDigits = 0
+2022-05-21 03:19:41  BIOS Returned BiosID '087C5'
+2022-05-21 03:19:41  QueryImageDetail: 64K Block Size detected.
+2022-05-21 03:19:41  Skip Addresses:
+2022-05-21 03:19:41  Loading BIOS Image
+2022-05-21 03:19:41  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2022-05-21 03:19:41  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2022-05-21 03:19:41  Getting BIOS version from file image
+2022-05-21 03:19:41  Bios Version = F.17
+2022-05-21 03:19:41  Verifying AC or Battery Power Status
+2022-05-21 03:19:56  Verifying Binary match
+2022-05-21 03:19:56  Loading Signature File
+2022-05-21 03:19:56  Loading Password File if required
+2022-05-21 03:19:56  BIOS Password not required.
+2022-05-21 03:19:56  Writing BIOS Image
+2022-05-21 03:21:51  Verifying Written BIOS Image
+2022-05-21 03:21:51  VerifyImage: 64K Block Size detected.
+2022-05-21 03:21:51  VerifyImage: TotalNumberOfBlocks in 4k = 4096
+2022-05-21 03:22:17  Updating BIOS files
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2022-05-21 03:22:17  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2022-05-21 03:22:17  Will delete file EFI\HP\BIOS\New\087C5.bin
+2022-05-21 03:22:17  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2022-05-21 03:22:17  Will delete file EFI\HP\BIOS\New\087C5.sig
+2022-05-21 03:22:17  EfiBiosUpdateLibEntry(): Result is 0x0
+2022-05-21 03:22:17  Setting Flash Completion Status
+2022-05-21 03:22:17  BIOS Update Process Complete
+2022-05-21 03:22:17  BIOS Update Successful
+2023-04-06 02:10:07  EFI HP BIOS Update 3.9.4.1 Started
+2023-04-06 02:10:07  [L]> System ID: 87C5
+2023-04-06 02:10:07  HP BIOS Image Interface Protocol 2 Version 2.0
+2023-04-06 02:10:07  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2023-04-06 02:10:07  Type 11 1 tables
+2023-04-06 02:10:07  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2023-04-06 02:10:07  HPBATDET: Environment Variable not found.
+2023-04-06 02:10:07  BATDET: Date 7//10//2020 
+2023-04-06 02:10:07  BATDET: 0
+2023-04-06 02:10:07  [L]> BATDET: HP
+2023-04-06 02:10:07  [L]> Found 1 Absolute Pointer Protocol(s)
+2023-04-06 02:10:07  [L]> 0 UART device path node found.
+2023-04-06 02:10:07  All Required Protocols Located
+2023-04-06 02:10:07  HpBiosUpdate.Mode = 0
+2023-04-06 02:10:07  WRITE_BB = 0
+2023-04-06 02:10:07  Current Directory = \EFI\HP\BIOSUpdate\
+2023-04-06 02:10:07  [L]> System ID: 87C5
+2023-04-06 02:10:07  SMBIOS Init Success
+2023-04-06 02:10:07  SystemFamily = 2
+2023-04-06 02:10:07  [L]> PlatformLang reported as en-US.
+2023-04-06 02:10:07  [L]> Language Selected is currently (eng).
+2023-04-06 02:10:07  Starting BIOS Update Process
+2023-04-06 02:10:07  Setting BIOS Update Token
+2023-04-06 02:10:07  Getting BIOS Detail Information
+2023-04-06 02:10:07  IsBiosSixDigits = 0
+2023-04-06 02:10:07  BIOS Returned BiosID '087C5'
+2023-04-06 02:10:07  QueryImageDetail: 64K Block Size detected.
+2023-04-06 02:10:07  Skip Addresses:
+2023-04-06 02:10:07  Loading BIOS Image
+2023-04-06 02:10:07  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-04-06 02:10:07  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2023-04-06 02:10:07  Getting BIOS version from file image
+2023-04-06 02:10:07  Bios Version = F.22
+2023-04-06 02:10:07  Verifying AC or Battery Power Status
+2023-04-06 02:10:13  Verifying Binary match
+2023-04-06 02:10:13  Loading Signature File
+2023-04-06 02:10:13  Loading Password File if required
+2023-04-06 02:10:13  BIOS Password not required.
+2023-04-06 02:10:13  Writing BIOS Image
+2023-04-06 02:12:07  Verifying Written BIOS Image
+2023-04-06 02:12:07  VerifyImage: 64K Block Size detected.
+2023-04-06 02:12:08  Updating BIOS files
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2023-04-06 02:12:08  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-04-06 02:12:08  Will delete file EFI\HP\BIOS\New\087C5.bin
+2023-04-06 02:12:08  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2023-04-06 02:12:08  Will delete file EFI\HP\BIOS\New\087C5.sig
+2023-04-06 02:12:08  EfiBiosUpdateLibEntry(): Result is 0x0
+2023-04-06 02:12:08  Setting Flash Completion Status
+2023-04-06 02:12:08  BIOS Update Process Complete
+2023-04-06 02:12:08  BIOS Update Successful
+2023-11-27 23:37:42  EFI HP BIOS Update 3.9.4.1 Started
+2023-11-27 23:37:42  [L]> System ID: 87C5
+2023-11-27 23:37:42  HP BIOS Image Interface Protocol 2 Version 2.0
+2023-11-27 23:37:42  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2023-11-27 23:37:42  Type 11 1 tables
+2023-11-27 23:37:42  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2023-11-27 23:37:42  HPBATDET: Environment Variable not found.
+2023-11-27 23:37:43  BATDET: Date 7//10//2020 
+2023-11-27 23:37:43  BATDET: 0
+2023-11-27 23:37:43  [L]> BATDET: HP
+2023-11-27 23:37:43  [L]> Found 1 Absolute Pointer Protocol(s)
+2023-11-27 23:37:43  [L]> 0 UART device path node found.
+2023-11-27 23:37:43  All Required Protocols Located
+2023-11-27 23:37:43  HpBiosUpdate.Mode = 0
+2023-11-27 23:37:43  WRITE_BB = 0
+2023-11-27 23:37:43  Current Directory = \EFI\HP\BIOSUpdate\
+2023-11-27 23:37:43  [L]> System ID: 87C5
+2023-11-27 23:37:43  SMBIOS Init Success
+2023-11-27 23:37:43  SystemFamily = 2
+2023-11-27 23:37:43  [L]> PlatformLang reported as en-US.
+2023-11-27 23:37:43  [L]> Language Selected is currently (eng).
+2023-11-27 23:37:43  Starting BIOS Update Process
+2023-11-27 23:37:43  Setting BIOS Update Token
+2023-11-27 23:37:43  Getting BIOS Detail Information
+2023-11-27 23:37:43  IsBiosSixDigits = 0
+2023-11-27 23:37:43  BIOS Returned BiosID '087C5'
+2023-11-27 23:37:43  QueryImageDetail: 64K Block Size detected.
+2023-11-27 23:37:43  Skip Addresses:
+2023-11-27 23:37:43  Loading BIOS Image
+2023-11-27 23:37:43  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-11-27 23:37:43  Reading New BIOS Image EFI\HP\BIOS\New\087C5.bin
+2023-11-27 23:37:43  Getting BIOS version from file image
+2023-11-27 23:37:43  Bios Version = F.27
+2023-11-27 23:37:43  Verifying AC or Battery Power Status
+2023-11-27 23:37:43  AC Power Disconnected
+2023-11-27 23:37:43  [L]> Battery_0: Remain(2225), Full(2561) Percent(86%).
+2023-11-27 23:37:43  Primary Battery Capacity Is Sufficient (86%)
+2023-11-27 23:37:58  Verifying Binary match
+2023-11-27 23:37:58  Loading Signature File
+2023-11-27 23:37:58  Loading Password File if required
+2023-11-27 23:37:58  BIOS Password not required.
+2023-11-27 23:37:58  Writing BIOS Image
+2023-11-27 23:39:54  Verifying Written BIOS Image
+2023-11-27 23:39:54  VerifyImage: 64K Block Size detected.
+2023-11-27 23:39:54  Updating BIOS files
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Previous\087C5.bin
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Previous\087C5.sig
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Current\087C5.s12
+2023-11-27 23:39:54  Read file EFI\HP\BIOS\Current\087C5.s12 failed (Not Found)
+2023-11-27 23:39:54  File name constructed: EFI\HP\BIOS\Current\087C5.bin
+2023-11-27 23:39:55  File name constructed: EFI\HP\BIOS\Current\087C5.sig
+2023-11-27 23:39:55  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-11-27 23:39:55  Will delete file EFI\HP\BIOS\New\087C5.bin
+2023-11-27 23:39:55  File name constructed: EFI\HP\BIOS\New\087C5.sig
+2023-11-27 23:39:55  Will delete file EFI\HP\BIOS\New\087C5.sig
+2023-11-27 23:39:55  EfiBiosUpdateLibEntry(): Result is 0x0
+2023-11-27 23:39:55  Setting Flash Completion Status
+2023-11-27 23:39:55  BIOS Update Process Complete
+2023-11-27 23:39:55  BIOS Update Successful

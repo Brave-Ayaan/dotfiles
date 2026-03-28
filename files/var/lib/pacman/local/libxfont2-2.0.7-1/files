@@ -1,0 +1,17 @@
+%FILES%
+usr/
+usr/include/
+usr/include/X11/
+usr/include/X11/fonts/
+usr/include/X11/fonts/libxfont2.h
+usr/lib/
+usr/lib/libXfont2.so
+usr/lib/libXfont2.so.2
+usr/lib/libXfont2.so.2.0.0
+usr/lib/pkgconfig/
+usr/lib/pkgconfig/xfont2.pc
+usr/share/
+usr/share/licenses/
+usr/share/licenses/libxfont2/
+usr/share/licenses/libxfont2/COPYING
+

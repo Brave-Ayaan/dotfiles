@@ -1,0 +1,49 @@
+%NAME%
+i2c-tools
+
+%VERSION%
+4.4-4
+
+%BASE%
+i2c-tools
+
+%DESC%
+Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
+
+%URL%
+https://i2c.wiki.kernel.org/index.php/I2C_Tools
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765719473
+
+%INSTALLDATE%
+1774147220
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%SIZE%
+340507
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+perl
+
+%OPTDEPENDS%
+read-edid: for decode-edid script
+python: for smbus module
+
+%XDATA%
+pkgtype=pkg
+

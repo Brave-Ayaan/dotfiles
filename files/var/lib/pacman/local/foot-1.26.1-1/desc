@@ -1,0 +1,54 @@
+%NAME%
+foot
+
+%VERSION%
+1.26.1-1
+
+%BASE%
+foot
+
+%DESC%
+Fast, lightweight, and minimalistic Wayland terminal emulator
+
+%URL%
+https://codeberg.org/dnkl/foot
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773652583
+
+%INSTALLDATE%
+1774321899
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%SIZE%
+806179
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+fcft
+fontconfig
+libfcft.so=4-64
+libutf8proc
+libxkbcommon
+ncurses
+pixman
+wayland
+
+%OPTDEPENDS%
+foot-terminfo: extra non-standard features over terminfo included in ncurses
+libnotify: desktop notifications
+xdg-utils: URI launching
+
+%XDATA%
+pkgtype=split
+

@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/hyprland-dialog
+usr/bin/hyprland-donate-screen
+usr/bin/hyprland-run
+usr/bin/hyprland-update-screen
+usr/bin/hyprland-welcome
+usr/share/
+usr/share/licenses/
+usr/share/licenses/hyprland-guiutils/
+usr/share/licenses/hyprland-guiutils/LICENSE
+

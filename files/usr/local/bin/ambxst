@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export PATH="/home/johari/.local/bin:$PATH"
+export QML2_IMPORT_PATH="/home/johari/.local/lib/qml:$QML2_IMPORT_PATH"
+export QML_IMPORT_PATH="$QML2_IMPORT_PATH"
+exec "/home/johari/.local/src/ambxst/cli.sh" "$@"

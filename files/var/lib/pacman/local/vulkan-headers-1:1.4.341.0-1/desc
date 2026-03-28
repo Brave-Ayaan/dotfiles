@@ -1,0 +1,51 @@
+%NAME%
+vulkan-headers
+
+%VERSION%
+1:1.4.341.0-1
+
+%BASE%
+vulkan-headers
+
+%DESC%
+Vulkan header files and API registry
+
+%URL%
+https://www.vulkan.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770109864
+
+%INSTALLDATE%
+1774147146
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%SIZE%
+38512481
+
+%REASON%
+1
+
+%GROUPS%
+vulkan-devel
+
+%LICENSE%
+Apache-2.0 OR MIT
+
+%VALIDATION%
+pgp
+
+%OPTDEPENDS%
+python: Registry tools
+
+%PROVIDES%
+vulkan-hpp=1.4.341.0
+
+%XDATA%
+pkgtype=pkg
+

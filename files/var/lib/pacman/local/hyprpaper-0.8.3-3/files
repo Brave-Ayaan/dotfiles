@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/hyprpaper
+usr/lib/
+usr/lib/systemd/
+usr/lib/systemd/user/
+usr/lib/systemd/user/hyprpaper.service
+usr/share/
+usr/share/licenses/
+usr/share/licenses/hyprpaper/
+usr/share/licenses/hyprpaper/LICENSE
+

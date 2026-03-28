@@ -1,0 +1,49 @@
+%NAME%
+python-markdown
+
+%VERSION%
+3.10.2-1
+
+%BASE%
+python-markdown
+
+%DESC%
+Python implementation of John Gruber's Markdown
+
+%URL%
+https://python-markdown.github.io/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770672821
+
+%INSTALLDATE%
+1774568862
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%SIZE%
+1184116
+
+%REASON%
+1
+
+%LICENSE%
+BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-yaml: parse Python in YAML metadata
+python-pygments: Code highlighting
+
+%XDATA%
+pkgtype=pkg
+

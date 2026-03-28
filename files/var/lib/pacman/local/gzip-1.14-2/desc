@@ -1,0 +1,54 @@
+%NAME%
+gzip
+
+%VERSION%
+1.14-2
+
+%BASE%
+gzip
+
+%DESC%
+GNU compression utility
+
+%URL%
+https://www.gnu.org/software/gzip/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1745704734
+
+%INSTALLDATE%
+1774122554
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%SIZE%
+162610
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+bash
+coreutils
+sed
+grep
+
+%OPTDEPENDS%
+less: zless support
+util-linux: zmore support
+diffutils: zdiff/zcmp support
+
+%XDATA%
+pkgtype=pkg
+

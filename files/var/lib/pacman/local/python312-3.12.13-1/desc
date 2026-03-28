@@ -1,0 +1,55 @@
+%NAME%
+python312
+
+%VERSION%
+3.12.13-1
+
+%BASE%
+python312
+
+%DESC%
+Major release 3.12 of the Python high-level programming language
+
+%URL%
+https://www.python.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774147236
+
+%INSTALLDATE%
+1774147978
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+72467590
+
+%LICENSE%
+PSF-2.0
+
+%VALIDATION%
+none
+
+%DEPENDS%
+bzip2
+expat
+gdbm
+libffi
+libnsl
+libxcrypt
+openssl
+zlib
+
+%OPTDEPENDS%
+sqlite
+mpdecimal: for decimal
+xz: for lzma
+tk: for tkinter
+
+%XDATA%
+pkgtype=pkg
+

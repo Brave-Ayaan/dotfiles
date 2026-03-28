@@ -1,0 +1,17 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/bmon
+usr/share/
+usr/share/doc/
+usr/share/doc/bmon/
+usr/share/doc/bmon/examples/
+usr/share/doc/bmon/examples/bmon.conf
+usr/share/licenses/
+usr/share/licenses/bmon/
+usr/share/licenses/bmon/LICENSE.BSD
+usr/share/licenses/bmon/LICENSE.MIT
+usr/share/man/
+usr/share/man/man8/
+usr/share/man/man8/bmon.8.gz
+

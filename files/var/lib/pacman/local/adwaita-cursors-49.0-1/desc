@@ -1,0 +1,42 @@
+%NAME%
+adwaita-cursors
+
+%VERSION%
+49.0-1
+
+%BASE%
+adwaita-icon-theme
+
+%DESC%
+GNOME standard cursors
+
+%URL%
+https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+
+%ARCH%
+any
+
+%BUILDDATE%
+1757796917
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Fabian Bornschein <fabiscafe@archlinux.org>
+
+%SIZE%
+11963936
+
+%REASON%
+1
+
+%LICENSE%
+CC-BY-SA-3.0 OR LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%XDATA%
+pkgtype=split
+

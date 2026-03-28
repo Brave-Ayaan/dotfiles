@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/cava
+usr/share/
+usr/share/consolefonts/
+usr/share/consolefonts/cava.psf
+usr/share/doc/
+usr/share/doc/cava/
+usr/share/doc/cava/README.md
+usr/share/licenses/
+usr/share/licenses/cava/
+usr/share/licenses/cava/LICENSE
+

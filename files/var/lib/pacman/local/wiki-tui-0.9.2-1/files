@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/wiki-tui
+usr/share/
+usr/share/doc/
+usr/share/doc/wiki-tui/
+usr/share/doc/wiki-tui/README.md
+usr/share/licenses/
+usr/share/licenses/wiki-tui/
+usr/share/licenses/wiki-tui/LICENSE
+usr/share/pixmaps/
+usr/share/pixmaps/wiki-tui.png
+

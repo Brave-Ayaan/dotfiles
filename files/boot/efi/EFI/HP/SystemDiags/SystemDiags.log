@@ -1,0 +1,1657 @@
+2022-09-11 22:28:09  ================================================
+2022-09-11 22:28:09  EFI System Diagnostic 8.2.0.0 Started
+2022-09-11 22:28:09  Load Options = /0xFF
+2022-09-11 22:28:09  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2022-09-11 22:28:09  HP Thermal Diagnostic Protocol Not Available
+2022-09-11 22:28:09  Found HP Thermal Diagnostic 2 Protocol
+2022-09-11 22:28:09  [L]> System ID: 87C5
+2022-09-11 22:28:09  HP BIOS Image Interface Protocol 2 Version 2.0
+2022-09-11 22:28:09  [L]> Found 6 Processors 6 Enabled Processors
+2022-09-11 22:28:09  [L]> MpService2 found Bsp at index 0
+2022-09-11 22:28:09  [L]> Found 1 Absolute Pointer Protocol(s)
+2022-09-11 22:28:09  [L]> 0 UART device path node found.
+2022-09-11 22:28:09  System Enclosure Type: 10
+2022-09-11 22:28:09  System Family: Consumer Notebook
+2022-09-11 22:28:09  Filter Serial Port Test for SystemFamily 2 
+2022-09-11 22:28:09  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2022-09-11 22:28:09  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2022-09-11 22:28:09  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2022-09-11 22:28:09  [L]> PlatformLang reported as en-US.
+2022-09-11 22:28:09  [L]> Language Selected is currently (eng).
+2022-09-11 22:28:20  Initializing Drive Library.
+2022-09-11 22:28:20  TscPerSecond = 08D4C69FDh 
+2022-09-11 22:28:20  [L]> Find IVRS in ACPI Table
+2022-09-11 22:28:20  [L]> DMA Remap Protection is disabled
+2022-09-11 22:28:20  Installed DTD ATA Commands Protocol
+2022-09-11 22:28:20  Found installed DTD ATA Commands Protocol supporting Packet Commands!
+2022-09-11 22:28:20  0 Total ATA Commands Drives Found
+2022-09-11 22:28:20  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2022-09-11 22:28:20  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2022-09-11 22:28:20  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2022-09-11 22:28:20  NVMe device connected at NamespaceID 0x1
+2022-09-11 22:28:20  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2022-09-11 22:28:20  Drive 0 - RTD3 Entry Latency: 210000
+2022-09-11 22:28:20  Drive 0 - Firmware Revision: HP00AE00
+2022-09-11 22:28:20  Drive 0 - VidDid: 0x11E0F
+2022-09-11 22:28:20  Drive 0 - SMART Log NSID NOT Supported.
+2022-09-11 22:28:20  Drive 0 - Short/Long DST Supported.
+2022-09-11 22:28:20  Drive 0 - Long DST Time = 27 minute(s).
+2022-09-11 22:28:20  Drive 0 - The Medium is Removable
+2022-09-11 22:28:20  Drive 0 - LBA Format: Using Format 0
+2022-09-11 22:28:20  Drive 0 - Logical Sector Size: 512
+2022-09-11 22:28:20  NVMePassThruGetBlockIoProtocolDirectly(): Found 5 supporting EFI_BLOCK_IO_PROTOCOL.
+2022-09-11 22:28:20  Linked Block I/O Protocol (0xC5F46050) to Drive 0
+2022-09-11 22:28:20  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2022-09-11 22:28:20  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2022-09-11 22:28:20  1 Total Hard Disc Drives Found
+2022-09-11 22:28:20  0 Total Optical Disc Drives Found
+2022-09-11 22:28:20  Found 1 Hard Disk Drives
+2022-09-11 22:28:20  Found 0 Optical Disk Drives
+2022-09-11 22:28:20  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2022-09-11 22:28:20  Failed to initialize NVDIMM modules.
+2022-09-11 22:28:20  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x5B, Worse is 0x00.
+2022-09-11 22:28:20  SSD Wear Data: 00 00 00 00 00 00. 
+2022-09-11 22:28:20  [L]> System ID: 87C5
+2022-09-11 22:28:20  System Model: = HP Pavilion Laptop 15-eh0xxx
+2022-09-11 22:28:20  System SKU: = 192N4UA#ABA
+2022-09-11 22:28:20  System ID: 87C5
+2022-09-11 22:28:20  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2022-09-11 22:28:20  "BATT_CARE" found in SMBIOS Type 11
+2022-09-11 22:28:20  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2022-09-11 22:28:20  [L]> SmbiosGetBiosVendor: AMI
+2022-09-11 22:28:20  BOD: 11/15/2020
+2022-09-11 22:28:20  HDD 0 Type : NVMe
+2022-09-11 22:28:20  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2022-09-11 22:28:20  HDD 0 Firmware: HP00AE00
+2022-09-11 22:28:20  HDD 0 Serial:   303PD44UPBV1
+2022-09-11 22:28:20  DIMM 0 Serial Number: 43DFA839
+2022-09-11 22:28:20  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2022-09-11 22:28:20  DIMM 1 Serial Number: 43DFA841
+2022-09-11 22:28:20  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2022-09-11 22:28:20  BIOS Revision: F.17
+2022-09-11 22:28:20  [L]> Platform Vendor ID : 0x1022
+2022-09-11 22:28:20  [L]> Platform Device ID : 0x1448
+2022-09-11 22:28:20  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2022-09-11 22:28:20  InitializeCeeLogs - No Records Found
+2022-09-11 22:28:20  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2022-09-11 22:28:20  Type 11 1 tables
+2022-09-11 22:28:20  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2022-09-11 22:28:20  HPBATDET: Environment Variable not found.
+2022-09-11 22:28:20  BATDET: Date 7//10//2020 
+2022-09-11 22:28:20  BATDET: 0
+2022-09-11 22:28:20  [L]> BATDET: HP
+2022-09-11 22:28:20  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2022-09-11 22:28:20  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2022-09-11 22:28:20  BIOS Config Table Legacy Support section was not found. 
+2022-09-11 22:28:20  Secure Boot:
+2022-09-11 22:28:20  	Disable
+2022-09-11 22:28:20  	*Enable
+2022-09-11 22:28:20  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2022-09-11 22:28:20  BIOS Config Table Battery Care Function section was not found. 
+2022-09-11 22:28:20  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2022-09-11 22:28:20  Adaptive Battery Extender from BCU:
+2022-09-11 22:28:20  Disable
+2022-09-11 22:28:20  *Enable
+2022-09-11 22:28:20  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2022-09-11 22:28:20  Adaptive Battery Extender Status from BCU:
+2022-09-11 22:28:20  Not Activated
+2022-09-11 22:28:20  *Activated
+2022-09-11 22:28:20  BIOS Config Table DMAr Protection section was not found. 
+2022-09-11 22:28:20  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2022-09-11 22:28:20  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2022-09-11 22:28:20  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2022-09-11 22:28:20  Configure Storage Controller for RAID was not found in the BCU.
+2022-09-11 22:28:20  BIOS Config Table Sata Emulation section was not found. 
+2022-09-11 22:28:20  Sata Emulation was not found in the BCU.
+2022-09-11 22:28:20  BIOS Config Table Hyperthreading section was not found. 
+2022-09-11 22:28:20  No USB optical drive detected.
+2022-09-11 22:28:20  Found USB Type-C Port.
+2022-09-11 22:28:20  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2022-09-11 22:28:20  [L]> Audio controller Vendor ID 0x1002
+2022-09-11 22:28:20  [L]> Audio controller Device ID 0x1637
+2022-09-11 22:28:20  [L]> Audio controller Revision ID 0x00
+2022-09-11 22:28:20  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-09-11 22:28:20  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-09-11 22:28:20  [L]> Audio controller Class Code 0x0403
+2022-09-11 22:28:20  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2022-09-11 22:28:20  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2022-09-11 22:28:20  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2022-09-11 22:28:20  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2022-09-11 22:28:20  [L]> Audio controller Vendor ID 0x1022
+2022-09-11 22:28:20  [L]> Audio controller Device ID 0x15E3
+2022-09-11 22:28:20  [L]> Audio controller Revision ID 0x00
+2022-09-11 22:28:20  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-09-11 22:28:20  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-09-11 22:28:20  [L]> Audio controller Class Code 0x0403
+2022-09-11 22:28:20  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2022-09-11 22:28:20  [L]> Found USB Port I/O entries.
+2022-09-11 22:28:20  [L]> EfiTcg2Protocol has been detected
+2022-09-11 22:28:20  [L]> TcgCapability.TPMPresentFlag is TRUE
+2022-09-11 22:28:20  Starting Graphical System Diagnostic Menu
+2022-09-11 22:28:28  Checking if Charging Port Test is available...
+2022-09-11 22:28:28  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2022-09-11 22:28:28  SysDiagsBatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2022-09-11 22:28:28  Battery0: Charged to 71% and current is 64200mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2022-09-11 22:28:28  Will not check battery charging since AC Power is not ON
+2022-09-11 22:28:39  System Fast Test Selected
+2022-09-11 22:28:39  Estimated Total Time Required = 313s
+2022-09-11 22:28:39  Battery Test Started
+2022-09-11 22:28:39  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2022-09-11 22:28:39  System reports 1 batteries supported.
+2022-09-11 22:28:40  Battery Pack Supplier Index: 1.
+2022-09-11 22:28:40  Battery MFG Date 7/10/2020.
+2022-09-11 22:28:40  Battery0: Charged to 71% and current is 64354mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2022-09-11 22:28:40  Will not check battery charging since AC Power is not ON
+2022-09-11 22:28:40  Battery 0: Charge not detected, Executing Battery Full Test
+2022-09-11 22:28:40  [L]> Battery state is good; but AC adapter is absent.
+2022-09-11 22:28:43  Battery 0 returned 0x0000000000000001
+2022-09-11 22:28:43  Batt 0: Result:       0x1
+2022-09-11 22:28:43  Batt 0: Serial:       06282 07/10/2020
+2022-09-11 22:28:43  Batt 0: Manufacturer: 313-1D-33-A
+2022-09-11 22:28:43  Batt 0: CTNumber:     6JRMD03XXDY4UI
+2022-09-11 22:28:43  Batt 0: DesignCycleCount:    1000	 Design Capacity:  3620mAh	 Full Charge Capcity      2728mAh
+2022-09-11 22:28:43  Batt 0: RemainingCapacity: 1939mAh	 Max Error:        0000000	 CycleCount:              417    
+2022-09-11 22:28:43  Batt 0: Temperature:       000029	 Voltage:          11337mV	 Current:                 64354mA
+2022-09-11 22:28:43  Batt 0: DesignVoltate:     11340mV	 StatusWord:       0x000C0	 CellVoltage1:            3771mV
+2022-09-11 22:28:43  Batt 0: CellVoltage2:      3776mV	 CellVoltage3:     3784mV	 CellVoltage4:            0mV   
+2022-09-11 22:28:43  Batt 0: Warranty:          000003	 Calibration:      0x00001	 ChargeControlSupported:  NO     
+2022-09-11 22:28:43  Batt 0: ACPowerOn:         OFF   	 ChargeTempOK:     YES   	 ChargeTest:              0      
+2022-09-11 22:28:43  Batt 0: ChargeCapacity:    75mAh	 TempAlarm:        NO    	 DeepDischarge:           NO     
+2022-09-11 22:28:43  Batt 0: FullCharge:        NO    	 FullChargeStatus: 000000	 BatteryCharge:           YES    
+2022-09-11 22:28:43  Batt 0: LowVoltageDisable: NO    	 AdaptiveBatteryExtender: Enabled\Activated
+2022-09-11 22:28:43  Overall Battery Result = 1
+2022-09-11 22:28:43  CPU Test Started
+2022-09-11 22:28:44  Start Numeric Coprocessor Test.
+2022-09-11 22:28:55  CPU Test Completed - Result 1
+2022-09-11 22:28:55  Wireless Module Check Started
+2022-09-11 22:28:55  Wireless Module Check Completed - Result 1
+2022-09-11 22:28:55  SMART Check Started
+2022-09-11 22:28:55  SMART Check Completed - Result 1
+2022-09-11 22:28:55  Short DST Started
+2022-09-11 22:28:55  StartDST(): Drive 0 temperature before Self-DST Test = 38 degrees Celsius 
+2022-09-11 22:28:55  NVMeSendSelfTest(): DST Test in Progress
+2022-09-11 22:28:55  NVMePassThruStartDST(): Sending SELF-DST Success
+2022-09-11 22:28:55  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2022-09-11 22:28:55  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2022-09-11 22:28:55  NVMePassThruPollDSTStatus() success, Percent = 0
+2022-09-11 22:29:07  NVMePassThruPollDSTStatus() success, Percent = 13
+2022-09-11 22:29:07  Hard Drive 0 Returned Short DST Status 15 Percentage 13
+2022-09-11 22:29:19  NVMePassThruPollDSTStatus() success, Percent = 25
+2022-09-11 22:29:19  Hard Drive 0 Returned Short DST Status 15 Percentage 25
+2022-09-11 22:29:31  NVMePassThruPollDSTStatus() success, Percent = 37
+2022-09-11 22:29:31  Hard Drive 0 Returned Short DST Status 15 Percentage 37
+2022-09-11 22:29:43  NVMePassThruPollDSTStatus() success, Percent = 49
+2022-09-11 22:29:43  Hard Drive 0 Returned Short DST Status 15 Percentage 49
+2022-09-11 22:29:55  NVMePassThruPollDSTStatus() success, Percent = 61
+2022-09-11 22:29:55  Hard Drive 0 Returned Short DST Status 15 Percentage 61
+2022-09-11 22:30:07  NVMePassThruPollDSTStatus() success, Percent = 73
+2022-09-11 22:30:07  Hard Drive 0 Returned Short DST Status 15 Percentage 73
+2022-09-11 22:30:19  NVMePassThruPollDSTStatus() success, Percent = 85
+2022-09-11 22:30:19  Hard Drive 0 Returned Short DST Status 15 Percentage 85
+2022-09-11 22:30:31  NVMePassThruPollDSTStatus() success, Percent = 97
+2022-09-11 22:30:31  Hard Drive 0 Returned Short DST Status 15 Percentage 97
+2022-09-11 22:30:43  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2022-09-11 22:30:43  NVMeCheckSelfTestDone(): Status = Success
+2022-09-11 22:30:43  Hard Drive 0 Returned Short DST Status 0 Percentage 100
+2022-09-11 22:30:43  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 42 degrees Celsius 
+2022-09-11 22:30:43  Short DST Completed - Result 1
+2022-09-11 22:30:43  Short DST Completed - Result 1
+2022-09-11 22:30:43  [L]> Total Memory 7632MB, Free 7404MB (1895675 Pages)
+2022-09-11 22:30:43  [L]> SmbiosGetBiosVendor: AMI
+2022-09-11 22:30:43  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2022-09-11 22:30:43  [L]> VGA device is in the Onboard PCI Device Array.
+2022-09-11 22:30:43  [L]> Found Video Device 0x16361002
+2022-09-11 22:30:43  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2022-09-11 22:30:43  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2022-09-11 22:30:43  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2022-09-11 22:30:43  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2022-09-11 22:30:43  [L]> Audio controller Vendor ID 0x1002
+2022-09-11 22:30:43  [L]> Audio controller Device ID 0x1637
+2022-09-11 22:30:43  [L]> Audio controller Revision ID 0x00
+2022-09-11 22:30:43  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-09-11 22:30:43  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-09-11 22:30:43  [L]> Audio controller Class Code 0x0403
+2022-09-11 22:30:43  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2022-09-11 22:30:43  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2022-09-11 22:30:43  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2022-09-11 22:30:43  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2022-09-11 22:30:43  [L]> Audio controller Vendor ID 0x1022
+2022-09-11 22:30:43  [L]> Audio controller Device ID 0x15E3
+2022-09-11 22:30:43  [L]> Audio controller Revision ID 0x00
+2022-09-11 22:30:43  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-09-11 22:30:43  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-09-11 22:30:43  [L]> Audio controller Class Code 0x0403
+2022-09-11 22:30:43  [L]> Found 2 EFI_USB2_HC_PROTOCOL handles.
+2022-09-11 22:30:43  System Board Test Completed - Result 1
+2022-09-11 22:30:43  [L]> SmbiosGetBiosVendor: AMI
+2022-09-11 22:30:43  SysDiagCalculatePassID(): Test PassID 21867-53110-69654.
+2022-09-11 22:30:54  System Fast Test Completed
+2022-09-11 22:30:58  Uninstalling DTD ATA Commands Protocol
+2022-09-11 22:30:58  Exiting System Diagnostics
+2022-10-16 23:55:20  ================================================
+2022-10-16 23:55:20  EFI System Diagnostic 8.2.0.0 Started
+2022-10-16 23:55:20  Load Options = /0xAA
+2022-10-16 23:55:20  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2022-10-16 23:55:20  HP Thermal Diagnostic Protocol Not Available
+2022-10-16 23:55:20  Found HP Thermal Diagnostic 2 Protocol
+2022-10-16 23:55:20  [L]> System ID: 87C5
+2022-10-16 23:55:20  HP BIOS Image Interface Protocol 2 Version 2.0
+2022-10-16 23:55:20  [L]> Found 6 Processors 6 Enabled Processors
+2022-10-16 23:55:20  [L]> MpService2 found Bsp at index 0
+2022-10-16 23:55:20  [L]> Found 1 Absolute Pointer Protocol(s)
+2022-10-16 23:55:20  [L]> 0 UART device path node found.
+2022-10-16 23:55:20  System Enclosure Type: 10
+2022-10-16 23:55:20  System Family: Consumer Notebook
+2022-10-16 23:55:20  Filter Serial Port Test for SystemFamily 2 
+2022-10-16 23:55:20  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2022-10-16 23:55:20  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2022-10-16 23:55:20  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2022-10-16 23:55:20  [L]> Language Selected is currently (eng).
+2022-10-16 23:55:23  Initializing Drive Library.
+2022-10-16 23:55:23  TscPerSecond = 08D4C4616h 
+2022-10-16 23:55:23  [L]> Find IVRS in ACPI Table
+2022-10-16 23:55:23  [L]> DMA Remap Protection is disabled
+2022-10-16 23:55:23  Installed DTD ATA Commands Protocol
+2022-10-16 23:55:23  Found installed DTD ATA Commands Protocol supporting Packet Commands!
+2022-10-16 23:55:23  0 Total ATA Commands Drives Found
+2022-10-16 23:55:23  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2022-10-16 23:55:23  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2022-10-16 23:55:23  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2022-10-16 23:55:23  NVMe device connected at NamespaceID 0x1
+2022-10-16 23:55:23  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2022-10-16 23:55:23  Drive 0 - RTD3 Entry Latency: 210000
+2022-10-16 23:55:23  Drive 0 - Firmware Revision: HP00AE00
+2022-10-16 23:55:23  Drive 0 - VidDid: 0x11E0F
+2022-10-16 23:55:23  Drive 0 - SMART Log NSID NOT Supported.
+2022-10-16 23:55:23  Drive 0 - Short/Long DST Supported.
+2022-10-16 23:55:23  Drive 0 - Long DST Time = 27 minute(s).
+2022-10-16 23:55:23  Drive 0 - The Medium is Removable
+2022-10-16 23:55:23  Drive 0 - LBA Format: Using Format 0
+2022-10-16 23:55:23  Drive 0 - Logical Sector Size: 512
+2022-10-16 23:55:23  NVMePassThruGetBlockIoProtocolDirectly(): Found 8 supporting EFI_BLOCK_IO_PROTOCOL.
+2022-10-16 23:55:23  Linked Block I/O Protocol (0xC5F52050) to Drive 0
+2022-10-16 23:55:23  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2022-10-16 23:55:23  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2022-10-16 23:55:23  1 Total Hard Disc Drives Found
+2022-10-16 23:55:23  0 Total Optical Disc Drives Found
+2022-10-16 23:55:23  Found 1 Hard Disk Drives
+2022-10-16 23:55:23  Found 0 Optical Disk Drives
+2022-10-16 23:55:23  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2022-10-16 23:55:23  Failed to initialize NVDIMM modules.
+2022-10-16 23:55:23  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x5B, Worse is 0x00.
+2022-10-16 23:55:23  SSD Wear Data: 00 00 00 00 00 00. 
+2022-10-16 23:55:23  [L]> System ID: 87C5
+2022-10-16 23:55:23  System Model: = HP Pavilion Laptop 15-eh0xxx
+2022-10-16 23:55:23  System SKU: = 192N4UA#ABA
+2022-10-16 23:55:23  System ID: 87C5
+2022-10-16 23:55:23  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2022-10-16 23:55:23  "BATT_CARE" found in SMBIOS Type 11
+2022-10-16 23:55:23  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2022-10-16 23:55:23  [L]> SmbiosGetBiosVendor: AMI
+2022-10-16 23:55:23  BOD: 11/15/2020
+2022-10-16 23:55:23  HDD 0 Type : NVMe
+2022-10-16 23:55:23  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2022-10-16 23:55:23  HDD 0 Firmware: HP00AE00
+2022-10-16 23:55:23  HDD 0 Serial:   303PD44UPBV1
+2022-10-16 23:55:23  DIMM 0 Serial Number: 43DFA839
+2022-10-16 23:55:23  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2022-10-16 23:55:23  DIMM 1 Serial Number: 43DFA841
+2022-10-16 23:55:23  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2022-10-16 23:55:23  BIOS Revision: F.17
+2022-10-16 23:55:23  [L]> Platform Vendor ID : 0x1022
+2022-10-16 23:55:23  [L]> Platform Device ID : 0x1448
+2022-10-16 23:55:23  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2022-10-16 23:55:23  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2022-10-16 23:55:23  Type 11 1 tables
+2022-10-16 23:55:23  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2022-10-16 23:55:23  HPBATDET: Environment Variable not found.
+2022-10-16 23:55:23  BATDET: Date 7//10//2020 
+2022-10-16 23:55:23  BATDET: 0
+2022-10-16 23:55:23  [L]> BATDET: HP
+2022-10-16 23:55:23  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2022-10-16 23:55:23  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2022-10-16 23:55:23  BIOS Config Table Legacy Support section was not found. 
+2022-10-16 23:55:23  Secure Boot:
+2022-10-16 23:55:23  	Disable
+2022-10-16 23:55:23  	*Enable
+2022-10-16 23:55:23  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2022-10-16 23:55:23  BIOS Config Table Battery Care Function section was not found. 
+2022-10-16 23:55:23  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2022-10-16 23:55:23  Adaptive Battery Extender from BCU:
+2022-10-16 23:55:23  Disable
+2022-10-16 23:55:23  *Enable
+2022-10-16 23:55:23  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2022-10-16 23:55:23  Adaptive Battery Extender Status from BCU:
+2022-10-16 23:55:23  Not Activated
+2022-10-16 23:55:23  *Activated
+2022-10-16 23:55:23  BIOS Config Table DMAr Protection section was not found. 
+2022-10-16 23:55:23  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2022-10-16 23:55:23  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2022-10-16 23:55:23  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2022-10-16 23:55:23  Configure Storage Controller for RAID was not found in the BCU.
+2022-10-16 23:55:23  BIOS Config Table Sata Emulation section was not found. 
+2022-10-16 23:55:23  Sata Emulation was not found in the BCU.
+2022-10-16 23:55:23  BIOS Config Table Hyperthreading section was not found. 
+2022-10-16 23:55:23  No USB optical drive detected.
+2022-10-16 23:55:23  Found USB Type-C Port.
+2022-10-16 23:55:23  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2022-10-16 23:55:23  [L]> Audio controller Vendor ID 0x1002
+2022-10-16 23:55:23  [L]> Audio controller Device ID 0x1637
+2022-10-16 23:55:23  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:55:23  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:55:23  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:55:23  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:55:23  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2022-10-16 23:55:23  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2022-10-16 23:55:23  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2022-10-16 23:55:23  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2022-10-16 23:55:23  [L]> Audio controller Vendor ID 0x1022
+2022-10-16 23:55:23  [L]> Audio controller Device ID 0x15E3
+2022-10-16 23:55:23  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:55:23  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:55:23  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:55:23  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:55:23  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2022-10-16 23:55:23  [L]> Found USB Port I/O entries.
+2022-10-16 23:55:23  [L]> EfiTcg2Protocol has been detected
+2022-10-16 23:55:23  [L]> TcgCapability.TPMPresentFlag is TRUE
+2022-10-16 23:55:23  Starting Graphical System Diagnostic Menu
+2022-10-16 23:55:38  [L]> Failed locate PlatformServiceProtocol, (Not Found).
+2022-10-16 23:55:56  Uninstalling DTD ATA Commands Protocol
+2022-10-16 23:55:56  Exiting System Diagnostics
+2022-10-16 23:56:08  ================================================
+2022-10-16 23:56:08  EFI System Diagnostic 8.2.0.0 Started
+2022-10-16 23:56:08  Load Options = /0xAA
+2022-10-16 23:56:08  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2022-10-16 23:56:08  HP Thermal Diagnostic Protocol Not Available
+2022-10-16 23:56:08  Found HP Thermal Diagnostic 2 Protocol
+2022-10-16 23:56:08  [L]> System ID: 87C5
+2022-10-16 23:56:08  HP BIOS Image Interface Protocol 2 Version 2.0
+2022-10-16 23:56:08  [L]> Found 6 Processors 6 Enabled Processors
+2022-10-16 23:56:08  [L]> MpService2 found Bsp at index 0
+2022-10-16 23:56:08  [L]> Found 1 Absolute Pointer Protocol(s)
+2022-10-16 23:56:08  [L]> 0 UART device path node found.
+2022-10-16 23:56:08  System Enclosure Type: 10
+2022-10-16 23:56:08  System Family: Consumer Notebook
+2022-10-16 23:56:08  Filter Serial Port Test for SystemFamily 2 
+2022-10-16 23:56:08  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2022-10-16 23:56:08  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2022-10-16 23:56:08  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2022-10-16 23:56:08  [L]> Language Selected is currently (eng).
+2022-10-16 23:56:10  Initializing Drive Library.
+2022-10-16 23:56:10  TscPerSecond = 08D4CB610h 
+2022-10-16 23:56:10  [L]> Find IVRS in ACPI Table
+2022-10-16 23:56:10  [L]> DMA Remap Protection is disabled
+2022-10-16 23:56:10  Installed DTD ATA Commands Protocol
+2022-10-16 23:56:10  Found installed DTD ATA Commands Protocol supporting Packet Commands!
+2022-10-16 23:56:10  0 Total ATA Commands Drives Found
+2022-10-16 23:56:10  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2022-10-16 23:56:10  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2022-10-16 23:56:10  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2022-10-16 23:56:10  NVMe device connected at NamespaceID 0x1
+2022-10-16 23:56:10  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2022-10-16 23:56:10  Drive 0 - RTD3 Entry Latency: 210000
+2022-10-16 23:56:10  Drive 0 - Firmware Revision: HP00AE00
+2022-10-16 23:56:10  Drive 0 - VidDid: 0x11E0F
+2022-10-16 23:56:10  Drive 0 - SMART Log NSID NOT Supported.
+2022-10-16 23:56:10  Drive 0 - Short/Long DST Supported.
+2022-10-16 23:56:10  Drive 0 - Long DST Time = 27 minute(s).
+2022-10-16 23:56:10  Drive 0 - The Medium is Removable
+2022-10-16 23:56:10  Drive 0 - LBA Format: Using Format 0
+2022-10-16 23:56:10  Drive 0 - Logical Sector Size: 512
+2022-10-16 23:56:10  NVMePassThruGetBlockIoProtocolDirectly(): Found 8 supporting EFI_BLOCK_IO_PROTOCOL.
+2022-10-16 23:56:10  Linked Block I/O Protocol (0xC5F52050) to Drive 0
+2022-10-16 23:56:10  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2022-10-16 23:56:10  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2022-10-16 23:56:10  1 Total Hard Disc Drives Found
+2022-10-16 23:56:10  0 Total Optical Disc Drives Found
+2022-10-16 23:56:10  Found 1 Hard Disk Drives
+2022-10-16 23:56:10  Found 0 Optical Disk Drives
+2022-10-16 23:56:10  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2022-10-16 23:56:10  Failed to initialize NVDIMM modules.
+2022-10-16 23:56:10  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x5B, Worse is 0x00.
+2022-10-16 23:56:10  SSD Wear Data: 00 00 00 00 00 00. 
+2022-10-16 23:56:10  [L]> System ID: 87C5
+2022-10-16 23:56:10  System Model: = HP Pavilion Laptop 15-eh0xxx
+2022-10-16 23:56:10  System SKU: = 192N4UA#ABA
+2022-10-16 23:56:10  System ID: 87C5
+2022-10-16 23:56:10  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2022-10-16 23:56:10  "BATT_CARE" found in SMBIOS Type 11
+2022-10-16 23:56:10  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2022-10-16 23:56:10  [L]> SmbiosGetBiosVendor: AMI
+2022-10-16 23:56:10  BOD: 11/15/2020
+2022-10-16 23:56:10  HDD 0 Type : NVMe
+2022-10-16 23:56:10  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2022-10-16 23:56:10  HDD 0 Firmware: HP00AE00
+2022-10-16 23:56:10  HDD 0 Serial:   303PD44UPBV1
+2022-10-16 23:56:10  DIMM 0 Serial Number: 43DFA839
+2022-10-16 23:56:10  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2022-10-16 23:56:10  DIMM 1 Serial Number: 43DFA841
+2022-10-16 23:56:10  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2022-10-16 23:56:10  BIOS Revision: F.17
+2022-10-16 23:56:10  [L]> Platform Vendor ID : 0x1022
+2022-10-16 23:56:10  [L]> Platform Device ID : 0x1448
+2022-10-16 23:56:10  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2022-10-16 23:56:10  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2022-10-16 23:56:10  Type 11 1 tables
+2022-10-16 23:56:10  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2022-10-16 23:56:10  HPBATDET: Environment Variable not found.
+2022-10-16 23:56:10  BATDET: Date 7//10//2020 
+2022-10-16 23:56:10  BATDET: 0
+2022-10-16 23:56:10  [L]> BATDET: HP
+2022-10-16 23:56:10  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2022-10-16 23:56:10  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2022-10-16 23:56:10  BIOS Config Table Legacy Support section was not found. 
+2022-10-16 23:56:10  Secure Boot:
+2022-10-16 23:56:10  	Disable
+2022-10-16 23:56:10  	*Enable
+2022-10-16 23:56:10  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2022-10-16 23:56:10  BIOS Config Table Battery Care Function section was not found. 
+2022-10-16 23:56:10  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2022-10-16 23:56:10  Adaptive Battery Extender from BCU:
+2022-10-16 23:56:10  Disable
+2022-10-16 23:56:10  *Enable
+2022-10-16 23:56:10  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2022-10-16 23:56:10  Adaptive Battery Extender Status from BCU:
+2022-10-16 23:56:10  Not Activated
+2022-10-16 23:56:10  *Activated
+2022-10-16 23:56:10  BIOS Config Table DMAr Protection section was not found. 
+2022-10-16 23:56:10  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2022-10-16 23:56:10  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2022-10-16 23:56:10  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2022-10-16 23:56:10  Configure Storage Controller for RAID was not found in the BCU.
+2022-10-16 23:56:10  BIOS Config Table Sata Emulation section was not found. 
+2022-10-16 23:56:10  Sata Emulation was not found in the BCU.
+2022-10-16 23:56:10  BIOS Config Table Hyperthreading section was not found. 
+2022-10-16 23:56:10  No USB optical drive detected.
+2022-10-16 23:56:10  Found USB Type-C Port.
+2022-10-16 23:56:10  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2022-10-16 23:56:10  [L]> Audio controller Vendor ID 0x1002
+2022-10-16 23:56:10  [L]> Audio controller Device ID 0x1637
+2022-10-16 23:56:10  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:56:10  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:56:10  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:56:10  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:56:10  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2022-10-16 23:56:10  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2022-10-16 23:56:10  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2022-10-16 23:56:10  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2022-10-16 23:56:10  [L]> Audio controller Vendor ID 0x1022
+2022-10-16 23:56:10  [L]> Audio controller Device ID 0x15E3
+2022-10-16 23:56:10  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:56:10  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:56:10  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:56:10  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:56:10  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2022-10-16 23:56:10  [L]> Found USB Port I/O entries.
+2022-10-16 23:56:10  [L]> EfiTcg2Protocol has been detected
+2022-10-16 23:56:10  [L]> TcgCapability.TPMPresentFlag is TRUE
+2022-10-16 23:56:10  Starting Graphical System Diagnostic Menu
+2022-10-16 23:56:20  [L]> Failed locate PlatformServiceProtocol, (Not Found).
+2022-10-16 23:56:28  Checking if Charging Port Test is available...
+2022-10-16 23:56:28  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2022-10-16 23:56:29  SysDiagsBatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2022-10-16 23:56:29  Battery0: Charged to 81% and current is 1382mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2022-10-16 23:56:29  Will not check battery charging since the remaining capacity is larger than 80%
+2022-10-16 23:56:34  System Fast Test Selected
+2022-10-16 23:56:34  Estimated Total Time Required = 313s
+2022-10-16 23:56:34  Battery Test Started
+2022-10-16 23:56:34  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2022-10-16 23:56:34  System reports 1 batteries supported.
+2022-10-16 23:56:35  Battery Pack Supplier Index: 1.
+2022-10-16 23:56:35  Battery MFG Date 7/10/2020.
+2022-10-16 23:56:35  Battery0: Charged to 81% and current is 1376mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2022-10-16 23:56:35  Will not check battery charging since AC Adapter is not OK
+2022-10-16 23:56:35  Battery 0: Charge not detected, Executing Battery Full Test
+2022-10-16 23:56:35  [L]> Battery state is good.
+2022-10-16 23:56:38  Battery 0 returned 0x0000000000000000
+2022-10-16 23:56:39  Batt 0: Result:       0x0
+2022-10-16 23:56:39  Batt 0: Serial:       06282 07/10/2020
+2022-10-16 23:56:39  Batt 0: Manufacturer: 313-1D-33-A
+2022-10-16 23:56:39  Batt 0: CTNumber:     6JRMD03XXDY4UI
+2022-10-16 23:56:39  Batt 0: DesignCycleCount:    1000	 Design Capacity:  3620mAh	 Full Charge Capcity      2748mAh
+2022-10-16 23:56:39  Batt 0: RemainingCapacity: 2237mAh	 Max Error:        0000000	 CycleCount:              449    
+2022-10-16 23:56:39  Batt 0: Temperature:       000036	 Voltage:          12677mV	 Current:                 1376mA
+2022-10-16 23:56:39  Batt 0: DesignVoltate:     11340mV	 StatusWord:       0x00080	 CellVoltage1:            4220mV
+2022-10-16 23:56:39  Batt 0: CellVoltage2:      4229mV	 CellVoltage3:     4228mV	 CellVoltage4:            0mV   
+2022-10-16 23:56:39  Batt 0: Warranty:          000003	 Calibration:      0x00001	 ChargeControlSupported:  YES    
+2022-10-16 23:56:39  Batt 0: ACPowerOn:         ON    	 ChargeTempOK:     YES   	 ChargeTest:              0      
+2022-10-16 23:56:39  Batt 0: ChargeCapacity:    75mAh	 TempAlarm:        NO    	 DeepDischarge:           NO     
+2022-10-16 23:56:39  Batt 0: FullCharge:        NO    	 FullChargeStatus: 000000	 BatteryCharge:           YES    
+2022-10-16 23:56:39  Batt 0: LowVoltageDisable: NO    	 AdaptiveBatteryExtender: Enabled\Activated
+2022-10-16 23:56:39  Overall Battery Result = 7
+2022-10-16 23:56:39  CPU Test Started
+2022-10-16 23:56:40  Start Numeric Coprocessor Test.
+2022-10-16 23:56:50  CPU Test Completed - Result 1
+2022-10-16 23:56:50  Wireless Module Check Started
+2022-10-16 23:56:50  Wireless Module Check Completed - Result 1
+2022-10-16 23:56:50  SMART Check Started
+2022-10-16 23:56:50  SMART Check Completed - Result 1
+2022-10-16 23:56:50  Short DST Started
+2022-10-16 23:56:50  StartDST(): Drive 0 temperature before Self-DST Test = 40 degrees Celsius 
+2022-10-16 23:56:50  NVMeSendSelfTest(): DST Test in Progress
+2022-10-16 23:56:50  NVMePassThruStartDST(): Sending SELF-DST Success
+2022-10-16 23:56:50  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2022-10-16 23:56:50  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2022-10-16 23:56:50  #01  Short Self DST          0x0h - Completed without errors.                  2717                   0x00          No Error Found. 
+2022-10-16 23:56:50  NVMePassThruPollDSTStatus() success, Percent = 0
+2022-10-16 23:57:02  NVMePassThruPollDSTStatus() success, Percent = 12
+2022-10-16 23:57:02  Hard Drive 0 Returned Short DST Status 15 Percentage 12
+2022-10-16 23:57:14  NVMePassThruPollDSTStatus() success, Percent = 25
+2022-10-16 23:57:14  Hard Drive 0 Returned Short DST Status 15 Percentage 25
+2022-10-16 23:57:26  NVMePassThruPollDSTStatus() success, Percent = 37
+2022-10-16 23:57:26  Hard Drive 0 Returned Short DST Status 15 Percentage 37
+2022-10-16 23:57:38  NVMePassThruPollDSTStatus() success, Percent = 48
+2022-10-16 23:57:38  Hard Drive 0 Returned Short DST Status 15 Percentage 48
+2022-10-16 23:57:50  NVMePassThruPollDSTStatus() success, Percent = 60
+2022-10-16 23:57:50  Hard Drive 0 Returned Short DST Status 15 Percentage 60
+2022-10-16 23:58:02  NVMePassThruPollDSTStatus() success, Percent = 72
+2022-10-16 23:58:02  Hard Drive 0 Returned Short DST Status 15 Percentage 72
+2022-10-16 23:58:14  NVMePassThruPollDSTStatus() success, Percent = 84
+2022-10-16 23:58:14  Hard Drive 0 Returned Short DST Status 15 Percentage 84
+2022-10-16 23:58:26  NVMePassThruPollDSTStatus() success, Percent = 97
+2022-10-16 23:58:26  Hard Drive 0 Returned Short DST Status 15 Percentage 97
+2022-10-16 23:58:38  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2022-10-16 23:58:38  NVMeCheckSelfTestDone(): Status = Success
+2022-10-16 23:58:38  Hard Drive 0 Returned Short DST Status 0 Percentage 100
+2022-10-16 23:58:38  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 44 degrees Celsius 
+2022-10-16 23:58:38  Short DST Completed - Result 1
+2022-10-16 23:58:38  Short DST Completed - Result 1
+2022-10-16 23:58:38  [L]> Total Memory 7632MB, Free 7404MB (1895500 Pages)
+2022-10-16 23:58:38  [L]> SmbiosGetBiosVendor: AMI
+2022-10-16 23:58:38  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2022-10-16 23:58:38  [L]> VGA device is in the Onboard PCI Device Array.
+2022-10-16 23:58:38  [L]> Found Video Device 0x16361002
+2022-10-16 23:58:38  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2022-10-16 23:58:38  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2022-10-16 23:58:38  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2022-10-16 23:58:38  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2022-10-16 23:58:38  [L]> Audio controller Vendor ID 0x1002
+2022-10-16 23:58:38  [L]> Audio controller Device ID 0x1637
+2022-10-16 23:58:38  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:58:38  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:58:38  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:58:38  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:58:38  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2022-10-16 23:58:38  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2022-10-16 23:58:38  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2022-10-16 23:58:38  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2022-10-16 23:58:38  [L]> Audio controller Vendor ID 0x1022
+2022-10-16 23:58:38  [L]> Audio controller Device ID 0x15E3
+2022-10-16 23:58:38  [L]> Audio controller Revision ID 0x00
+2022-10-16 23:58:38  [L]> Audio controller Subsystem Vendor ID 0x103C
+2022-10-16 23:58:38  [L]> Audio controller Subsystem Device ID 0x87C5
+2022-10-16 23:58:38  [L]> Audio controller Class Code 0x0403
+2022-10-16 23:58:38  [L]> Found 2 EFI_USB2_HC_PROTOCOL handles.
+2022-10-16 23:58:38  System Board Test Completed - Result 1
+2022-10-16 23:58:38  [L]> SmbiosGetBiosVendor: AMI
+2022-10-17 00:00:19  System Fast Test Completed
+2022-10-17 00:00:24  Uninstalling DTD ATA Commands Protocol
+2022-10-17 00:00:24  Exiting System Diagnostics
+2023-04-28 12:30:10  ================================================
+2023-04-28 12:30:10  EFI System Diagnostic 8.2.0.0 Started
+2023-04-28 12:30:10  Load Options = /0xAA
+2023-04-28 12:30:10  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2023-04-28 12:30:10  HP Thermal Diagnostic Protocol Not Available
+2023-04-28 12:30:10  Found HP Thermal Diagnostic 2 Protocol
+2023-04-28 12:30:10  [L]> System ID: 87C5
+2023-04-28 12:30:10  HP BIOS Image Interface Protocol 2 Version 2.0
+2023-04-28 12:30:10  [L]> Found 6 Processors 6 Enabled Processors
+2023-04-28 12:30:10  [L]> MpService2 found Bsp at index 0
+2023-04-28 12:30:10  [L]> Found 1 Absolute Pointer Protocol(s)
+2023-04-28 12:30:10  [L]> 0 UART device path node found.
+2023-04-28 12:30:10  System Enclosure Type: 10
+2023-04-28 12:30:10  System Family: Consumer Notebook
+2023-04-28 12:30:10  Filter Serial Port Test for SystemFamily 2 
+2023-04-28 12:30:10  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2023-04-28 12:30:10  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2023-04-28 12:30:10  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2023-04-28 12:30:10  [L]> Language Selected is currently (eng).
+2023-04-28 12:30:12  Initializing Drive Library.
+2023-04-28 12:30:12  TscPerSecond = 08D4CB184h 
+2023-04-28 12:30:12  [L]> Find IVRS in ACPI Table
+2023-04-28 12:30:12  [L]> DMA Remap Protection is enabled
+2023-04-28 12:30:12  No handle found which supports EFI_ATA_PASS_THRU_PROTOCOL.
+2023-04-28 12:30:12  Init of ATA Pass Thru Protocol failed. (Not Found)
+2023-04-28 12:30:12  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2023-04-28 12:30:12  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2023-04-28 12:30:12  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2023-04-28 12:30:12  NVMe device connected at NamespaceID 0x1
+2023-04-28 12:30:12  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2023-04-28 12:30:12  Drive 0 - RTD3 Entry Latency: 210000
+2023-04-28 12:30:12  Drive 0 - Firmware Revision: HP00AE00
+2023-04-28 12:30:12  Drive 0 - VidDid: 0x11E0F
+2023-04-28 12:30:12  Drive 0 - SMART Log NSID NOT Supported.
+2023-04-28 12:30:12  Drive 0 - Short/Long DST Supported.
+2023-04-28 12:30:12  Drive 0 - Long DST Time = 27 minute(s).
+2023-04-28 12:30:12  Drive 0 - The Medium is Removable
+2023-04-28 12:30:12  Drive 0 - LBA Format: Using Format 0
+2023-04-28 12:30:12  Drive 0 - Logical Sector Size: 512
+2023-04-28 12:30:12  NVMePassThruGetBlockIoProtocolDirectly(): Found 5 supporting EFI_BLOCK_IO_PROTOCOL.
+2023-04-28 12:30:12  Linked Block I/O Protocol (0xC5AE2050) to Drive 0
+2023-04-28 12:30:12  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2023-04-28 12:30:12  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2023-04-28 12:30:12  1 Total Hard Disc Drives Found
+2023-04-28 12:30:12  0 Total Optical Disc Drives Found
+2023-04-28 12:30:12  Found 1 Hard Disk Drives
+2023-04-28 12:30:12  Found 0 Optical Disk Drives
+2023-04-28 12:30:12  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2023-04-28 12:30:12  Failed to initialize NVDIMM modules.
+2023-04-28 12:30:12  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x59, Worse is 0x00.
+2023-04-28 12:30:12  SSD Wear Data: 00 00 00 00 00 00. 
+2023-04-28 12:30:12  [L]> System ID: 87C5
+2023-04-28 12:30:12  System Model: = HP Pavilion Laptop 15-eh0xxx
+2023-04-28 12:30:12  System SKU: = 192N4UA#ABA
+2023-04-28 12:30:12  System ID: 87C5
+2023-04-28 12:30:12  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2023-04-28 12:30:12  "BATT_CARE" found in SMBIOS Type 11
+2023-04-28 12:30:12  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2023-04-28 12:30:12  [L]> SmbiosGetBiosVendor: AMI
+2023-04-28 12:30:12  BOD: 11/15/2020
+2023-04-28 12:30:12  HDD 0 Type : NVMe
+2023-04-28 12:30:12  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2023-04-28 12:30:12  HDD 0 Firmware: HP00AE00
+2023-04-28 12:30:12  HDD 0 Serial:   303PD44UPBV1
+2023-04-28 12:30:12  DIMM 0 Serial Number: 43DFA839
+2023-04-28 12:30:12  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2023-04-28 12:30:12  DIMM 1 Serial Number: 43DFA841
+2023-04-28 12:30:12  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2023-04-28 12:30:12  BIOS Revision: F.22
+2023-04-28 12:30:12  [L]> Platform Vendor ID : 0x1022
+2023-04-28 12:30:12  [L]> Platform Device ID : 0x1448
+2023-04-28 12:30:12  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2023-04-28 12:30:12  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2023-04-28 12:30:12  Type 11 1 tables
+2023-04-28 12:30:12  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2023-04-28 12:30:12  HPBATDET: Environment Variable not found.
+2023-04-28 12:30:12  BATDET: Date 7//10//2020 
+2023-04-28 12:30:12  BATDET: 0
+2023-04-28 12:30:12  [L]> BATDET: HP
+2023-04-28 12:30:12  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2023-04-28 12:30:12  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2023-04-28 12:30:12  BIOS Config Table Legacy Support section was not found. 
+2023-04-28 12:30:12  Secure Boot:
+2023-04-28 12:30:12  	Disable
+2023-04-28 12:30:12  	*Enable
+2023-04-28 12:30:12  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2023-04-28 12:30:12  BIOS Config Table Battery Care Function section was not found. 
+2023-04-28 12:30:12  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2023-04-28 12:30:12  Adaptive Battery Extender from BCU:
+2023-04-28 12:30:12  Disable
+2023-04-28 12:30:12  *Enable
+2023-04-28 12:30:12  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Not Activated. 
+2023-04-28 12:30:12  Adaptive Battery Extender Status from BCU:
+2023-04-28 12:30:12  *Not Activated
+2023-04-28 12:30:12  Activated
+2023-04-28 12:30:12  BIOS Config Table DMAr Protection section was not found. 
+2023-04-28 12:30:12  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2023-04-28 12:30:12  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2023-04-28 12:30:12  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2023-04-28 12:30:12  Configure Storage Controller for RAID was not found in the BCU.
+2023-04-28 12:30:12  BIOS Config Table Sata Emulation section was not found. 
+2023-04-28 12:30:12  Sata Emulation was not found in the BCU.
+2023-04-28 12:30:12  BIOS Config Table Hyperthreading section was not found. 
+2023-04-28 12:30:12  No USB optical drive detected.
+2023-04-28 12:30:12  Found USB Type-C Port.
+2023-04-28 12:30:12  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2023-04-28 12:30:12  [L]> Audio controller Vendor ID 0x1002
+2023-04-28 12:30:12  [L]> Audio controller Device ID 0x1637
+2023-04-28 12:30:12  [L]> Audio controller Revision ID 0x00
+2023-04-28 12:30:12  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-04-28 12:30:12  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-04-28 12:30:12  [L]> Audio controller Class Code 0x0403
+2023-04-28 12:30:12  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2023-04-28 12:30:12  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2023-04-28 12:30:12  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2023-04-28 12:30:12  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2023-04-28 12:30:12  [L]> Audio controller Vendor ID 0x1022
+2023-04-28 12:30:12  [L]> Audio controller Device ID 0x15E3
+2023-04-28 12:30:12  [L]> Audio controller Revision ID 0x00
+2023-04-28 12:30:12  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-04-28 12:30:12  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-04-28 12:30:12  [L]> Audio controller Class Code 0x0403
+2023-04-28 12:30:12  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2023-04-28 12:30:12  [L]> Found USB Port I/O entries.
+2023-04-28 12:30:12  [L]> EfiTcg2Protocol has been detected
+2023-04-28 12:30:12  [L]> TcgCapability.TPMPresentFlag is TRUE
+2023-04-28 12:30:12  Starting Graphical System Diagnostic Menu
+2023-04-28 12:30:18  No USB optical drive detected.
+2023-04-28 12:30:29  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2023-04-28 12:30:39  Wireless Module Check Selected
+2023-04-28 12:30:39  Estimated Total Time Required = 30s
+2023-04-28 12:30:39  Wireless Module Check Started
+2023-04-28 12:30:39  Wireless Module Check Completed - Result 1
+2023-04-28 12:30:39  [L]> SmbiosGetBiosVendor: AMI
+2023-04-28 12:30:39  SysDiagCalculatePassID(): Test PassID 22818-25310-69654.
+2023-04-28 12:30:41  Wireless Module Check Completed
+2023-04-28 12:30:45  EFI HP BIOS Management Started
+2023-04-28 12:30:47  BIOS Management Mode = 0
+2023-04-28 12:30:47  Starting BIOS Update Process
+2023-04-28 12:30:47  Setting BIOS Update Token
+2023-04-28 12:30:47  Getting BIOS Detail Information
+2023-04-28 12:30:47  IsBiosSixDigits = 0
+2023-04-28 12:30:47  BIOS Returned BiosID '087C5'
+2023-04-28 12:30:47  QueryImageDetail: 64K Block Size detected.
+2023-04-28 12:30:47  Skip Addresses:
+2023-04-28 12:30:47  Loading BIOS Image
+2023-04-28 12:30:47  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-04-28 12:30:47  Failed Reading BIOS Image EFI\HP\BIOS\New\087C5.bin (Not Found)
+2023-04-28 12:30:58  User Canceled Update
+2023-04-28 12:30:58  EfiBiosUpdateLibEntry(): Result is 0xC
+2023-04-28 12:30:58  BIOS Update Process Complete
+2023-04-28 12:31:06  Checking if Charging Port Test is available...
+2023-04-28 12:31:06  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2023-04-28 12:31:07  SysDiagsBatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2023-04-28 12:31:07  Battery0: Charged to 100% and current is 0mA. Adaptive Battery Extender is set in BIOS: Enabled/Not Activated
+2023-04-28 12:31:07  Will not check battery charging since the FullChargeStatus variable is TRUE
+2023-04-28 12:31:18  System Fast Test Selected
+2023-04-28 12:31:18  Estimated Total Time Required = 313s
+2023-04-28 12:31:18  Battery Test Started
+2023-04-28 12:31:18  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2023-04-28 12:31:18  System reports 1 batteries supported.
+2023-04-28 12:31:19  Battery Pack Supplier Index: 1.
+2023-04-28 12:31:19  Battery MFG Date 7/10/2020.
+2023-04-28 12:31:19  Battery0: Charged to 100% and current is 0mA. Adaptive Battery Extender is set in BIOS: Enabled/Not Activated
+2023-04-28 12:31:19  Will not check battery charging since the FullChargeStatus variable is TRUE
+2023-04-28 12:31:19  Battery 0: Charge not detected, Executing Battery Full Test
+2023-04-28 12:31:19  [L]> Battery state is good.
+2023-04-28 12:31:22  Battery 0 returned 0x0000000000000000
+2023-04-28 12:31:23  Batt 0: Result:       0x0
+2023-04-28 12:31:23  Batt 0: Serial:       06282 07/10/2020
+2023-04-28 12:31:23  Batt 0: Manufacturer: 313-1D-33-A
+2023-04-28 12:31:23  Batt 0: CTNumber:     6JRMD03XXDY4UI
+2023-04-28 12:31:23  Batt 0: DesignCycleCount:    1000	 Design Capacity:  3620mAh	 Full Charge Capcity      2915mAh
+2023-04-28 12:31:23  Batt 0: RemainingCapacity: 2915mAh	 Max Error:        0000000	 CycleCount:              543    
+2023-04-28 12:31:23  Batt 0: Temperature:       000036	 Voltage:          12644mV	 Current:                 0mA   
+2023-04-28 12:31:23  Batt 0: DesignVoltate:     11340mV	 StatusWord:       0x080E0	 CellVoltage1:            4207mV
+2023-04-28 12:31:23  Batt 0: CellVoltage2:      4218mV	 CellVoltage3:     4218mV	 CellVoltage4:            0mV   
+2023-04-28 12:31:23  Batt 0: Warranty:          000003	 Calibration:      0x00001	 ChargeControlSupported:  YES    
+2023-04-28 12:31:23  Batt 0: ACPowerOn:         ON    	 ChargeTempOK:     YES   	 ChargeTest:              0      
+2023-04-28 12:31:23  Batt 0: ChargeCapacity:    80mAh	 TempAlarm:        NO    	 DeepDischarge:           NO     
+2023-04-28 12:31:23  Batt 0: FullCharge:        YES   	 FullChargeStatus: 000001	 BatteryCharge:           YES    
+2023-04-28 12:31:23  Batt 0: LowVoltageDisable: NO    	 AdaptiveBatteryExtender: Enabled\Not Activated
+2023-04-28 12:31:23  Overall Battery Result = 7
+2023-04-28 12:31:23  CPU Test Started
+2023-04-28 12:31:24  Start Numeric Coprocessor Test.
+2023-04-28 12:31:34  CPU Test Completed - Result 1
+2023-04-28 12:31:34  Wireless Module Check Started
+2023-04-28 12:31:34  Wireless Module Check Completed - Result 1
+2023-04-28 12:31:34  SMART Check Started
+2023-04-28 12:31:34  SMART Check Completed - Result 1
+2023-04-28 12:31:34  Short DST Started
+2023-04-28 12:31:34  StartDST(): Drive 0 temperature before Self-DST Test = 43 degrees Celsius 
+2023-04-28 12:31:34  NVMeSendSelfTest(): DST Test in Progress
+2023-04-28 12:31:34  NVMePassThruStartDST(): Sending SELF-DST Success
+2023-04-28 12:31:34  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2023-04-28 12:31:34  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2023-04-28 12:31:34  #01  Short Self DST          0x0h - Completed without errors.                  2940                   0x00          No Error Found. 
+2023-04-28 12:31:34  #02  Short Self DST          0x0h - Completed without errors.                  2717                   0x00          No Error Found. 
+2023-04-28 12:31:34  NVMePassThruPollDSTStatus() success, Percent = 1
+2023-04-28 12:31:46  NVMePassThruPollDSTStatus() success, Percent = 13
+2023-04-28 12:31:46  Hard Drive 0 Returned Short DST Status 15 Percentage 13
+2023-04-28 12:31:58  NVMePassThruPollDSTStatus() success, Percent = 25
+2023-04-28 12:31:58  Hard Drive 0 Returned Short DST Status 15 Percentage 25
+2023-04-28 12:32:10  NVMePassThruPollDSTStatus() success, Percent = 37
+2023-04-28 12:32:10  Hard Drive 0 Returned Short DST Status 15 Percentage 37
+2023-04-28 12:32:22  NVMePassThruPollDSTStatus() success, Percent = 49
+2023-04-28 12:32:22  Hard Drive 0 Returned Short DST Status 15 Percentage 49
+2023-04-28 12:32:34  NVMePassThruPollDSTStatus() success, Percent = 61
+2023-04-28 12:32:34  Hard Drive 0 Returned Short DST Status 15 Percentage 61
+2023-04-28 12:32:46  NVMePassThruPollDSTStatus() success, Percent = 72
+2023-04-28 12:32:46  Hard Drive 0 Returned Short DST Status 15 Percentage 72
+2023-04-28 12:32:58  NVMePassThruPollDSTStatus() success, Percent = 85
+2023-04-28 12:32:58  Hard Drive 0 Returned Short DST Status 15 Percentage 85
+2023-04-28 12:33:10  NVMePassThruPollDSTStatus() success, Percent = 97
+2023-04-28 12:33:10  Hard Drive 0 Returned Short DST Status 15 Percentage 97
+2023-04-28 12:33:22  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2023-04-28 12:33:22  NVMeCheckSelfTestDone(): Status = Success
+2023-04-28 12:33:22  Hard Drive 0 Returned Short DST Status 0 Percentage 100
+2023-04-28 12:33:22  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 44 degrees Celsius 
+2023-04-28 12:33:22  Short DST Completed - Result 1
+2023-04-28 12:33:22  Short DST Completed - Result 1
+2023-04-28 12:33:22  [L]> Total Memory 7632MB, Free 7389MB (1891584 Pages)
+2023-04-28 12:33:22  [L]> SmbiosGetBiosVendor: AMI
+2023-04-28 12:33:22  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2023-04-28 12:33:22  [L]> VGA device is in the Onboard PCI Device Array.
+2023-04-28 12:33:22  [L]> Found Video Device 0x16361002
+2023-04-28 12:33:22  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2023-04-28 12:33:22  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2023-04-28 12:33:22  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2023-04-28 12:33:22  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2023-04-28 12:33:22  [L]> Audio controller Vendor ID 0x1002
+2023-04-28 12:33:22  [L]> Audio controller Device ID 0x1637
+2023-04-28 12:33:22  [L]> Audio controller Revision ID 0x00
+2023-04-28 12:33:22  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-04-28 12:33:22  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-04-28 12:33:22  [L]> Audio controller Class Code 0x0403
+2023-04-28 12:33:22  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2023-04-28 12:33:22  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2023-04-28 12:33:22  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2023-04-28 12:33:22  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2023-04-28 12:33:22  [L]> Audio controller Vendor ID 0x1022
+2023-04-28 12:33:22  [L]> Audio controller Device ID 0x15E3
+2023-04-28 12:33:22  [L]> Audio controller Revision ID 0x00
+2023-04-28 12:33:22  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-04-28 12:33:22  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-04-28 12:33:22  [L]> Audio controller Class Code 0x0403
+2023-04-28 12:33:22  [L]> Found 2 EFI_USB2_HC_PROTOCOL handles.
+2023-04-28 12:33:22  System Board Test Completed - Result 1
+2023-04-28 12:33:22  [L]> SmbiosGetBiosVendor: AMI
+2023-04-28 12:33:51  System Fast Test Completed
+2023-04-28 12:33:54  [L]> SmbiosGetBiosVendor: AMI
+2023-04-28 12:34:00  Exiting System Diagnostics
+2023-05-01 11:12:58  ================================================
+2023-05-01 11:12:58  EFI System Diagnostic 8.2.0.0 Started
+2023-05-01 11:12:58  Load Options = /0xFF
+2023-05-01 11:12:58  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2023-05-01 11:12:58  HP Thermal Diagnostic Protocol Not Available
+2023-05-01 11:12:58  Found HP Thermal Diagnostic 2 Protocol
+2023-05-01 11:12:58  [L]> System ID: 87C5
+2023-05-01 11:12:58  HP BIOS Image Interface Protocol 2 Version 2.0
+2023-05-01 11:12:58  [L]> Found 6 Processors 6 Enabled Processors
+2023-05-01 11:12:58  [L]> MpService2 found Bsp at index 0
+2023-05-01 11:12:58  [L]> Found 1 Absolute Pointer Protocol(s)
+2023-05-01 11:12:58  [L]> 0 UART device path node found.
+2023-05-01 11:12:58  System Enclosure Type: 10
+2023-05-01 11:12:58  System Family: Consumer Notebook
+2023-05-01 11:12:58  Filter Serial Port Test for SystemFamily 2 
+2023-05-01 11:12:58  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2023-05-01 11:12:58  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2023-05-01 11:12:58  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2023-05-01 11:12:58  [L]> Language Selected is currently (eng).
+2023-05-01 11:13:00  Initializing Drive Library.
+2023-05-01 11:13:00  TscPerSecond = 08D4C3E63h 
+2023-05-01 11:13:00  [L]> Find IVRS in ACPI Table
+2023-05-01 11:13:00  [L]> DMA Remap Protection is enabled
+2023-05-01 11:13:00  No handle found which supports EFI_ATA_PASS_THRU_PROTOCOL.
+2023-05-01 11:13:00  Init of ATA Pass Thru Protocol failed. (Not Found)
+2023-05-01 11:13:00  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2023-05-01 11:13:00  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2023-05-01 11:13:00  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2023-05-01 11:13:00  NVMe device connected at NamespaceID 0x1
+2023-05-01 11:13:00  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2023-05-01 11:13:00  Drive 0 - RTD3 Entry Latency: 210000
+2023-05-01 11:13:00  Drive 0 - Firmware Revision: HP00AE00
+2023-05-01 11:13:00  Drive 0 - VidDid: 0x11E0F
+2023-05-01 11:13:00  Drive 0 - SMART Log NSID NOT Supported.
+2023-05-01 11:13:00  Drive 0 - Short/Long DST Supported.
+2023-05-01 11:13:00  Drive 0 - Long DST Time = 27 minute(s).
+2023-05-01 11:13:00  Drive 0 - The Medium is Removable
+2023-05-01 11:13:00  Drive 0 - LBA Format: Using Format 0
+2023-05-01 11:13:00  Drive 0 - Logical Sector Size: 512
+2023-05-01 11:13:00  NVMePassThruGetBlockIoProtocolDirectly(): Found 5 supporting EFI_BLOCK_IO_PROTOCOL.
+2023-05-01 11:13:00  Linked Block I/O Protocol (0xC5AE2050) to Drive 0
+2023-05-01 11:13:00  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2023-05-01 11:13:00  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2023-05-01 11:13:00  1 Total Hard Disc Drives Found
+2023-05-01 11:13:00  0 Total Optical Disc Drives Found
+2023-05-01 11:13:00  Found 1 Hard Disk Drives
+2023-05-01 11:13:00  Found 0 Optical Disk Drives
+2023-05-01 11:13:00  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2023-05-01 11:13:00  Failed to initialize NVDIMM modules.
+2023-05-01 11:13:00  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x59, Worse is 0x00.
+2023-05-01 11:13:00  SSD Wear Data: 00 00 00 00 00 00. 
+2023-05-01 11:13:00  [L]> System ID: 87C5
+2023-05-01 11:13:00  System Model: = HP Pavilion Laptop 15-eh0xxx
+2023-05-01 11:13:00  System SKU: = 192N4UA#ABA
+2023-05-01 11:13:00  System ID: 87C5
+2023-05-01 11:13:00  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2023-05-01 11:13:00  "BATT_CARE" found in SMBIOS Type 11
+2023-05-01 11:13:00  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2023-05-01 11:13:00  [L]> SmbiosGetBiosVendor: AMI
+2023-05-01 11:13:00  BOD: 11/15/2020
+2023-05-01 11:13:00  HDD 0 Type : NVMe
+2023-05-01 11:13:00  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2023-05-01 11:13:00  HDD 0 Firmware: HP00AE00
+2023-05-01 11:13:00  HDD 0 Serial:   303PD44UPBV1
+2023-05-01 11:13:00  DIMM 0 Serial Number: 43DFA839
+2023-05-01 11:13:00  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2023-05-01 11:13:00  DIMM 1 Serial Number: 43DFA841
+2023-05-01 11:13:00  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2023-05-01 11:13:00  BIOS Revision: F.22
+2023-05-01 11:13:00  [L]> Platform Vendor ID : 0x1022
+2023-05-01 11:13:00  [L]> Platform Device ID : 0x1448
+2023-05-01 11:13:00  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2023-05-01 11:13:00  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2023-05-01 11:13:00  Type 11 1 tables
+2023-05-01 11:13:00  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2023-05-01 11:13:00  HPBATDET: Environment Variable not found.
+2023-05-01 11:13:00  BATDET: Date 7//10//2020 
+2023-05-01 11:13:00  BATDET: 0
+2023-05-01 11:13:00  [L]> BATDET: HP
+2023-05-01 11:13:00  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2023-05-01 11:13:00  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2023-05-01 11:13:00  BIOS Config Table Legacy Support section was not found. 
+2023-05-01 11:13:00  Secure Boot:
+2023-05-01 11:13:00  	Disable
+2023-05-01 11:13:00  	*Enable
+2023-05-01 11:13:00  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2023-05-01 11:13:00  BIOS Config Table Battery Care Function section was not found. 
+2023-05-01 11:13:00  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2023-05-01 11:13:00  Adaptive Battery Extender from BCU:
+2023-05-01 11:13:00  Disable
+2023-05-01 11:13:00  *Enable
+2023-05-01 11:13:00  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2023-05-01 11:13:00  Adaptive Battery Extender Status from BCU:
+2023-05-01 11:13:00  Not Activated
+2023-05-01 11:13:00  *Activated
+2023-05-01 11:13:00  BIOS Config Table DMAr Protection section was not found. 
+2023-05-01 11:13:00  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2023-05-01 11:13:00  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2023-05-01 11:13:00  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2023-05-01 11:13:00  Configure Storage Controller for RAID was not found in the BCU.
+2023-05-01 11:13:00  BIOS Config Table Sata Emulation section was not found. 
+2023-05-01 11:13:00  Sata Emulation was not found in the BCU.
+2023-05-01 11:13:00  BIOS Config Table Hyperthreading section was not found. 
+2023-05-01 11:13:00  No USB optical drive detected.
+2023-05-01 11:13:00  Found USB Type-C Port.
+2023-05-01 11:13:00  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2023-05-01 11:13:00  [L]> Audio controller Vendor ID 0x1002
+2023-05-01 11:13:00  [L]> Audio controller Device ID 0x1637
+2023-05-01 11:13:00  [L]> Audio controller Revision ID 0x00
+2023-05-01 11:13:00  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-05-01 11:13:00  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-05-01 11:13:00  [L]> Audio controller Class Code 0x0403
+2023-05-01 11:13:00  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2023-05-01 11:13:00  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2023-05-01 11:13:00  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2023-05-01 11:13:00  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2023-05-01 11:13:00  [L]> Audio controller Vendor ID 0x1022
+2023-05-01 11:13:00  [L]> Audio controller Device ID 0x15E3
+2023-05-01 11:13:00  [L]> Audio controller Revision ID 0x00
+2023-05-01 11:13:00  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-05-01 11:13:00  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-05-01 11:13:00  [L]> Audio controller Class Code 0x0403
+2023-05-01 11:13:00  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2023-05-01 11:13:00  [L]> Found USB Port I/O entries.
+2023-05-01 11:13:00  [L]> EfiTcg2Protocol has been detected
+2023-05-01 11:13:00  [L]> TcgCapability.TPMPresentFlag is TRUE
+2023-05-01 11:13:00  Starting Graphical System Diagnostic Menu
+2023-05-01 11:13:18  [L]> Failed locate PlatformServiceProtocol, (Not Found).
+2023-05-01 11:13:56  Checking if Charging Port Test is available...
+2023-05-01 11:13:56  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2023-05-01 11:13:57  SysDiagsBatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2023-05-01 11:13:57  Battery0: Charged to 30% and current is 2512mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2023-05-01 11:13:57  Will not check battery charging since AC Adapter is not OK
+2023-05-01 11:14:05  System Fast Test Selected
+2023-05-01 11:14:05  Estimated Total Time Required = 313s
+2023-05-01 11:14:05  Battery Test Started
+2023-05-01 11:14:05  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '4'.
+2023-05-01 11:14:05  System reports 1 batteries supported.
+2023-05-01 11:14:05  Battery Pack Supplier Index: 1.
+2023-05-01 11:14:05  Battery MFG Date 7/10/2020.
+2023-05-01 11:14:05  Battery0: Charged to 30% and current is 2512mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2023-05-01 11:14:05  Will not check battery charging since AC Adapter is not OK
+2023-05-01 11:14:05  Battery 0: Charge not detected, Executing Battery Full Test
+2023-05-01 11:14:05  [L]> Battery state is good.
+2023-05-01 11:14:08  Battery 0 returned 0x0000000000000000
+2023-05-01 11:14:09  Batt 0: Result:       0x0
+2023-05-01 11:14:09  Batt 0: Serial:       06282 07/10/2020
+2023-05-01 11:14:09  Batt 0: Manufacturer: 313-1D-33-A
+2023-05-01 11:14:09  Batt 0: CTNumber:     6JRMD03XXDY4UI
+2023-05-01 11:14:09  Batt 0: DesignCycleCount:    1000	 Design Capacity:  3620mAh	 Full Charge Capcity      2915mAh
+2023-05-01 11:14:09  Batt 0: RemainingCapacity: 902mAh	 Max Error:        0000000	 CycleCount:              546    
+2023-05-01 11:14:09  Batt 0: Temperature:       000038	 Voltage:          12330mV	 Current:                 2512mA
+2023-05-01 11:14:09  Batt 0: DesignVoltate:     11340mV	 StatusWord:       0x00080	 CellVoltage1:            4111mV
+2023-05-01 11:14:09  Batt 0: CellVoltage2:      4115mV	 CellVoltage3:     4105mV	 CellVoltage4:            0mV   
+2023-05-01 11:14:09  Batt 0: Warranty:          000003	 Calibration:      0x00001	 ChargeControlSupported:  YES    
+2023-05-01 11:14:09  Batt 0: ACPowerOn:         ON    	 ChargeTempOK:     YES   	 ChargeTest:              0      
+2023-05-01 11:14:09  Batt 0: ChargeCapacity:    80mAh	 TempAlarm:        NO    	 DeepDischarge:           NO     
+2023-05-01 11:14:09  Batt 0: FullCharge:        NO    	 FullChargeStatus: 000000	 BatteryCharge:           YES    
+2023-05-01 11:14:09  Batt 0: LowVoltageDisable: NO    	 AdaptiveBatteryExtender: Enabled\Activated
+2023-05-01 11:14:09  Overall Battery Result = 7
+2023-05-01 11:14:09  CPU Test Started
+2023-05-01 11:14:10  Start Numeric Coprocessor Test.
+2023-05-01 11:14:20  CPU Test Completed - Result 1
+2023-05-01 11:14:20  Wireless Module Check Started
+2023-05-01 11:14:20  Wireless Module Check Completed - Result 1
+2023-05-01 11:14:20  SMART Check Started
+2023-05-01 11:14:20  SMART Check Completed - Result 1
+2023-05-01 11:14:20  Short DST Started
+2023-05-01 11:14:20  StartDST(): Drive 0 temperature before Self-DST Test = 43 degrees Celsius 
+2023-05-01 11:14:20  NVMeSendSelfTest(): DST Test in Progress
+2023-05-01 11:14:20  NVMePassThruStartDST(): Sending SELF-DST Success
+2023-05-01 11:14:20  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2023-05-01 11:14:20  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2023-05-01 11:14:20  #01  Short Self DST          0x0h - Completed without errors.                  3645                   0x00          No Error Found. 
+2023-05-01 11:14:20  #02  Short Self DST          0x0h - Completed without errors.                  2940                   0x00          No Error Found. 
+2023-05-01 11:14:20  #03  Short Self DST          0x0h - Completed without errors.                  2717                   0x00          No Error Found. 
+2023-05-01 11:14:20  NVMePassThruPollDSTStatus() success, Percent = 0
+2023-05-01 11:14:32  NVMePassThruPollDSTStatus() success, Percent = 12
+2023-05-01 11:14:32  Hard Drive 0 Returned Short DST Status 15 Percentage 12
+2023-05-01 11:14:44  NVMePassThruPollDSTStatus() success, Percent = 24
+2023-05-01 11:14:44  Hard Drive 0 Returned Short DST Status 15 Percentage 24
+2023-05-01 11:14:56  NVMePassThruPollDSTStatus() success, Percent = 37
+2023-05-01 11:14:57  Hard Drive 0 Returned Short DST Status 15 Percentage 37
+2023-05-01 11:15:08  NVMePassThruPollDSTStatus() success, Percent = 48
+2023-05-01 11:15:08  Hard Drive 0 Returned Short DST Status 15 Percentage 48
+2023-05-01 11:15:20  NVMePassThruPollDSTStatus() success, Percent = 60
+2023-05-01 11:15:20  Hard Drive 0 Returned Short DST Status 15 Percentage 60
+2023-05-01 11:15:32  NVMePassThruPollDSTStatus() success, Percent = 72
+2023-05-01 11:15:32  Hard Drive 0 Returned Short DST Status 15 Percentage 72
+2023-05-01 11:15:44  NVMePassThruPollDSTStatus() success, Percent = 84
+2023-05-01 11:15:44  Hard Drive 0 Returned Short DST Status 15 Percentage 84
+2023-05-01 11:15:56  NVMePassThruPollDSTStatus() success, Percent = 96
+2023-05-01 11:15:56  Hard Drive 0 Returned Short DST Status 15 Percentage 96
+2023-05-01 11:16:08  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2023-05-01 11:16:08  NVMeCheckSelfTestDone(): Status = Success
+2023-05-01 11:16:08  Hard Drive 0 Returned Short DST Status 0 Percentage 100
+2023-05-01 11:16:08  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 42 degrees Celsius 
+2023-05-01 11:16:08  Short DST Completed - Result 1
+2023-05-01 11:16:08  Short DST Completed - Result 1
+2023-05-01 11:16:08  [L]> Total Memory 7632MB, Free 7400MB (1894532 Pages)
+2023-05-01 11:16:08  [L]> SmbiosGetBiosVendor: AMI
+2023-05-01 11:16:08  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2023-05-01 11:16:08  [L]> VGA device is in the Onboard PCI Device Array.
+2023-05-01 11:16:08  [L]> Found Video Device 0x16361002
+2023-05-01 11:16:08  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2023-05-01 11:16:08  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2023-05-01 11:16:08  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2023-05-01 11:16:08  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2023-05-01 11:16:08  [L]> Audio controller Vendor ID 0x1002
+2023-05-01 11:16:08  [L]> Audio controller Device ID 0x1637
+2023-05-01 11:16:08  [L]> Audio controller Revision ID 0x00
+2023-05-01 11:16:08  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-05-01 11:16:08  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-05-01 11:16:08  [L]> Audio controller Class Code 0x0403
+2023-05-01 11:16:08  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2023-05-01 11:16:08  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2023-05-01 11:16:08  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2023-05-01 11:16:08  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2023-05-01 11:16:08  [L]> Audio controller Vendor ID 0x1022
+2023-05-01 11:16:08  [L]> Audio controller Device ID 0x15E3
+2023-05-01 11:16:08  [L]> Audio controller Revision ID 0x00
+2023-05-01 11:16:08  [L]> Audio controller Subsystem Vendor ID 0x103C
+2023-05-01 11:16:08  [L]> Audio controller Subsystem Device ID 0x87C5
+2023-05-01 11:16:08  [L]> Audio controller Class Code 0x0403
+2023-05-01 11:16:08  [L]> Found 2 EFI_USB2_HC_PROTOCOL handles.
+2023-05-01 11:16:08  System Board Test Completed - Result 1
+2023-05-01 11:16:08  [L]> SmbiosGetBiosVendor: AMI
+2023-05-01 11:16:18  System Fast Test Completed
+2023-05-01 11:16:23  EFI HP BIOS Management Started
+2023-05-01 11:16:26  BIOS Management Mode = 0
+2023-05-01 11:16:26  Starting BIOS Update Process
+2023-05-01 11:16:26  Setting BIOS Update Token
+2023-05-01 11:16:26  Getting BIOS Detail Information
+2023-05-01 11:16:26  IsBiosSixDigits = 0
+2023-05-01 11:16:26  BIOS Returned BiosID '087C5'
+2023-05-01 11:16:26  QueryImageDetail: 64K Block Size detected.
+2023-05-01 11:16:26  Skip Addresses:
+2023-05-01 11:16:26  Loading BIOS Image
+2023-05-01 11:16:26  File name constructed: EFI\HP\BIOS\New\087C5.bin
+2023-05-01 11:16:26  Failed Reading BIOS Image EFI\HP\BIOS\New\087C5.bin (Not Found)
+2023-05-01 11:16:37  User Canceled Update
+2023-05-01 11:16:37  EfiBiosUpdateLibEntry(): Result is 0xC
+2023-05-01 11:16:37  BIOS Update Process Complete
+2023-05-01 11:16:41  Exiting System Diagnostics
+2024-02-13 21:06:14  ================================================
+2024-02-13 21:06:14  EFI System Diagnostic 8.2.0.0 Started
+2024-02-13 21:06:14  Load Options = /0xFF
+2024-02-13 21:06:14  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2024-02-13 21:06:14  HP Thermal Diagnostic Protocol Not Available
+2024-02-13 21:06:14  Found HP Thermal Diagnostic 2 Protocol
+2024-02-13 21:06:14  [L]> System ID: 87C5
+2024-02-13 21:06:14  HP BIOS Image Interface Protocol 2 Version 2.0
+2024-02-13 21:06:14  [L]> Found 6 Processors 6 Enabled Processors
+2024-02-13 21:06:14  [L]> MpService2 found Bsp at index 0
+2024-02-13 21:06:14  [L]> Found 1 Absolute Pointer Protocol(s)
+2024-02-13 21:06:14  [L]> 0 UART device path node found.
+2024-02-13 21:06:14  System Enclosure Type: 10
+2024-02-13 21:06:14  System Family: Consumer Notebook
+2024-02-13 21:06:14  Filter Serial Port Test for SystemFamily 2 
+2024-02-13 21:06:14  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2024-02-13 21:06:14  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2024-02-13 21:06:14  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2024-02-13 21:06:14  [L]> Language Selected is currently (eng).
+2024-02-13 21:06:16  Initializing Drive Library.
+2024-02-13 21:06:16  TscPerSecond = 08D4B7B8Fh 
+2024-02-13 21:06:16  [L]> Find IVRS in ACPI Table
+2024-02-13 21:06:16  [L]> DMA Remap Protection is enabled
+2024-02-13 21:06:16  No handle found which supports EFI_ATA_PASS_THRU_PROTOCOL.
+2024-02-13 21:06:16  Init of ATA Pass Thru Protocol failed. (Not Found)
+2024-02-13 21:06:16  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2024-02-13 21:06:16  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2024-02-13 21:06:16  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2024-02-13 21:06:16  NVMe device connected at NamespaceID 0x1
+2024-02-13 21:06:16  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2024-02-13 21:06:16  Drive 0 - RTD3 Entry Latency: 210000
+2024-02-13 21:06:16  Drive 0 - Firmware Revision: HP00AE00
+2024-02-13 21:06:16  Drive 0 - VidDid: 0x11E0F
+2024-02-13 21:06:16  Drive 0 - SMART Log NSID NOT Supported.
+2024-02-13 21:06:16  Drive 0 - Short/Long DST Supported.
+2024-02-13 21:06:16  Drive 0 - Long DST Time = 27 minute(s).
+2024-02-13 21:06:16  Drive 0 - The Medium is Removable
+2024-02-13 21:06:16  Drive 0 - LBA Format: Using Format 0
+2024-02-13 21:06:16  Drive 0 - Logical Sector Size: 512
+2024-02-13 21:06:16  NVMePassThruGetBlockIoProtocolDirectly(): Found 11 supporting EFI_BLOCK_IO_PROTOCOL.
+2024-02-13 21:06:16  Linked Block I/O Protocol (0xC596D050) to Drive 0
+2024-02-13 21:06:16  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2024-02-13 21:06:16  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2024-02-13 21:06:16  1 Total Hard Disc Drives Found
+2024-02-13 21:06:16  0 Total Optical Disc Drives Found
+2024-02-13 21:06:16  Found 1 Hard Disk Drives
+2024-02-13 21:06:16  Found 0 Optical Disk Drives
+2024-02-13 21:06:16  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2024-02-13 21:06:16  Failed to initialize NVDIMM modules.
+2024-02-13 21:06:16  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x58, Worse is 0x00.
+2024-02-13 21:06:16  SSD Wear Data: 00 00 00 00 00 00. 
+2024-02-13 21:06:16  [L]> System ID: 87C5
+2024-02-13 21:06:16  System Model: = HP Pavilion Laptop 15-eh0xxx
+2024-02-13 21:06:16  System SKU: = 192N4UA#ABA
+2024-02-13 21:06:16  System ID: 87C5
+2024-02-13 21:06:16  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2024-02-13 21:06:16  "BATT_CARE" found in SMBIOS Type 11
+2024-02-13 21:06:16  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2024-02-13 21:06:16  [L]> SmbiosGetBiosVendor: AMI
+2024-02-13 21:06:16  BOD: 11/15/2020
+2024-02-13 21:06:16  HDD 0 Type : NVMe
+2024-02-13 21:06:16  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2024-02-13 21:06:16  HDD 0 Firmware: HP00AE00
+2024-02-13 21:06:16  HDD 0 Serial:   303PD44UPBV1
+2024-02-13 21:06:16  DIMM 0 Serial Number: 43DFA839
+2024-02-13 21:06:16  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2024-02-13 21:06:16  DIMM 1 Serial Number: 43DFA841
+2024-02-13 21:06:16  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2024-02-13 21:06:16  BIOS Revision: F.27
+2024-02-13 21:06:16  [L]> Platform Vendor ID : 0x1022
+2024-02-13 21:06:16  [L]> Platform Device ID : 0x1448
+2024-02-13 21:06:16  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2024-02-13 21:06:16  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2024-02-13 21:06:16  Type 11 1 tables
+2024-02-13 21:06:16  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2024-02-13 21:06:16  HPBATDET: Environment Variable not found.
+2024-02-13 21:06:16  BATDET: Date 7//10//2020 
+2024-02-13 21:06:16  BATDET: 0
+2024-02-13 21:06:16  [L]> BATDET: HP
+2024-02-13 21:06:16  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2024-02-13 21:06:16  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2024-02-13 21:06:16  BIOS Config Table Legacy Support section was not found. 
+2024-02-13 21:06:16  Secure Boot:
+2024-02-13 21:06:16  	Disable
+2024-02-13 21:06:16  	*Enable
+2024-02-13 21:06:16  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2024-02-13 21:06:16  BIOS Config Table Battery Care Function section was not found. 
+2024-02-13 21:06:16  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2024-02-13 21:06:16  Adaptive Battery Extender from BCU:
+2024-02-13 21:06:16  Disable
+2024-02-13 21:06:16  *Enable
+2024-02-13 21:06:16  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Activated. 
+2024-02-13 21:06:16  Adaptive Battery Extender Status from BCU:
+2024-02-13 21:06:16  Not Activated
+2024-02-13 21:06:16  *Activated
+2024-02-13 21:06:16  BIOS Config Table DMAr Protection section was not found. 
+2024-02-13 21:06:16  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2024-02-13 21:06:16  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2024-02-13 21:06:16  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2024-02-13 21:06:16  Configure Storage Controller for RAID was not found in the BCU.
+2024-02-13 21:06:16  BIOS Config Table Sata Emulation section was not found. 
+2024-02-13 21:06:16  Sata Emulation was not found in the BCU.
+2024-02-13 21:06:16  BIOS Config Table Hyperthreading section was not found. 
+2024-02-13 21:06:16  No USB optical drive detected.
+2024-02-13 21:06:16  Found USB Type-C Port.
+2024-02-13 21:06:16  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2024-02-13 21:06:16  [L]> Audio controller Vendor ID 0x1002
+2024-02-13 21:06:16  [L]> Audio controller Device ID 0x1637
+2024-02-13 21:06:16  [L]> Audio controller Revision ID 0x00
+2024-02-13 21:06:16  [L]> Audio controller Subsystem Vendor ID 0x103C
+2024-02-13 21:06:16  [L]> Audio controller Subsystem Device ID 0x87C5
+2024-02-13 21:06:16  [L]> Audio controller Class Code 0x0403
+2024-02-13 21:06:16  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2024-02-13 21:06:16  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2024-02-13 21:06:16  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2024-02-13 21:06:16  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2024-02-13 21:06:16  [L]> Audio controller Vendor ID 0x1022
+2024-02-13 21:06:16  [L]> Audio controller Device ID 0x15E3
+2024-02-13 21:06:16  [L]> Audio controller Revision ID 0x00
+2024-02-13 21:06:16  [L]> Audio controller Subsystem Vendor ID 0x103C
+2024-02-13 21:06:16  [L]> Audio controller Subsystem Device ID 0x87C5
+2024-02-13 21:06:16  [L]> Audio controller Class Code 0x0403
+2024-02-13 21:06:16  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2024-02-13 21:06:16  [L]> Found USB Port I/O entries.
+2024-02-13 21:06:16  [L]> EfiTcg2Protocol has been detected
+2024-02-13 21:06:16  [L]> TcgCapability.TPMPresentFlag is TRUE
+2024-02-13 21:06:16  Starting Graphical System Diagnostic Menu
+2024-02-13 21:06:29  Checking if Charging Port Test is available...
+2024-02-13 21:06:29  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '1'.
+2024-02-13 21:06:29  SysDiagsBatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2024-02-13 21:06:29  Battery0: Charged to 74% and current is 1967mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2024-02-13 21:06:36  System Extensive Test Selected
+2024-02-13 21:06:36  [L]> Total Memory 7632MB, Free 7393MB (1892690 Pages)
+2024-02-13 21:06:37  [L]> Calculated 0x00000000303B2996 TSC Ticks per MB.
+2024-02-13 21:06:37  Drive Partition 2 (NOTOUCH)
+2024-02-13 21:06:37  Drive Partition 4 (NOTOUCH)
+2024-02-13 21:06:37  Drive Partition 5 (NOTOUCH)
+2024-02-13 21:06:37  Found 5 Partitions on Drive 
+2024-02-13 21:06:37  SectorPerCluster 0x8
+2024-02-13 21:06:37  Cluster Size 0x1000
+2024-02-13 21:06:37  Partition has 0x10000 Clusters
+2024-02-13 21:06:37  Volume is FAT32
+2024-02-13 21:06:37  Drive 0, Partition 0 - Decoding FAT data
+2024-02-13 21:06:37  Partition Starting LBA 0x800
+2024-02-13 21:06:37  Partition Size in LBA 0x82000
+2024-02-13 21:06:37  Partition (FAT32) Clusters: Read=0x64F1 Skipped=0x9B0F Total=0x10000
+2024-02-13 21:06:37  NTFS Blocks Used 0, Free 0
+2024-02-13 21:06:37  EXT3 Blocks Used 0, Free 0
+2024-02-13 21:06:37  FAT32 Clusters Used 25841, Free 39695
+2024-02-13 21:06:37  Estimated Total Time Required = 7156s
+2024-02-13 21:06:37  Battery Test Started
+2024-02-13 21:06:37  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '1'.
+2024-02-13 21:06:37  System reports 1 batteries supported.
+2024-02-13 21:06:37  Battery Pack Supplier Index: 1.
+2024-02-13 21:06:37  Battery MFG Date 7/10/2020.
+2024-02-13 21:06:37  Battery0: Charged to 74% and current is 1931mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2024-02-13 21:06:37  Battery 0: Executing Battery Logical State Test.
+2024-02-13 21:06:37  [L]> Battery state is good.
+2024-02-13 21:06:37  Battery 0: Executing Battery Charge State Test.
+2024-02-13 21:06:37  [L]> Battery Charge state is good.
+2024-02-13 21:06:37  Battery 0: Executing Battery Full Test.
+2024-02-13 21:06:37  [L]> Battery state is good.
+2024-02-13 21:06:40  Battery 0 returned 0x0000000000000000
+2024-02-13 21:06:41  Batt 0: Result:       0x0
+2024-02-13 21:06:41  Batt 0: Serial:       06282 07/10/2020
+2024-02-13 21:06:41  Batt 0: Manufacturer: 313-1D-33-A
+2024-02-13 21:06:41  Batt 0: CTNumber:     6JRMD03XXDY4UI
+2024-02-13 21:06:41  Batt 0: DesignCycleCount:    1000	 Design Capacity:  3620mAh	 Full Charge Capcity      2825mAh
+2024-02-13 21:06:41  Batt 0: RemainingCapacity: 2099mAh	 Max Error:        0000000	 CycleCount:              615    
+2024-02-13 21:06:41  Batt 0: Temperature:       000029	 Voltage:          12648mV	 Current:                 1931mA
+2024-02-13 21:06:41  Batt 0: DesignVoltate:     11340mV	 StatusWord:       0x00080	 CellVoltage1:            4205mV
+2024-02-13 21:06:41  Batt 0: CellVoltage2:      4216mV	 CellVoltage3:     4213mV	 CellVoltage4:            0mV   
+2024-02-13 21:06:41  Batt 0: Warranty:          000003	 Calibration:      0x00001	 ChargeControlSupported:  YES    
+2024-02-13 21:06:41  Batt 0: ACPowerOn:         ON    	 ChargeTempOK:     YES   	 ChargeTest:              1      
+2024-02-13 21:06:41  Batt 0: ChargeCapacity:    78mAh	 TempAlarm:        NO    	 DeepDischarge:           NO     
+2024-02-13 21:06:41  Batt 0: FullCharge:        NO    	 FullChargeStatus: 000000	 BatteryCharge:           YES    
+2024-02-13 21:06:41  Batt 0: LowVoltageDisable: NO    	 AdaptiveBatteryExtender: Enabled\Activated
+2024-02-13 21:06:41  Overall Battery Result = 1
+2024-02-13 21:06:41  Charging Port Test Started
+2024-02-13 21:06:41  Charging Port Test: Step 1 - AC Power State =   1
+2024-02-13 21:06:41  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '1'.
+2024-02-13 21:06:41  Charging Port Test Step 2:
+2024-02-13 21:06:41  Checking if Charging Port Test is available...
+2024-02-13 21:06:41  [L]> EfiBatteryLibGetSmartAdapterStatus: AdapterStatus is '1'.
+2024-02-13 21:06:41  Battery Pack Supplier Index: 1.
+2024-02-13 21:06:41  Battery MFG Date 7/10/2020.
+2024-02-13 21:06:41  Battery0: Charged to 74% and current is 1918mA. Adaptive Battery Extender is set in BIOS: Enabled/Activated
+2024-02-13 21:06:44  Charging Port Test: Step 3 - Internal Battery Current =   1918mA
+2024-02-13 21:06:44  Charging Port Test Completed - Result 1
+2024-02-13 21:06:44  CPU Test Started
+2024-02-13 21:06:45  Start Numeric Coprocessor Test.
+2024-02-13 21:06:55  CPU Test Completed - Result 1
+2024-02-13 21:06:55  Wireless Module Check Started
+2024-02-13 21:06:55  Wireless Module Check Completed - Result 1
+2024-02-13 21:06:55  SMART Check Started
+2024-02-13 21:06:55  SMART Check Completed - Result 1
+2024-02-13 21:06:55  Short DST Started
+2024-02-13 21:06:55  StartDST(): Drive 0 temperature before Self-DST Test = 36 degrees Celsius 
+2024-02-13 21:06:55  NVMeSendSelfTest(): DST Test in Progress
+2024-02-13 21:06:55  NVMePassThruStartDST(): Sending SELF-DST Success
+2024-02-13 21:06:55  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2024-02-13 21:06:55  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2024-02-13 21:06:55  #01  Short Self DST          0x0h - Completed without errors.                  3655                   0x00          No Error Found. 
+2024-02-13 21:06:56  #02  Short Self DST          0x0h - Completed without errors.                  3645                   0x00          No Error Found. 
+2024-02-13 21:06:56  #03  Short Self DST          0x0h - Completed without errors.                  2940                   0x00          No Error Found. 
+2024-02-13 21:06:56  #04  Short Self DST          0x0h - Completed without errors.                  2717                   0x00          No Error Found. 
+2024-02-13 21:06:56  NVMePassThruPollDSTStatus() success, Percent = 0
+2024-02-13 21:07:07  NVMePassThruPollDSTStatus() success, Percent = 11
+2024-02-13 21:07:07  Hard Drive 0 Returned Short DST Status 15 Percentage 11
+2024-02-13 21:07:19  NVMePassThruPollDSTStatus() success, Percent = 23
+2024-02-13 21:07:19  Hard Drive 0 Returned Short DST Status 15 Percentage 23
+2024-02-13 21:07:31  NVMePassThruPollDSTStatus() success, Percent = 36
+2024-02-13 21:07:31  Hard Drive 0 Returned Short DST Status 15 Percentage 36
+2024-02-13 21:07:43  NVMePassThruPollDSTStatus() success, Percent = 48
+2024-02-13 21:07:43  Hard Drive 0 Returned Short DST Status 15 Percentage 48
+2024-02-13 21:07:55  NVMePassThruPollDSTStatus() success, Percent = 60
+2024-02-13 21:07:55  Hard Drive 0 Returned Short DST Status 15 Percentage 60
+2024-02-13 21:08:07  NVMePassThruPollDSTStatus() success, Percent = 72
+2024-02-13 21:08:07  Hard Drive 0 Returned Short DST Status 15 Percentage 72
+2024-02-13 21:08:19  NVMePassThruPollDSTStatus() success, Percent = 84
+2024-02-13 21:08:19  Hard Drive 0 Returned Short DST Status 15 Percentage 84
+2024-02-13 21:08:31  NVMePassThruPollDSTStatus() success, Percent = 96
+2024-02-13 21:08:31  Hard Drive 0 Returned Short DST Status 15 Percentage 96
+2024-02-13 21:08:43  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2024-02-13 21:08:43  NVMeCheckSelfTestDone(): Status = Success
+2024-02-13 21:08:43  Hard Drive 0 Returned Short DST Status 0 Percentage 100
+2024-02-13 21:08:43  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 39 degrees Celsius 
+2024-02-13 21:08:43  Short DST Completed - Result 1
+2024-02-13 21:08:43  Short DST Completed - Result 1
+2024-02-13 21:08:43  EfiDriveLibPollDSTStatus(): Drive 0 temperature before Self-DST Test = 39 degrees Celsius 
+2024-02-13 21:08:43  Optimized DST Started
+2024-02-13 21:08:45  Partition (FAT32) Clusters: Read=64F4 Skipped=9B0C Total=10000
+2024-02-13 21:08:45  EfiDriveLibExecuteOptimizedDiskTest(): Unknown FS(0x0) on Drive(0) Partition(1).
+2024-02-13 21:08:45  EfiDriveLibExecuteOptimizedDiskTest(): Unknown FS(0x0) on Drive(0) Partition(2).
+2024-02-13 21:08:45  EfiDriveLibExecuteOptimizedDiskTest(): Unknown FS(0x0) on Drive(0) Partition(3).
+2024-02-13 21:08:45  EfiDriveLibExecuteOptimizedDiskTest(): Unknown FS(0x0) on Drive(0) Partition(4).
+2024-02-13 21:08:45  (NTFS) Blocks (256 Sectors per block): Read=0 Skipped=0 Total=0
+2024-02-13 21:08:45  (EXT3) Blocks (256 Sectors per block): Read=0 Skipped=0 Total=0
+2024-02-13 21:08:45  (FAT32) Clusters: Read=25844 Skipped=39692 Total=65536
+2024-02-13 21:08:45  Optimized DST Completed - Result 1
+2024-02-13 21:08:45  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 45 degrees Celsius 
+2024-02-13 21:08:45  NVMe Drive Detected. Allowing 30[s] cooldown after Optimized DST until next command.
+2024-02-13 21:09:15  Long DST Started
+2024-02-13 21:09:15  StartDST(): Drive 0 temperature before Self-DST Test = 37 degrees Celsius 
+2024-02-13 21:09:15  NVMeSendSelfTest(): DST Test in Progress
+2024-02-13 21:09:15  NVMePassThruStartDST(): Sending SELF-DST Success
+2024-02-13 21:09:15  Memory Extensive Check Started
+2024-02-13 21:09:32  NVMeGetSelfTestProgress(): Printing Previous NVMe Self DST Test Logs for Drive 0: 
+2024-02-13 21:09:32  Num  Test_Description              Result                                Power On Hours (POH)     Failing LBA       Status Code
+2024-02-13 21:09:32  #01  Short Self DST          0x0h - Completed without errors.                  3933                   0xFFFFFFFF000000000          No Error Found. 
+2024-02-13 21:09:32  #02  Short Self DST          0x0h - Completed without errors.                  3655                   0xFFFFFFFF000000000          No Error Found. 
+2024-02-13 21:09:32  #03  Short Self DST          0x0h - Completed without errors.                  3645                   0xFFFFFFFF000000000          No Error Found. 
+2024-02-13 21:09:32  #04  Short Self DST          0x0h - Completed without errors.                  2940                   0xFFFFFFFF000000000          No Error Found. 
+2024-02-13 21:09:32  #05  Short Self DST          0x0h - Completed without errors.                  2717                   0xFFFFFFFF000000000          No Error Found. 
+2024-02-13 21:09:32  NVMePassThruPollDSTStatus() success, Percent = 0
+2024-02-13 21:16:16  [L]> Tested 7392 MB in 421000 ms with 6 processor(s), normalized test time is 341 ms/MB
+2024-02-13 21:16:16  [L]> Memory Test totally tested 1892522 Pages in 1 loop(s).
+2024-02-13 21:16:16  Memory Extensive Check Completed - Result 1
+2024-02-13 21:16:16  NVMePassThruPollDSTStatus() success, Percent = 43
+2024-02-13 21:16:16  Hard Drive 0 Returned Long DST Status 15 Percentage 43
+2024-02-13 21:18:58  NVMeCheckSelfTestDone(): DST Result Byte 0: 0x0h - Completed without errors.
+2024-02-13 21:18:58  NVMeCheckSelfTestDone(): Status = Success
+2024-02-13 21:18:58  Hard Drive 0 Returned Long DST Status 0 Percentage 100
+2024-02-13 21:18:58  EfiDriveLibPollDSTStatus(): Drive 0 temperature after Self-DST Test = 41 degrees Celsius 
+2024-02-13 21:18:58  Long DST Completed - Result 1
+2024-02-13 21:18:58  Long DST Completed - Result 1
+2024-02-13 21:18:58  Video Memory Test Started
+2024-02-13 21:18:58  Start Video Memory Check.
+2024-02-13 21:18:58  [L]> SmbiosGetBiosVendor: AMI
+2024-02-13 21:18:58  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2024-02-13 21:18:58  [L]> Found Video Device 0x16361002
+2024-02-13 21:18:58  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2024-02-13 21:18:58  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2024-02-13 21:18:58  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2024-02-13 21:18:58  [L]> Calibrate TSC.
+2024-02-13 21:18:58  [L]> Start testing card 0: VidDid=0x16361002, Base=0x00000000D0000000, Size=0x0000000010000000
+2024-02-13 21:18:58  Estimated Time for Video Memory check 1301
+2024-02-13 21:18:58  [L]> VideoMemoryTestEntry called
+2024-02-13 21:18:58  [L]> Start testing card 0: VidDid=0x16361002, Base=0x00000000D0000000, Size=0x0000000010000000
+2024-02-13 21:40:16  [L]> VideoMemTest: TotalSize 0x10000000
+2024-02-13 21:40:16  [L]> VideoMemTest: TestedSize 0x10000000
+2024-02-13 21:40:16  Video Memory Test Completed - Result 1
+2024-02-13 21:40:16  [L]> Total Memory 7632MB, Free 7393MB (1892685 Pages)
+2024-02-13 21:40:16  [L]> SmbiosGetBiosVendor: AMI
+2024-02-13 21:40:16  [L]> Found VGA device at Seg-0x00:Bus-0x04:Dev-0x00:Func-0x00, ClassCode-0x0300, CommandRegister-0x0006
+2024-02-13 21:40:16  [L]> VGA device is in the Onboard PCI Device Array.
+2024-02-13 21:40:16  [L]> Found Video Device 0x16361002
+2024-02-13 21:40:16  [L]> GetAllGraphicFB(): GraphicDevice[0]: Base-0x00000000D0000000, Size-0x0000000010000000, 64Bit-TRUE, Supported-TRUE
+2024-02-13 21:40:16  [L]> GetAllGraphicFB(): Found 1 graphic device(s) to test.
+2024-02-13 21:40:16  [L]> GetAllGraphicFB(): VideoMemorySizeTotal is 0x10000000
+2024-02-13 21:40:16  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2024-02-13 21:40:16  [L]> Audio controller Vendor ID 0x1002
+2024-02-13 21:40:16  [L]> Audio controller Device ID 0x1637
+2024-02-13 21:40:16  [L]> Audio controller Revision ID 0x00
+2024-02-13 21:40:16  [L]> Audio controller Subsystem Vendor ID 0x103C
+2024-02-13 21:40:16  [L]> Audio controller Subsystem Device ID 0x87C5
+2024-02-13 21:40:16  [L]> Audio controller Class Code 0x0403
+2024-02-13 21:40:16  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2024-02-13 21:40:16  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2024-02-13 21:40:16  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2024-02-13 21:40:16  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2024-02-13 21:40:16  [L]> Audio controller Vendor ID 0x1022
+2024-02-13 21:40:16  [L]> Audio controller Device ID 0x15E3
+2024-02-13 21:40:16  [L]> Audio controller Revision ID 0x00
+2024-02-13 21:40:16  [L]> Audio controller Subsystem Vendor ID 0x103C
+2024-02-13 21:40:16  [L]> Audio controller Subsystem Device ID 0x87C5
+2024-02-13 21:40:16  [L]> Audio controller Class Code 0x0403
+2024-02-13 21:40:16  [L]> Found 2 EFI_USB2_HC_PROTOCOL handles.
+2024-02-13 21:40:16  System Board Test Completed - Result 1
+2024-02-13 21:40:16  [L]> SmbiosGetBiosVendor: AMI
+2024-02-13 21:40:16  SysDiagCalculatePassID(): Test PassID 23897-73112-69654.
+2024-02-13 22:00:04  System Extensive Test Completed
+2024-02-13 22:00:13  Exiting System Diagnostics
+2025-06-02 21:02:55  ================================================
+2025-06-02 21:02:55  EFI System Diagnostic 8.2.0.0 Started
+2025-06-02 21:02:55  Load Options = /0xAA
+2025-06-02 21:02:55  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2025-06-02 21:02:56  HP Thermal Diagnostic Protocol Not Available
+2025-06-02 21:02:56  Found HP Thermal Diagnostic 2 Protocol
+2025-06-02 21:02:56  [L]> System ID: 87C5
+2025-06-02 21:02:56  HP BIOS Image Interface Protocol 2 Version 2.0
+2025-06-02 21:02:56  [L]> Found 6 Processors 6 Enabled Processors
+2025-06-02 21:02:56  [L]> MpService2 found Bsp at index 0
+2025-06-02 21:02:56  [L]> Found 1 Absolute Pointer Protocol(s)
+2025-06-02 21:02:56  [L]> 0 UART device path node found.
+2025-06-02 21:02:56  System Enclosure Type: 10
+2025-06-02 21:02:56  System Family: Consumer Notebook
+2025-06-02 21:02:56  Filter Serial Port Test for SystemFamily 2 
+2025-06-02 21:02:56  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2025-06-02 21:02:56  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2025-06-02 21:02:56  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2025-06-02 21:02:56  [L]> Language Selected is currently (eng).
+2025-06-02 21:02:58  Initializing Drive Library.
+2025-06-02 21:02:58  TscPerSecond = 08D4B8B85h 
+2025-06-02 21:02:58  [L]> Find IVRS in ACPI Table
+2025-06-02 21:02:58  [L]> DMA Remap Protection is enabled
+2025-06-02 21:02:58  No handle found which supports EFI_ATA_PASS_THRU_PROTOCOL.
+2025-06-02 21:02:58  Init of ATA Pass Thru Protocol failed. (Not Found)
+2025-06-02 21:02:58  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2025-06-02 21:02:58  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2025-06-02 21:02:58  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2025-06-02 21:02:58  NVMe device connected at NamespaceID 0x1
+2025-06-02 21:02:58  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2025-06-02 21:02:58  Drive 0 - RTD3 Entry Latency: 210000
+2025-06-02 21:02:58  Drive 0 - Firmware Revision: HP00AE00
+2025-06-02 21:02:58  Drive 0 - VidDid: 0x11E0F
+2025-06-02 21:02:58  Drive 0 - SMART Log NSID NOT Supported.
+2025-06-02 21:02:58  Drive 0 - Short/Long DST Supported.
+2025-06-02 21:02:58  Drive 0 - Long DST Time = 27 minute(s).
+2025-06-02 21:02:58  Drive 0 - The Medium is Removable
+2025-06-02 21:02:58  Drive 0 - LBA Format: Using Format 0
+2025-06-02 21:02:58  Drive 0 - Logical Sector Size: 512
+2025-06-02 21:02:58  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2025-06-02 21:02:58  Linked Block I/O Protocol (0xC596D050) to Drive 0
+2025-06-02 21:02:58  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2025-06-02 21:02:58  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2025-06-02 21:02:58  1 Total Hard Disc Drives Found
+2025-06-02 21:02:58  0 Total Optical Disc Drives Found
+2025-06-02 21:02:58  Found 1 Hard Disk Drives
+2025-06-02 21:02:58  Found 0 Optical Disk Drives
+2025-06-02 21:02:58  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2025-06-02 21:02:58  Failed to initialize NVDIMM modules.
+2025-06-02 21:02:58  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x55, Worse is 0x00.
+2025-06-02 21:02:58  SSD Wear Data: 00 00 00 00 00 00. 
+2025-06-02 21:02:58  [L]> System ID: 87C5
+2025-06-02 21:02:58  System Model: = HP Pavilion Laptop 15-eh0xxx
+2025-06-02 21:02:58  System SKU: = 192N4UA#ABA
+2025-06-02 21:02:58  System ID: 87C5
+2025-06-02 21:02:58  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2025-06-02 21:02:58  "BATT_CARE" found in SMBIOS Type 11
+2025-06-02 21:02:58  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2025-06-02 21:02:58  [L]> SmbiosGetBiosVendor: AMI
+2025-06-02 21:02:58  BOD: 11/15/2020
+2025-06-02 21:02:58  HDD 0 Type : NVMe
+2025-06-02 21:02:58  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2025-06-02 21:02:58  HDD 0 Firmware: HP00AE00
+2025-06-02 21:02:58  HDD 0 Serial:   303PD44UPBV1
+2025-06-02 21:02:58  DIMM 0 Serial Number: 43DFA839
+2025-06-02 21:02:58  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2025-06-02 21:02:58  DIMM 1 Serial Number: 43DFA841
+2025-06-02 21:02:58  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2025-06-02 21:02:58  BIOS Revision: F.27
+2025-06-02 21:02:58  [L]> Platform Vendor ID : 0x1022
+2025-06-02 21:02:58  [L]> Platform Device ID : 0x1448
+2025-06-02 21:02:58  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2025-06-02 21:02:58  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2025-06-02 21:02:58  Type 11 1 tables
+2025-06-02 21:02:58  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2025-06-02 21:02:58  HPBATDET: Environment Variable not found.
+2025-06-02 21:02:58  BATDET: Date 7//10//2020 
+2025-06-02 21:02:58  BATDET: 0
+2025-06-02 21:02:58  [L]> BATDET: HP
+2025-06-02 21:02:58  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2025-06-02 21:02:58  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2025-06-02 21:02:58  BIOS Config Table Legacy Support section was not found. 
+2025-06-02 21:02:58  Secure Boot:
+2025-06-02 21:02:58  	Disable
+2025-06-02 21:02:58  	*Enable
+2025-06-02 21:02:58  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2025-06-02 21:02:58  BIOS Config Table Battery Care Function section was not found. 
+2025-06-02 21:02:58  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2025-06-02 21:02:58  Adaptive Battery Extender from BCU:
+2025-06-02 21:02:58  Disable
+2025-06-02 21:02:58  *Enable
+2025-06-02 21:02:58  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Not Activated. 
+2025-06-02 21:02:58  Adaptive Battery Extender Status from BCU:
+2025-06-02 21:02:58  *Not Activated
+2025-06-02 21:02:58  Activated
+2025-06-02 21:02:58  BIOS Config Table DMAr Protection section was not found. 
+2025-06-02 21:02:58  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2025-06-02 21:02:58  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2025-06-02 21:02:58  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2025-06-02 21:02:58  Configure Storage Controller for RAID was not found in the BCU.
+2025-06-02 21:02:58  BIOS Config Table Sata Emulation section was not found. 
+2025-06-02 21:02:58  Sata Emulation was not found in the BCU.
+2025-06-02 21:02:58  BIOS Config Table Hyperthreading section was not found. 
+2025-06-02 21:02:58  No USB optical drive detected.
+2025-06-02 21:02:58  Found USB Type-C Port.
+2025-06-02 21:02:58  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2025-06-02 21:02:58  [L]> Audio controller Vendor ID 0x1002
+2025-06-02 21:02:58  [L]> Audio controller Device ID 0x1637
+2025-06-02 21:02:58  [L]> Audio controller Revision ID 0x00
+2025-06-02 21:02:58  [L]> Audio controller Subsystem Vendor ID 0x103C
+2025-06-02 21:02:58  [L]> Audio controller Subsystem Device ID 0x87C5
+2025-06-02 21:02:58  [L]> Audio controller Class Code 0x0403
+2025-06-02 21:02:58  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2025-06-02 21:02:58  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2025-06-02 21:02:58  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2025-06-02 21:02:58  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2025-06-02 21:02:58  [L]> Audio controller Vendor ID 0x1022
+2025-06-02 21:02:58  [L]> Audio controller Device ID 0x15E3
+2025-06-02 21:02:58  [L]> Audio controller Revision ID 0x00
+2025-06-02 21:02:58  [L]> Audio controller Subsystem Vendor ID 0x103C
+2025-06-02 21:02:58  [L]> Audio controller Subsystem Device ID 0x87C5
+2025-06-02 21:02:58  [L]> Audio controller Class Code 0x0403
+2025-06-02 21:02:58  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2025-06-02 21:02:58  [L]> Found USB Port I/O entries.
+2025-06-02 21:02:58  [L]> EfiTcg2Protocol has been detected
+2025-06-02 21:02:58  [L]> TcgCapability.TPMPresentFlag is TRUE
+2025-06-02 21:02:58  Starting Graphical System Diagnostic Menu
+2025-06-02 21:03:34  No USB optical drive detected.
+2025-06-02 21:03:39  [L]> Failed locate PlatformServiceProtocol, (Not Found).
+2025-06-02 21:03:51  Exiting System Diagnostics
+2025-06-02 21:04:01  ================================================
+2025-06-02 21:04:01  EFI System Diagnostic 8.2.0.0 Started
+2025-06-02 21:04:01  Load Options = /0xAA
+2025-06-02 21:04:01  SysDiagsBiosData2011 Configuration Variable Acquired, SysDiagsBiosData2010.Version 1
+2025-06-02 21:04:01  HP Thermal Diagnostic Protocol Not Available
+2025-06-02 21:04:01  Found HP Thermal Diagnostic 2 Protocol
+2025-06-02 21:04:01  [L]> System ID: 87C5
+2025-06-02 21:04:01  HP BIOS Image Interface Protocol 2 Version 2.0
+2025-06-02 21:04:01  [L]> Found 6 Processors 6 Enabled Processors
+2025-06-02 21:04:01  [L]> MpService2 found Bsp at index 0
+2025-06-02 21:04:01  [L]> Found 1 Absolute Pointer Protocol(s)
+2025-06-02 21:04:01  [L]> 0 UART device path node found.
+2025-06-02 21:04:01  System Enclosure Type: 10
+2025-06-02 21:04:01  System Family: Consumer Notebook
+2025-06-02 21:04:01  Filter Serial Port Test for SystemFamily 2 
+2025-06-02 21:04:01  [L]> Locate IsaIoProtocol HandleCount = 0. (Not Found)
+2025-06-02 21:04:01  [L]> IsThunderboltAccessProtocolPresent(): Failed to Locate Thunderbolt Protocol. (Not Found)
+2025-06-02 21:04:01  Failed loading Hp Fingerprint Verify Protocol.(Not Found)
+2025-06-02 21:04:01  [L]> Language Selected is currently (eng).
+2025-06-02 21:04:03  Initializing Drive Library.
+2025-06-02 21:04:03  TscPerSecond = 08D4C9DF1h 
+2025-06-02 21:04:03  [L]> Find IVRS in ACPI Table
+2025-06-02 21:04:03  [L]> DMA Remap Protection is enabled
+2025-06-02 21:04:03  No handle found which supports EFI_ATA_PASS_THRU_PROTOCOL.
+2025-06-02 21:04:03  Init of ATA Pass Thru Protocol failed. (Not Found)
+2025-06-02 21:04:03  No handle found supporting EFI_EXT_SCSI_PASS_THRU_PROTOCOL (143B7632-B81B-4CB7-ABD3-B625A5B9BFFE).
+2025-06-02 21:04:03  Found 1 handles supporting EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL (52C78312-8EDC-4233-98F2-1A1AA5E388A5).
+2025-06-02 21:04:03  [L]> Loaded NVMe PciIo: Location(Seg:0,Bus:3,Dev:0,Func:0), BAR(0x00000000FE400000).
+2025-06-02 21:04:03  NVMe device connected at NamespaceID 0x1
+2025-06-02 21:04:03  Device Node NVMe(0x1,34-6C-7E-00-04-8E-E3-8C).
+2025-06-02 21:04:03  Drive 0 - RTD3 Entry Latency: 210000
+2025-06-02 21:04:03  Drive 0 - Firmware Revision: HP00AE00
+2025-06-02 21:04:03  Drive 0 - VidDid: 0x11E0F
+2025-06-02 21:04:03  Drive 0 - SMART Log NSID NOT Supported.
+2025-06-02 21:04:03  Drive 0 - Short/Long DST Supported.
+2025-06-02 21:04:03  Drive 0 - Long DST Time = 27 minute(s).
+2025-06-02 21:04:03  Drive 0 - The Medium is Removable
+2025-06-02 21:04:03  Drive 0 - LBA Format: Using Format 0
+2025-06-02 21:04:03  Drive 0 - Logical Sector Size: 512
+2025-06-02 21:04:03  NVMePassThruGetBlockIoProtocolDirectly(): Found 6 supporting EFI_BLOCK_IO_PROTOCOL.
+2025-06-02 21:04:03  Linked Block I/O Protocol (0xC596D050) to Drive 0
+2025-06-02 21:04:03  Drive 0, LastBlock = 0x3B9E12AF IoAlign 0x4
+2025-06-02 21:04:03  NVMePassThruInitializeNVMeDiskSupport(): GetNextNamespace() Not Found. (Not Found)
+2025-06-02 21:04:03  1 Total Hard Disc Drives Found
+2025-06-02 21:04:03  0 Total Optical Disc Drives Found
+2025-06-02 21:04:03  Found 1 Hard Disk Drives
+2025-06-02 21:04:03  Found 0 Optical Disk Drives
+2025-06-02 21:04:03  No handle found supporting EFI_DCPMM_CONFIG_PROTOCOL_GUID (CF2F5F1F-94B6-4C15-9CAE-AFB3BD9F2BA5).
+2025-06-02 21:04:03  Failed to initialize NVDIMM modules.
+2025-06-02 21:04:03  SSD Wear ID is 0x00, Flags is 0x0000, Current is 0x55, Worse is 0x00.
+2025-06-02 21:04:03  SSD Wear Data: 00 00 00 00 00 00. 
+2025-06-02 21:04:03  [L]> System ID: 87C5
+2025-06-02 21:04:03  System Model: = HP Pavilion Laptop 15-eh0xxx
+2025-06-02 21:04:03  System SKU: = 192N4UA#ABA
+2025-06-02 21:04:03  System ID: 87C5
+2025-06-02 21:04:03  [L]> SMBIOS Type: 3, ID: 0 not found. 
+2025-06-02 21:04:03  "BATT_CARE" found in SMBIOS Type 11
+2025-06-02 21:04:03  Type 11 OS Image: BUILDID#20WW2FTT601#SABA#DABA
+2025-06-02 21:04:03  [L]> SmbiosGetBiosVendor: AMI
+2025-06-02 21:04:03  BOD: 11/15/2020
+2025-06-02 21:04:03  HDD 0 Type : NVMe
+2025-06-02 21:04:03  HDD 0 Model :   KBG40ZNV512G KIOXIA
+2025-06-02 21:04:03  HDD 0 Firmware: HP00AE00
+2025-06-02 21:04:03  HDD 0 Serial:   303PD44UPBV1
+2025-06-02 21:04:03  DIMM 0 Serial Number: 43DFA839
+2025-06-02 21:04:03  DIMM 0 Part Number  : HMA851S6DJR6N-XN    
+2025-06-02 21:04:03  DIMM 1 Serial Number: 43DFA841
+2025-06-02 21:04:03  DIMM 1 Part Number  : HMA851S6DJR6N-XN    
+2025-06-02 21:04:03  BIOS Revision: F.27
+2025-06-02 21:04:03  [L]> Platform Vendor ID : 0x1022
+2025-06-02 21:04:03  [L]> Platform Device ID : 0x1448
+2025-06-02 21:04:03  [L]> Found EFI_HP_DIMM_ID_PROTOCOL
+2025-06-02 21:04:03  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2025-06-02 21:04:03  Type 11 1 tables
+2025-06-02 21:04:03  Type (000000000000000Bh), Len (0000000000000005h), Handle (0000000000000005h), String count (000000000000000Dh)
+2025-06-02 21:04:03  HPBATDET: Environment Variable not found.
+2025-06-02 21:04:03  BATDET: Date 7//10//2020 
+2025-06-02 21:04:03  BATDET: 0
+2025-06-02 21:04:03  [L]> BATDET: HP
+2025-06-02 21:04:03  SysDiagsGetBatterySafetyModeStatus(): Failed to get BatterySafeyMode/BatterySafeyModeStatus.
+2025-06-02 21:04:03  BIOS Config Table Configure Legacy Support and Secure Boot section was not found. 
+2025-06-02 21:04:03  BIOS Config Table Legacy Support section was not found. 
+2025-06-02 21:04:03  Secure Boot:
+2025-06-02 21:04:03  	Disable
+2025-06-02 21:04:03  	*Enable
+2025-06-02 21:04:03  GetBIOSBootModeFromBIOSConfig(): Secure Boot is Enabled. 
+2025-06-02 21:04:03  BIOS Config Table Battery Care Function section was not found. 
+2025-06-02 21:04:03  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender is Enabled. 
+2025-06-02 21:04:03  Adaptive Battery Extender from BCU:
+2025-06-02 21:04:03  Disable
+2025-06-02 21:04:03  *Enable
+2025-06-02 21:04:03  GetBatteryAdaptiveExtenderFromBIOSConfig(): Adaptive Battery Extender Status is Not Activated. 
+2025-06-02 21:04:03  Adaptive Battery Extender Status from BCU:
+2025-06-02 21:04:03  *Not Activated
+2025-06-02 21:04:03  Activated
+2025-06-02 21:04:03  BIOS Config Table DMAr Protection section was not found. 
+2025-06-02 21:04:03  GetBatteryLowTempFromBIOSConfig: Battery1 LTemp is 0. 
+2025-06-02 21:04:03  GetKeyboardLayoutFromBIOSConfig(): Using Full Keyboard Layout. 
+2025-06-02 21:04:03  BIOS Config Table Configure Storage Controller for RAID section was not found. 
+2025-06-02 21:04:03  Configure Storage Controller for RAID was not found in the BCU.
+2025-06-02 21:04:03  BIOS Config Table Sata Emulation section was not found. 
+2025-06-02 21:04:03  Sata Emulation was not found in the BCU.
+2025-06-02 21:04:03  BIOS Config Table Hyperthreading section was not found. 
+2025-06-02 21:04:03  No USB optical drive detected.
+2025-06-02 21:04:03  Found USB Type-C Port.
+2025-06-02 21:04:03  [L]> Audio Controller Bus 4, Dev 0, Func 1
+2025-06-02 21:04:03  [L]> Audio controller Vendor ID 0x1002
+2025-06-02 21:04:03  [L]> Audio controller Device ID 0x1637
+2025-06-02 21:04:03  [L]> Audio controller Revision ID 0x00
+2025-06-02 21:04:03  [L]> Audio controller Subsystem Vendor ID 0x103C
+2025-06-02 21:04:03  [L]> Audio controller Subsystem Device ID 0x87C5
+2025-06-02 21:04:03  [L]> Audio controller Class Code 0x0403
+2025-06-02 21:04:03  [L]> Could not find audio controller [0x1637, 0x1002], finding previous model Driver Data instead.
+2025-06-02 21:04:03  [L]> Using [0xAA01, 0x1002] Driver Data instead since this controller is not on our support list.
+2025-06-02 21:04:03  [W]> Unsupported codec Vendor ID 0x1002 Device ID 0xAA01 (ignored)
+2025-06-02 21:04:03  [L]> Audio Controller Bus 4, Dev 0, Func 6
+2025-06-02 21:04:03  [L]> Audio controller Vendor ID 0x1022
+2025-06-02 21:04:03  [L]> Audio controller Device ID 0x15E3
+2025-06-02 21:04:03  [L]> Audio controller Revision ID 0x00
+2025-06-02 21:04:03  [L]> Audio controller Subsystem Vendor ID 0x103C
+2025-06-02 21:04:03  [L]> Audio controller Subsystem Device ID 0x87C5
+2025-06-02 21:04:03  [L]> Audio controller Class Code 0x0403
+2025-06-02 21:04:03  Failed Locate Wireless Mac Connection II Protocol. (Not Found)
+2025-06-02 21:04:03  [L]> Found USB Port I/O entries.
+2025-06-02 21:04:03  [L]> EfiTcg2Protocol has been detected
+2025-06-02 21:04:04  [L]> TcgCapability.TPMPresentFlag is TRUE
+2025-06-02 21:04:04  Starting Graphical System Diagnostic Menu
+2025-06-02 21:04:12  Exiting System Diagnostics

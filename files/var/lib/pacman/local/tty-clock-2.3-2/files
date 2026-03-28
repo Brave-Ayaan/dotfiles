@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/tty-clock
+usr/share/
+usr/share/licenses/
+usr/share/licenses/tty-clock/
+usr/share/licenses/tty-clock/LICENSE
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/tty-clock.1.gz
+

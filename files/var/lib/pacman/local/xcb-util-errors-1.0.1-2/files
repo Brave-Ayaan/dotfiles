@@ -1,0 +1,16 @@
+%FILES%
+usr/
+usr/include/
+usr/include/xcb/
+usr/include/xcb/xcb_errors.h
+usr/lib/
+usr/lib/libxcb-errors.so
+usr/lib/libxcb-errors.so.0
+usr/lib/libxcb-errors.so.0.0.0
+usr/lib/pkgconfig/
+usr/lib/pkgconfig/xcb-errors.pc
+usr/share/
+usr/share/licenses/
+usr/share/licenses/xcb-util-errors/
+usr/share/licenses/xcb-util-errors/COPYING
+

@@ -1,3 +1,5 @@
 IgnorePath '/usr/lib/modules/*'
 IgnorePath '/var/log/*'
 IgnorePath '/tmp/*'
+IgnorePath '/var/lib/flatpak/*'
+IgnorePath '/usr/share/mime/*'

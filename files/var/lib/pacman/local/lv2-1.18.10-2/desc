@@ -1,0 +1,51 @@
+%NAME%
+lv2
+
+%VERSION%
+1.18.10-2
+
+%BASE%
+lv2
+
+%DESC%
+Plugin standard for audio systems
+
+%URL%
+https://lv2plug.in/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1761410333
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%SIZE%
+1025520
+
+%REASON%
+1
+
+%LICENSE%
+ISC
+
+%VALIDATION%
+pgp
+
+%OPTDEPENDS%
+lv2-docs: for developer documentation
+lv2-example-plugins: for example plugins
+python-lxml: for lv2specgen.py
+python-markdown: for lv2specgen.py
+python-pygments: for lv2specgen.py
+python-rdflib: for lv2specgen.py
+sord: for lv2_validate
+
+%XDATA%
+pkgtype=split
+

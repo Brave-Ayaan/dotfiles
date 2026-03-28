@@ -1,0 +1,55 @@
+%NAME%
+python-urwid
+
+%VERSION%
+3.0.5-1
+
+%BASE%
+python-urwid
+
+%DESC%
+Curses-based user interface library
+
+%URL%
+https://urwid.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770058094
+
+%INSTALLDATE%
+1774317254
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%SIZE%
+3935214
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glib2
+python
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%XDATA%
+pkgtype=pkg
+

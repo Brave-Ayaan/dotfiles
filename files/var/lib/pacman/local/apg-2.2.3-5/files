@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/apg
+usr/bin/apgbfm
+usr/share/
+usr/share/licenses/
+usr/share/licenses/apg/
+usr/share/licenses/apg/COPYING
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/apg.1.gz
+usr/share/man/man1/apgbfm.1.gz
+

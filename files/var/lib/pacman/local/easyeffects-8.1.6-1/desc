@@ -1,0 +1,70 @@
+%NAME%
+easyeffects
+
+%VERSION%
+8.1.6-1
+
+%BASE%
+easyeffects
+
+%DESC%
+Audio Effects for Pipewire applications
+
+%URL%
+https://github.com/wwmm/easyeffects
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773952430
+
+%INSTALLDATE%
+1774147219
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%SIZE%
+12441746
+
+%LICENSE%
+GPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+kirigami
+kirigami-addons
+kiconthemes
+kconfigwidgets
+qqc2-desktop-style
+breeze-icons
+qt6-base
+qt6-graphs
+pipewire-pulse
+lilv
+libsamplerate
+libsndfile
+zita-convolver
+libebur128
+rnnoise
+soundtouch
+libbs2b
+nlohmann-json
+tbb
+speexdsp
+gsl
+webrtc-audio-processing
+
+%OPTDEPENDS%
+calf: limiter, exciter, bass enhancer and others
+lsp-plugins-lv2: equalizer, compressor, delay, loudness
+zam-plugins-lv2: maximizer
+mda.lv2: bass loudness plugin
+yelp: in-app help
+
+%XDATA%
+pkgtype=pkg
+

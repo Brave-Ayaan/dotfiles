@@ -1,0 +1,47 @@
+%NAME%
+less
+
+%VERSION%
+1:692-1
+
+%BASE%
+less
+
+%DESC%
+A terminal based program for viewing text files
+
+%URL%
+https://www.greenwoodsoftware.com/less/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770617139
+
+%INSTALLDATE%
+1774317256
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%SIZE%
+323511
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-or-later OR LicenseRef-Less
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+ncurses
+pcre2
+
+%XDATA%
+pkgtype=pkg
+

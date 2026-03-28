@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/include/
+usr/include/blockdev/
+usr/include/blockdev/smart.h
+usr/lib/
+usr/lib/libbd_smart.so
+usr/lib/libbd_smart.so.3
+usr/lib/libbd_smart.so.3.0.0
+usr/lib/libbd_smartmontools.so
+usr/lib/libbd_smartmontools.so.3
+usr/lib/libbd_smartmontools.so.3.0.0
+

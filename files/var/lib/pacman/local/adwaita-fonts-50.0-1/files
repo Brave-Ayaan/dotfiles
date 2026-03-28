@@ -1,0 +1,15 @@
+%FILES%
+usr/
+usr/share/
+usr/share/fonts/
+usr/share/fonts/Adwaita/
+usr/share/fonts/Adwaita/AdwaitaMono-Bold.ttf
+usr/share/fonts/Adwaita/AdwaitaMono-BoldItalic.ttf
+usr/share/fonts/Adwaita/AdwaitaMono-Italic.ttf
+usr/share/fonts/Adwaita/AdwaitaMono-Regular.ttf
+usr/share/fonts/Adwaita/AdwaitaSans-Italic.ttf
+usr/share/fonts/Adwaita/AdwaitaSans-Regular.ttf
+usr/share/licenses/
+usr/share/licenses/adwaita-fonts/
+usr/share/licenses/adwaita-fonts/LICENSE
+

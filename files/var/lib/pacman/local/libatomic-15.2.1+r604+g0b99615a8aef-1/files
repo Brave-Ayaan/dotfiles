@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/libatomic.so
+usr/lib/libatomic.so.1
+usr/lib/libatomic.so.1.2.0
+usr/share/
+usr/share/licenses/
+usr/share/licenses/libatomic/
+usr/share/licenses/libatomic/RUNTIME.LIBRARY.EXCEPTION
+

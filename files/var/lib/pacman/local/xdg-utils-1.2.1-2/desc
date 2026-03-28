@@ -1,0 +1,56 @@
+%NAME%
+xdg-utils
+
+%VERSION%
+1.2.1-2
+
+%BASE%
+xdg-utils
+
+%DESC%
+Command line tools that assist applications with a variety of desktop integration tasks
+
+%URL%
+https://gitlab.freedesktop.org/xdg/xdg-utils
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765030735
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+318148
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+sh
+file
+
+%OPTDEPENDS%
+kde-cli-tools: for KDE Plasma5 support in xdg-open
+exo: for Xfce support in xdg-open
+pcmanfm: for LXDE support in xdg-open
+perl-file-mimeinfo: for generic support in xdg-open
+perl-net-dbus: Perl extension to dbus used in xdg-screensaver
+perl-x11-protocol: Perl X11 protocol used in xdg-screensaver
+xorg-xset: for X11 support in xdg-screensaver
+xorg-xprop: for X11 support in xdg-screensaver
+
+%XDATA%
+pkgtype=pkg
+

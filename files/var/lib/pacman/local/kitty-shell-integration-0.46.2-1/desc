@@ -1,0 +1,50 @@
+%NAME%
+kitty-shell-integration
+
+%VERSION%
+0.46.2-1
+
+%BASE%
+kitty
+
+%DESC%
+Shell integration scripts for kitty, an OpenGL-based terminal emulator
+
+%URL%
+https://github.com/kovidgoyal/kitty
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774061351
+
+%INSTALLDATE%
+1774146328
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%SIZE%
+87389
+
+%REASON%
+1
+
+%LICENSE%
+GPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python3
+
+%OPTDEPENDS%
+bash: Bash completions
+zsh: ZSH completions
+fish: Fish completions
+
+%XDATA%
+pkgtype=split
+

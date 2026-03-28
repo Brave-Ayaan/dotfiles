@@ -1,0 +1,17 @@
+%FILES%
+etc/
+etc/pam.d/
+etc/pam.d/hyprlock
+usr/
+usr/bin/
+usr/bin/hyprlock
+usr/share/
+usr/share/hypr/
+usr/share/hypr/hyprlock.conf
+usr/share/licenses/
+usr/share/licenses/hyprlock/
+usr/share/licenses/hyprlock/LICENSE
+
+%BACKUP%
+etc/pam.d/hyprlock	8911783a7634f722ff67d118e4a7752a
+

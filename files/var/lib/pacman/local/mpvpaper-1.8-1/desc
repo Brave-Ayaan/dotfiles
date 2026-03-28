@@ -1,0 +1,47 @@
+%NAME%
+mpvpaper
+
+%VERSION%
+1.8-1
+
+%BASE%
+mpvpaper
+
+%DESC%
+video wallpaper program for wlroots based wayland compositors
+
+%URL%
+https://github.com/GhostNaN/mpvpaper
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774147821
+
+%INSTALLDATE%
+1774147978
+
+%PACKAGER%
+Unknown Packager
+
+%SIZE%
+97800
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+none
+
+%DEPENDS%
+libmpv.so=2-64
+libwayland-client.so=0-64
+libwayland-egl.so=1-64
+
+%OPTDEPENDS%
+socat: control via sockets
+
+%XDATA%
+pkgtype=pkg
+

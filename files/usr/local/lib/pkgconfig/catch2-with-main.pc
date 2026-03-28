@@ -1,0 +1,10 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: Catch2Main
+Description: A modern, C++-native, test framework for C++14 and above (links in default main)
+Version: 3.7.0
+Requires: catch2 =  3.7.0
+Libs: -L${libdir} -lCatch2Main
+Cflags: -I${includedir}

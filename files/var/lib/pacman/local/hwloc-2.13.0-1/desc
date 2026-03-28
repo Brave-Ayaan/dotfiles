@@ -1,0 +1,53 @@
+%NAME%
+hwloc
+
+%VERSION%
+2.13.0-1
+
+%BASE%
+hwloc
+
+%DESC%
+Portable Hardware Locality is a portable abstraction of hierarchical architectures
+
+%URL%
+https://www.open-mpi.org/projects/hwloc/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770660693
+
+%INSTALLDATE%
+1774147219
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%SIZE%
+1752160
+
+%REASON%
+1
+
+%LICENSE%
+BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+libpciaccess
+libtool
+ncurses
+systemd-libs
+
+%OPTDEPENDS%
+cairo: PDF, Postscript, and PNG export support
+libxml2: full XML import/export support
+
+%XDATA%
+pkgtype=pkg
+

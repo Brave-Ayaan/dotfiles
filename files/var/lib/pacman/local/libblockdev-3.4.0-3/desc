@@ -1,0 +1,79 @@
+%NAME%
+libblockdev
+
+%VERSION%
+3.4.0-3
+
+%BASE%
+libblockdev
+
+%DESC%
+A library for manipulating block devices
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774257611
+
+%INSTALLDATE%
+1774487405
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%SIZE%
+3728772
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+libblockdev-utils
+
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+kmod
+libkmod.so=2-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+libblockdev-btrfs: for BTRFS support
+libblockdev-crypto: for crypto support
+libblockdev-dm: for device-mapper support
+libblockdev-fs: for filesystem support
+libblockdev-loop: for loop device support
+libblockdev-lvm: for LVM support
+libblockdev-mdraid: for MDRAID support
+libblockdev-mpath: for multipath support
+libblockdev-nvdimm: for NVDIMM support
+libblockdev-nvme: for NVME support
+libblockdev-part: for partitioning support
+libblockdev-smart: for S.M.A.R.T. support
+libblockdev-swap: for swap support
+python-libblockdev: for Python support
+
+%CONFLICTS%
+libblockdev-utils
+
+%PROVIDES%
+libbd_utils.so=3-64
+libblockdev.so=3-64
+
+%XDATA%
+pkgtype=split
+

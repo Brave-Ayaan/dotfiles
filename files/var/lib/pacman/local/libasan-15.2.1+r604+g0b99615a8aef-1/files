@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/libasan.so
+usr/lib/libasan.so.8
+usr/lib/libasan.so.8.0.0
+usr/share/
+usr/share/licenses/
+usr/share/licenses/libasan/
+usr/share/licenses/libasan/RUNTIME.LIBRARY.EXCEPTION
+

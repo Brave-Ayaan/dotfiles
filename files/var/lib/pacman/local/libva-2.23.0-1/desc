@@ -1,0 +1,62 @@
+%NAME%
+libva
+
+%VERSION%
+2.23.0-1
+
+%BASE%
+libva
+
+%DESC%
+Video Acceleration (VA) API for Linux
+
+%URL%
+https://01.org/linuxmedia/vaapi
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773174748
+
+%INSTALLDATE%
+1774147146
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%SIZE%
+1026773
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libdrm
+libgl
+libx11
+libxext
+libxfixes
+wayland
+
+%OPTDEPENDS%
+intel-media-driver: backend for Intel GPUs (>= Broadwell)
+libva-intel-driver: backend for Intel GPUs (<= Haswell)
+libva-mesa-driver: backend for AMD and NVIDIA GPUs
+
+%PROVIDES%
+libva-drm.so=2-64
+libva-glx.so=2-64
+libva-wayland.so=2-64
+libva-x11.so=2-64
+libva.so=2-64
+
+%XDATA%
+pkgtype=pkg
+

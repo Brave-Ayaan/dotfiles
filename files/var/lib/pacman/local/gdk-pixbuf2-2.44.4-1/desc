@@ -1,0 +1,56 @@
+%NAME%
+gdk-pixbuf2
+
+%VERSION%
+2.44.4-1
+
+%BASE%
+gdk-pixbuf2
+
+%DESC%
+An image loading library
+
+%URL%
+https://wiki.gnome.org/Projects/GdkPixbuf
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1761062951
+
+%INSTALLDATE%
+1774124317
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+3089759
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glib2
+glibc
+glycin
+shared-mime-info
+
+%OPTDEPENDS%
+libheif: Load .avif, .heic and .heif
+libopenraw: Load .arw, .cr2, .crw, .dng, .erf, .mrw, .nef, .orf, .pef and .raf
+libwmf: Load .apm and .wmf
+
+%PROVIDES%
+libgdk_pixbuf-2.0.so=0-64
+
+%XDATA%
+pkgtype=split
+

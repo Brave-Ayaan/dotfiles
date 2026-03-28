@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/share/
+usr/share/man/
+usr/share/man/man3/
+usr/share/man/man3/Term::Animation.3pm.gz
+usr/share/man/man3/Term::Animation::Entity.3pm.gz
+usr/share/perl5/
+usr/share/perl5/vendor_perl/
+usr/share/perl5/vendor_perl/Term/
+usr/share/perl5/vendor_perl/Term/Animation.pm
+usr/share/perl5/vendor_perl/Term/Animation/
+usr/share/perl5/vendor_perl/Term/Animation/Entity.pm
+

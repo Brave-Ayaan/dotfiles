@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/cbonsai
+usr/share/
+usr/share/bash-completion/
+usr/share/bash-completion/completions/
+usr/share/bash-completion/completions/cbonsai
+usr/share/man/
+usr/share/man/man6/
+usr/share/man/man6/cbonsai.6.gz
+

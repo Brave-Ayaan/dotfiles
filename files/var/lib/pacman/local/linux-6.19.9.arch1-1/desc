@@ -1,0 +1,60 @@
+%NAME%
+linux
+
+%VERSION%
+6.19.9.arch1-1
+
+%BASE%
+linux
+
+%DESC%
+The Linux kernel and modules
+
+%URL%
+https://github.com/archlinux/linux
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773937997
+
+%INSTALLDATE%
+1774122561
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+152487298
+
+%LICENSE%
+GPL-2.0-only
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+linux-headers: headers and scripts for building modules
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+wireless-regdb: to set the correct wireless channels of your country
+
+%PROVIDES%
+KSMBD-MODULE
+NTSYNC-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%XDATA%
+pkgtype=split
+

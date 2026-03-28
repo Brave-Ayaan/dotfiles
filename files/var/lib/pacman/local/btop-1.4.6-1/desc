@@ -1,0 +1,46 @@
+%NAME%
+btop
+
+%VERSION%
+1.4.6-1
+
+%BASE%
+btop
+
+%DESC%
+A monitor of system resources, bpytop ported to C++
+
+%URL%
+https://github.com/aristocratos/btop
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766765844
+
+%INSTALLDATE%
+1774300768
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%SIZE%
+1723604
+
+%LICENSE%
+Apache-2.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+rocm-smi-lib: AMD GPU support
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,16 @@
+%FILES%
+usr/
+usr/share/
+usr/share/doc/
+usr/share/doc/ttf-league-gothic/
+usr/share/doc/ttf-league-gothic/README.md
+usr/share/fonts/
+usr/share/fonts/TTF/
+usr/share/fonts/TTF/LeagueGothic-Condensed.ttf
+usr/share/fonts/TTF/LeagueGothic-CondensedItalic.ttf
+usr/share/fonts/TTF/LeagueGothic-Italic.ttf
+usr/share/fonts/TTF/LeagueGothic-Regular.ttf
+usr/share/licenses/
+usr/share/licenses/ttf-league-gothic/
+usr/share/licenses/ttf-league-gothic/OFL.md
+

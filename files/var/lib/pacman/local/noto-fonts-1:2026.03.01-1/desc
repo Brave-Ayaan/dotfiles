@@ -1,0 +1,47 @@
+%NAME%
+noto-fonts
+
+%VERSION%
+1:2026.03.01-1
+
+%BASE%
+noto-fonts
+
+%DESC%
+Google Noto TTF fonts
+
+%URL%
+https://fonts.google.com/noto
+
+%ARCH%
+any
+
+%BUILDDATE%
+1772358262
+
+%INSTALLDATE%
+1774124320
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+111996025
+
+%LICENSE%
+OFL-1.1-no-RFN
+
+%VALIDATION%
+pgp
+
+%OPTDEPENDS%
+noto-fonts-cjk: CJK characters
+noto-fonts-emoji: Emoji characters
+noto-fonts-extra: additional variants (condensed, semi-bold, extra-light)
+
+%PROVIDES%
+ttf-font
+
+%XDATA%
+pkgtype=split
+

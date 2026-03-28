@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/brightnessctl
+usr/share/
+usr/share/licenses/
+usr/share/licenses/brightnessctl/
+usr/share/licenses/brightnessctl/LICENSE
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/brightnessctl.1.gz
+

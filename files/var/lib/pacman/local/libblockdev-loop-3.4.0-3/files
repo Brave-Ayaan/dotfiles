@@ -1,0 +1,10 @@
+%FILES%
+usr/
+usr/include/
+usr/include/blockdev/
+usr/include/blockdev/loop.h
+usr/lib/
+usr/lib/libbd_loop.so
+usr/lib/libbd_loop.so.3
+usr/lib/libbd_loop.so.3.0.0
+

@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/wl-clip-persist
+usr/share/
+usr/share/doc/
+usr/share/doc/wl-clip-persist/
+usr/share/doc/wl-clip-persist/README.md
+usr/share/licenses/
+usr/share/licenses/wl-clip-persist/
+usr/share/licenses/wl-clip-persist/LICENSE
+

@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/nyancat
+usr/lib/
+usr/lib/systemd/
+usr/lib/systemd/system/
+usr/lib/systemd/system/nyancat.socket
+usr/lib/systemd/system/nyancat@.service
+usr/share/
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/nyancat.1.gz
+

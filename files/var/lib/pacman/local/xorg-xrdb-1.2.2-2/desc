@@ -1,0 +1,55 @@
+%NAME%
+xorg-xrdb
+
+%VERSION%
+1.2.2-2
+
+%BASE%
+xorg-xrdb
+
+%DESC%
+X server resource database utility
+
+%URL%
+https://xorg.freedesktop.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720928292
+
+%INSTALLDATE%
+1774321656
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%SIZE%
+41872
+
+%REASON%
+1
+
+%GROUPS%
+xorg-apps
+xorg
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libx11
+libxmu
+glibc
+
+%OPTDEPENDS%
+gcc: for preprocessing
+mcpp: a lightweight alternative for preprocessing
+
+%XDATA%
+pkgtype=pkg
+

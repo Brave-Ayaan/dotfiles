@@ -1,0 +1,45 @@
+%NAME%
+default-cursors
+
+%VERSION%
+3-1
+
+%BASE%
+default-cursors
+
+%DESC%
+Default cursor set
+
+%URL%
+https://archlinux.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1726870239
+
+%INSTALLDATE%
+1774124317
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+30
+
+%REASON%
+1
+
+%LICENSE%
+CC0-1.0
+
+%VALIDATION%
+pgp
+
+%OPTDEPENDS%
+adwaita-cursors: default cursor theme
+
+%XDATA%
+pkgtype=pkg
+

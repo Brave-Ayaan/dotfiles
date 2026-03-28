@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/pipes.sh
+usr/share/
+usr/share/doc/
+usr/share/doc/pipes.sh/
+usr/share/doc/pipes.sh/LICENSE
+usr/share/doc/pipes.sh/README.rst
+usr/share/man/
+usr/share/man/man6/
+usr/share/man/man6/pipes.sh.6.gz
+

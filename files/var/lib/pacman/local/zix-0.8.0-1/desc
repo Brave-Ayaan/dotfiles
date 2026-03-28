@@ -1,0 +1,51 @@
+%NAME%
+zix
+
+%VERSION%
+0.8.0-1
+
+%BASE%
+zix
+
+%DESC%
+A lightweight C99 portability and data structure library
+
+%URL%
+https://gitlab.com/drobilla/zix
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764612429
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%SIZE%
+133763
+
+%REASON%
+1
+
+%LICENSE%
+0BSD OR ISC
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+zix-docs: for developer documentation
+
+%PROVIDES%
+libzix-0.so=0-64
+
+%XDATA%
+pkgtype=split
+

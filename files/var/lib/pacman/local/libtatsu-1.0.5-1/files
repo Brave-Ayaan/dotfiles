@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/include/
+usr/include/libtatsu/
+usr/include/libtatsu/tatsu.h
+usr/include/libtatsu/tss.h
+usr/lib/
+usr/lib/libtatsu.so
+usr/lib/libtatsu.so.0
+usr/lib/libtatsu.so.0.0.3
+usr/lib/pkgconfig/
+usr/lib/pkgconfig/libtatsu-1.0.pc
+

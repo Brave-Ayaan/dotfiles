@@ -1,0 +1,11 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: gtk-layer-shell
+Description: Use the Layer Shell Wayland protocol with GTK
+URL: https://github.com/wmww/gtk-layer-shell
+Version: 0.9.0
+Requires: gtk+-3.0 >= 3.22.0, wayland-client
+Libs: -L${libdir} -lgtk-layer-shell
+Cflags: -I${includedir}/gtk-layer-shell

@@ -1,0 +1,56 @@
+%NAME%
+linux-firmware
+
+%VERSION%
+20260309-1
+
+%BASE%
+linux-firmware
+
+%DESC%
+Firmware files for Linux - Default set
+
+%URL%
+https://gitlab.com/kernel-firmware/linux-firmware
+
+%ARCH%
+any
+
+%BUILDDATE%
+1773096900
+
+%INSTALLDATE%
+1774122560
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%LICENSE%
+CC0-1.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+
+%OPTDEPENDS%
+linux-firmware-liquidio: Firmware for Cavium LiquidIO server adapters
+linux-firmware-marvell: Firmware for Marvell devices
+linux-firmware-mellanox: Firmware for Mellanox Spectrum switches
+linux-firmware-nfp: Firmware for Netronome Flow Processors
+linux-firmware-qcom: Firmware for Qualcomm SoCs
+linux-firmware-qlogic: Firmware for QLogic devices
+
+%XDATA%
+pkgtype=split
+

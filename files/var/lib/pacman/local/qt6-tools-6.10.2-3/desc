@@ -1,0 +1,56 @@
+%NAME%
+qt6-tools
+
+%VERSION%
+6.10.2-3
+
+%BASE%
+qt6-tools
+
+%DESC%
+A cross-platform application and UI framework (Development Tools, QtHelp)
+
+%URL%
+https://www.qt.io
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773081590
+
+%INSTALLDATE%
+1774147219
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%SIZE%
+19755081
+
+%GROUPS%
+qt6
+
+%LICENSE%
+GPL-3.0-only
+LGPL-3.0-only
+LicenseRef-Qt-Commercial
+Qt-GPL-exception-1.0
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+zstd
+
+%OPTDEPENDS%
+clang: for qdoc and lupdate
+litehtml: for assistant
+qt6-declarative: for qdistancefieldgenerator, qdoc and lupdate
+
+%XDATA%
+pkgtype=pkg
+

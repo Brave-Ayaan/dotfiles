@@ -1,0 +1,55 @@
+%NAME%
+uwsm
+
+%VERSION%
+0.26.4-1
+
+%BASE%
+uwsm
+
+%DESC%
+A standalone Wayland session manager
+
+%URL%
+https://github.com/Vladimir-csp/uwsm
+
+%ARCH%
+any
+
+%BUILDDATE%
+1771532170
+
+%INSTALLDATE%
+1774571250
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%SIZE%
+335817
+
+%LICENSE%
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+bash
+python
+python-pyxdg
+python-dbus
+
+%OPTDEPENDS%
+bemenu: optional picker for uuctl support
+dmenu: optional picker for uuctl support
+fuzzel: optional picker for uuctl support
+libnewt: for "uwsm start select"
+libnotify: for feeback from "uswm app" commands or fmon service
+rofi-wayland: optional picker for uuctl support
+wmenu: optional picker for uuctl support
+wofi: optional picker for uuctl support
+
+%XDATA%
+pkgtype=pkg
+

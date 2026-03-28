@@ -1,0 +1,20 @@
+%FILES%
+etc/
+etc/mailcap
+etc/mime.types
+etc/nginx/
+etc/nginx/mime.types
+usr/
+usr/share/
+usr/share/licenses/
+usr/share/licenses/mailcap/
+usr/share/licenses/mailcap/COPYING
+usr/share/man/
+usr/share/man/man5/
+usr/share/man/man5/mailcap.5.gz
+
+%BACKUP%
+etc/mailcap	3e38929163fd6bed0375f571d694f32c
+etc/mime.types	bc0ae32a4f3583731f804a97b59609fd
+etc/nginx/mime.types	2a1101f97b394669a22b384d9e350c7f
+

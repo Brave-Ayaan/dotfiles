@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# arg 1:  the new package version
+post_install() {
+  true
+}
+
+# arg 1:  the new package version
+# arg 2:  the old package version
+post_upgrade() {
+  if (( "$(vercmp "$2" "8.0.0-1")" < 0 )); then
+    echo "==> easyeffects 8.0.0 will relocate existing presets, impulse response, rnnoise and autoload profile files"
+    echo "==> in ~/.config/easyeffects to ~/.local/share/easyeffects and move remaining directories to the users"
+    echo "==> trash on first launch."
+    echo "==> Refer to 'https://github.com/wwmm/easyeffects/blob/master/CHANGELOG.md#800' for additional information."
+  fi
+  :
+}
+
+# vim:set ts=2 sw=2 ft=sh et:
+

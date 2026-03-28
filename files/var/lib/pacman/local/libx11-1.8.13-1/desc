@@ -1,0 +1,47 @@
+%NAME%
+libx11
+
+%VERSION%
+1.8.13-1
+
+%BASE%
+libx11
+
+%DESC%
+X11 client-side library
+
+%URL%
+https://gitlab.freedesktop.org/xorg/lib/libx11
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770539241
+
+%INSTALLDATE%
+1774124316
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+10257192
+
+%REASON%
+1
+
+%LICENSE%
+MIT AND X11
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libxcb
+glibc
+xorgproto
+
+%XDATA%
+pkgtype=pkg
+

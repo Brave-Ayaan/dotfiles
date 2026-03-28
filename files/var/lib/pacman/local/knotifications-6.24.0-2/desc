@@ -1,0 +1,57 @@
+%NAME%
+knotifications
+
+%VERSION%
+6.24.0-2
+
+%BASE%
+knotifications
+
+%DESC%
+Abstraction for system notifications
+
+%URL%
+https://community.kde.org/Frameworks
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774253775
+
+%INSTALLDATE%
+1774487405
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%SIZE%
+515408
+
+%REASON%
+1
+
+%GROUPS%
+kf6
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libstdc++
+glibc
+kconfig
+libcanberra
+qt6-base
+
+%OPTDEPENDS%
+pyside6: Python bindings
+qt6-declarative: QML bindings
+
+%XDATA%
+pkgtype=pkg
+

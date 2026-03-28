@@ -1,0 +1,45 @@
+%NAME%
+adwaita-icon-theme-legacy
+
+%VERSION%
+46.2-3
+
+%BASE%
+adwaita-icon-theme-legacy
+
+%DESC%
+GNOME fallback icons for legacy apps
+
+%URL%
+https://gitlab.gnome.org/GNOME/adwaita-icon-theme-legacy
+
+%ARCH%
+any
+
+%BUILDDATE%
+1726670023
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%SIZE%
+2339026
+
+%REASON%
+1
+
+%LICENSE%
+CC-BY-SA-3.0 OR LGPL-3.0-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+hicolor-icon-theme
+
+%XDATA%
+pkgtype=pkg
+

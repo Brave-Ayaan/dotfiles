@@ -1,0 +1,54 @@
+%NAME%
+libnice
+
+%VERSION%
+0.1.23-1
+
+%BASE%
+libnice
+
+%DESC%
+Nice: GLib ICE library
+
+%URL%
+https://libnice.freedesktop.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764218324
+
+%INSTALLDATE%
+1774147146
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%SIZE%
+1902384
+
+%REASON%
+1
+
+%LICENSE%
+MPL-1.1 OR LGPL-2.1-only
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glib2
+glibc
+gnutls
+gupnp-igd
+
+%OPTDEPENDS%
+gstreamer: "nice" GStreamer plugin
+
+%PROVIDES%
+libnice.so=10-64
+
+%XDATA%
+pkgtype=pkg
+

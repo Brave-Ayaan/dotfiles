@@ -1,0 +1,78 @@
+%NAME%
+libblockdev-fs
+
+%VERSION%
+3.4.0-3
+
+%BASE%
+libblockdev
+
+%DESC%
+A library for manipulating block devices - filesystem support
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774257611
+
+%INSTALLDATE%
+1774487405
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%SIZE%
+133854
+
+%REASON%
+1
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+libblockdev-tools
+
+%DEPENDS%
+e2fsprogs
+libext2fs.so=2-64
+libe2p.so=2-64
+glib2
+libglib-2.0.so=0-64
+glibc
+libblockdev=3.4.0
+libbd_utils.so=3-64
+libbytesize
+libgcc
+parted
+util-linux-libs
+libblkid.so=1-64
+libmount.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+btrfs-progs: for BTRFS filesystem support
+dosfstools: for VFAT filesystem support
+exfatprogs: for exFAT filesystem support
+f2fs-tools: for F2FS filesystem support
+nilfs-utils: for nilfs filesystem support
+ntfs-3g: for NTFS filesystem support
+udftools: for UDF filesystem support
+xfsprogs: for XFS filesystem support
+
+%CONFLICTS%
+libblockdev-tools
+
+%PROVIDES%
+libbd_fs.so=3-64
+
+%XDATA%
+pkgtype=split
+

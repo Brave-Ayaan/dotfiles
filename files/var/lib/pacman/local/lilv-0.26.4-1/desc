@@ -1,0 +1,62 @@
+%NAME%
+lilv
+
+%VERSION%
+0.26.4-1
+
+%BASE%
+lilv
+
+%DESC%
+A C library interface to the LV2 plug-in standard
+
+%URL%
+https://gitlab.com/lv2/lilv
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771376007
+
+%INSTALLDATE%
+1774124318
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%SIZE%
+290860
+
+%REASON%
+1
+
+%LICENSE%
+0BSD OR ISC
+ISC
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+serd
+libserd-0.so=0-64
+sord
+libsord-0.so=0-64
+sratom
+libsratom-0.so=0-64
+lv2
+zix
+
+%OPTDEPENDS%
+libsndfile: for lv2apply
+lilv-docs: for documentation
+python-lilv: for Python bindings
+
+%PROVIDES%
+liblilv-0.so=0-64
+
+%XDATA%
+pkgtype=split
+

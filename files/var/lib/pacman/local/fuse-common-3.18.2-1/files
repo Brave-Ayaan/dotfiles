@@ -1,0 +1,7 @@
+%FILES%
+etc/
+etc/fuse.conf
+
+%BACKUP%
+etc/fuse.conf	5df72dde927a769eb88afe8e3458ac3f
+

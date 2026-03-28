@@ -1,0 +1,88 @@
+%NAME%
+electron39
+
+%VERSION%
+39.5.2-1
+
+%BASE%
+electron39
+
+%DESC%
+Build cross platform desktop apps with web technologies
+
+%URL%
+https://electronjs.org
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770800536
+
+%INSTALLDATE%
+1774583765
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%SIZE%
+294756143
+
+%REASON%
+1
+
+%LICENSE%
+MIT
+BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+c-ares
+gcc-libs
+glibc
+gtk3
+libgtk-3.so=0-64
+libevent
+libffi
+libffi.so=8-64
+libpulse
+libpulse.so=0-64
+nss
+zlib
+libz.so=1-64
+fontconfig
+libfontconfig.so=1-64
+brotli
+libjpeg-turbo
+libjpeg.so=8-64
+flac
+libFLAC.so=14-64
+libdrm
+libxml2
+libxml2.so=16-64
+minizip
+opus
+libopus.so=0-64
+harfbuzz
+libharfbuzz.so=0-64
+libharfbuzz-subset.so=0-64
+libxslt
+libxslt.so=1-64
+libpng
+libpng16.so=16-64
+freetype2
+libfreetype.so=6-64
+
+%OPTDEPENDS%
+kde-cli-tools: file deletion support (kioclient5)
+pipewire: WebRTC desktop sharing under Wayland
+qt5-base: enable Qt5 with --enable-features=AllowQt
+gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+trash-cli: file deletion support (trash-put)
+xdg-utils: open URLs with desktop’s default (xdg-email, xdg-open)
+
+%XDATA%
+pkgtype=pkg
+

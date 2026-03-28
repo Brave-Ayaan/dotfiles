@@ -1,0 +1,50 @@
+%NAME%
+resvg
+
+%VERSION%
+0.47.0-2
+
+%BASE%
+resvg
+
+%DESC%
+SVG rendering library and CLI
+
+%URL%
+https://github.com/linebender/resvg
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770733949
+
+%INSTALLDATE%
+1774147219
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%SIZE%
+12014058
+
+%REASON%
+1
+
+%LICENSE%
+Apache-2.0
+MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gdk-pixbuf2
+
+%OPTDEPENDS%
+qt5-base: For the Qt backend
+cairo: For the cairo backend
+
+%XDATA%
+pkgtype=pkg
+

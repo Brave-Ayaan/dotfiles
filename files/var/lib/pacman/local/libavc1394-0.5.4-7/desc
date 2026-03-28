@@ -1,0 +1,46 @@
+%NAME%
+libavc1394
+
+%VERSION%
+0.5.4-7
+
+%BASE%
+libavc1394
+
+%DESC%
+Library to control A/V devices using the 1394 TA AV/C commands
+
+%URL%
+https://sourceforge.net/projects/libavc1394/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755641793
+
+%INSTALLDATE%
+1774147147
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%SIZE%
+125511
+
+%REASON%
+1
+
+%LICENSE%
+GPL-2.0-or-later AND LGPL-2.1-or-later
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+libraw1394
+
+%XDATA%
+pkgtype=pkg
+

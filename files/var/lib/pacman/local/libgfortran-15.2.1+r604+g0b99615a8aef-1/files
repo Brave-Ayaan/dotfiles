@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/libgfortran.so
+usr/lib/libgfortran.so.5
+usr/lib/libgfortran.so.5.0.0
+usr/share/
+usr/share/licenses/
+usr/share/licenses/libgfortran/
+usr/share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION
+

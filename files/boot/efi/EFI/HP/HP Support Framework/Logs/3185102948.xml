@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payload>
+   <element name="Application" type="Description" sequence-id="1">
+      <attribute name="a0" value="HPAdvSysDiag_Symptom"/>
+      <attribute name="a1" value="8.2.0.0"/>
+      <attribute name="a2" value="2"/>
+      <attribute name="p1" value="07/14/2022"/>
+      <attribute name="p2" value="F.22"/>
+      <attribute name="p3" value="35.60"/>
+      <attribute name="p5" value=""/>
+      <attribute name="p15" value="2"/>
+      <attribute name="p16" value="0"/>
+      <attribute name="p17" value="0"/>
+      <attribute name="p20" value="00000001"/>
+      <attribute name="p4" value="0"/>
+      <attribute name="p500" value="1"/>
+      <attribute name="p501" value="0"/>
+      <attribute name="p502" value="FBYTE#3K3a6b7K7MaBapaqasawbCbhcbdUdpdqfPhZm9n3n4.YM"/>
+      <attribute name="p503" value=""/>
+      <attribute name="p530" value="0"/>
+      <attribute name="p531" value="0"/>
+      <attribute name="p550" value="303PD44UPBV1"/>
+      <attribute name="p551" value="KBG40ZNV512G KIOXIA"/>
+      <attribute name="p21" value="00000001"/>
+      <attribute name="p0" value="2023-05-01 11:14:05"/>
+      <attribute name="p10" value="0"/>
+      <attribute name="p12" value="F"/>
+      <attribute name="z65" value="1"/>
+      <attribute name="z66" value="1"/>
+      <attribute name="Z67" value="0"/>
+      <attribute name="z70" value="0"/>
+      <attribute name="z71" value="E24"/>
+      <attribute name="z72" value="B63"/>
+      <attribute name="z73" value="386"/>
+      <attribute name="z74" value="0"/>
+      <attribute name="z75" value="222"/>
+      <attribute name="z76" value="26"/>
+      <attribute name="z77" value="302A"/>
+      <attribute name="z78" value="9D0"/>
+      <attribute name="z79" value="2C4C"/>
+      <attribute name="z80" value="80"/>
+      <attribute name="z81" value="100F"/>
+      <attribute name="z82" value="1013"/>
+      <attribute name="z83" value="1009"/>
+      <attribute name="z84" value="0"/>
+      <attribute name="z85" value="06282 07/10/2020"/>
+      <attribute name="z86" value="313-1D-33-A"/>
+      <attribute name="z87" value="6JRMD03XXDY4UI"/>
+      <attribute name="z88" value="3"/>
+      <attribute name="z89" value="1"/>
+      <attribute name="z90" value="1"/>
+      <attribute name="z91" value="1"/>
+      <attribute name="z92" value="1"/>
+      <attribute name="z94" value="0"/>
+      <attribute name="z95" value="50"/>
+      <attribute name="z96" value="0"/>
+      <attribute name="z97" value="0"/>
+      <attribute name="z98" value="0"/>
+      <attribute name="z99" value="0"/>
+      <attribute name="z100" value="1"/>
+      <attribute name="z101" value="3E8"/>
+      <attribute name="z102" value="0"/>
+      <attribute name="d1" value="17"/>
+      <attribute name="d14" value="E1"/>
+      <attribute name="d11" value="B1"/>
+      <attribute name="d4" value="41"/>
+      <attribute name="d5" value="51"/>
+      <attribute name="d9" value="91"/>
+      <attribute name="a4" value="00.00.02.03"/>
+      <attribute name="d0" value="1"/>
+   </element>
+</payload>

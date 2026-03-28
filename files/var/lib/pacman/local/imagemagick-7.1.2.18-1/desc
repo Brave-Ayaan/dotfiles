@@ -1,0 +1,85 @@
+%NAME%
+imagemagick
+
+%VERSION%
+7.1.2.18-1
+
+%BASE%
+imagemagick
+
+%DESC%
+An image viewing/manipulation program
+
+%URL%
+https://www.imagemagick.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774217557
+
+%INSTALLDATE%
+1774487405
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%SIZE%
+25385083
+
+%LICENSE%
+ImageMagick
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+imagemagick-doc
+
+%DEPENDS%
+bzip2
+cairo
+fftw
+fontconfig
+freetype2
+glib2
+glibc
+lcms2
+liblqr
+libltdl
+libpng
+libraqm
+libxext
+libxml2
+libgcc
+libstdc++
+libgomp
+xz
+zlib
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+jbigkit: JBIG support
+libheif: HEIF support
+libjpeg-turbo: JPEG support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libtiff: TIFF support
+libultrahdr: UHDR support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%PROVIDES%
+libmagick
+
+%XDATA%
+pkgtype=pkg
+

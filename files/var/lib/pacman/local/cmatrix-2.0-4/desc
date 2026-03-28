@@ -1,0 +1,46 @@
+%NAME%
+cmatrix
+
+%VERSION%
+2.0-4
+
+%BASE%
+cmatrix
+
+%DESC%
+A curses-based scrolling 'Matrix'-like screen
+
+%URL%
+https://www.asty.org/cmatrix/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753460677
+
+%INSTALLDATE%
+1774300955
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%SIZE%
+97097
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ncurses
+
+%OPTDEPENDS%
+kbd: cmatrix-tty custom font
+xterm: cmatrix-tty custom font
+
+%XDATA%
+pkgtype=pkg
+

@@ -1,0 +1,11 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/liblsan.so
+usr/lib/liblsan.so.0
+usr/lib/liblsan.so.0.0.0
+usr/share/
+usr/share/licenses/
+usr/share/licenses/liblsan/
+usr/share/licenses/liblsan/RUNTIME.LIBRARY.EXCEPTION
+

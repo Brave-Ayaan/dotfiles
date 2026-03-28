@@ -1,0 +1,15 @@
+%FILES%
+usr/
+usr/lib/
+usr/lib/perl5/
+usr/lib/perl5/5.42/
+usr/lib/perl5/5.42/vendor_perl/
+usr/lib/perl5/5.42/vendor_perl/Curses.pm
+usr/lib/perl5/5.42/vendor_perl/auto/
+usr/lib/perl5/5.42/vendor_perl/auto/Curses/
+usr/lib/perl5/5.42/vendor_perl/auto/Curses/Curses.so
+usr/share/
+usr/share/man/
+usr/share/man/man3/
+usr/share/man/man3/Curses.3pm.gz
+

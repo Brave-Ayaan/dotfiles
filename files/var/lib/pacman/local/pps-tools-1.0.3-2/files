@@ -1,0 +1,12 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/ppsctl
+usr/bin/ppsfind
+usr/bin/ppsldisc
+usr/bin/ppstest
+usr/bin/ppswatch
+usr/include/
+usr/include/sys/
+usr/include/sys/timepps.h
+

@@ -1,0 +1,9 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libcava
+Description: A cava library
+Version: 0.10.7
+Libs: -L${libdir} -lcava
+Cflags: -I${includedir}/cava -I${includedir}/cava/input -I${includedir}/cava/output

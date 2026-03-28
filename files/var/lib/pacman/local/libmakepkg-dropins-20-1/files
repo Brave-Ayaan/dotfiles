@@ -1,0 +1,16 @@
+%FILES%
+usr/
+usr/share/
+usr/share/doc/
+usr/share/doc/libmakepkg-dropins/
+usr/share/doc/libmakepkg-dropins/README.md
+usr/share/makepkg/
+usr/share/makepkg/autodep/
+usr/share/makepkg/autodep/binary_provides.sh
+usr/share/makepkg/reproducible/
+usr/share/makepkg/reproducible/python.sh
+usr/share/makepkg/tidy/
+usr/share/makepkg/tidy/10-ruby.sh
+usr/share/makepkg/tidy/50-pestrip.sh
+usr/share/makepkg/tidy/50-zipkmod.sh
+

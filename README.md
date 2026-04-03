@@ -16,7 +16,7 @@
 
 ### Screenshots
 <details>
- <summary>**Screenshots**</summary>
+ <summary> </summary>
 <img src="Images/screenshot_20260327_224239.png" alt="Screenshot 1">
 <img src="Images/screenshot_20260327_224404.png" alt="Screenshot 2">
 <img src="Images/screenshot_20260327_224601.png" alt="Screenshot 3">
@@ -35,7 +35,6 @@
 <img src="Images/screenshot_20260328_120746.png" alt="Screenshot 16">
 <img src="Images/screenshot_20260329_194318.png" alt="Screenshot 17">
 <img src="Images/screenshot_20260327_224218.png" alt="Scrennshot 18">
-
 </details>
 
 

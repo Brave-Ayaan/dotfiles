@@ -1,3 +1,5 @@
+# Jhri's Dotfiles for hyprland Arch Linux
+> This project is a minimal, clean and beautiful configuration of the Hyprland TWM in Arch Linux. 
 <div align="center">
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Brave-Ayaan/dotfiles?style=for-the-badge&labelColor=%231e1e2e&color=%23cba6f7)
@@ -5,6 +7,29 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/Brave-Ayaan/dotfiles?style=for-the-badge&labelColor=%231e1e2e&color=%23a6e3a1)
 ![GitHub contributors](https://img.shields.io/github/contributors/Brave-Ayaan/dotfiles?style=for-the-badge&labelColor=%231e1e2e&color=%23f9e2af)
 ![GitHub License](https://img.shields.io/github/license/Brave-Ayaan/dotfiles?style=for-the-badge&labelColor=%231e1e2e&color=%23f5c2e7)
+
+### My dotfiles aim to be as clean, pleasing and keyboard focused as possible. Here are some of the key features! 
+- **Fully Keyboard Based**: From the browser to the IDE, everything can be navigated through using the keyboard with the most up-to-date apps and terminal.
+- ***Customizable**: Becuase these dotfiles use hyprland, everything from keyboard shortcuts to themes can be customized. You would mainly find this in the ~/.config/hyprland folder but check the other folders for other specific settings.
+- - **Theme**: Everything uses the Catppuccin theme, giving the whole system a clean pastel look!
+
+### Screenshots
+<details>
+    <summary>Images of the Desktop</summary>
+
+- Clone repository: `git clone --depth=1 https://github.com/koeqaife/hyprland-material-you.git`
+- Install all dependencies from depends.txt
+- Build Cython code by using `build.sh` in `hypryou/`
+- Then copy `hypryou` to `/usr/lib/hypryou` and copy `hypryou-assets` to `/usr/share/hypryou`
+- Then use `build.sh` in `build`
+- Move `hypryouctl`, `hypryou-start`, `hypryou-crash-dialog` to `/usr/bin`
+- Copy `assets/hypryou.desktop` to `/usr/share/wayland-sessions/`
+- And run it as `HyprYou` from your display manager (Not `Hyprland`!!)
+- Optional:
+  - You can build `hypryou-utils` or `hypryou-greeter` if you want  
+    > By using `makepkg -si` in `greeter` for `hypryou-greeter` or in `hypryou-utils`
+
+</details>
 
 </div>
 <a href="https://www.star-history.com/?repos=Brave-Ayaan%2Fdotfiles&type=date&legend=top-left">

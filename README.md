@@ -10,8 +10,8 @@
 
 ### My dotfiles aim to be as clean, pleasing and keyboard focused as possible. Here are some of the key features! 
 - **Fully Keyboard Based**: From the browser to the IDE, everything can be navigated through using the keyboard with the most up-to-date apps and terminal.
-- ***Customizable**: Becuase these dotfiles use hyprland, everything from keyboard shortcuts to themes can be customized. You would mainly find this in the ~/.config/hyprland folder but check the other folders for other specific settings.
-- - **Theme**: Everything uses the Catppuccin theme, giving the whole system a clean pastel look!
+- **Customizable**: Becuase these dotfiles use hyprland, everything from keyboard shortcuts to themes can be customized. You would mainly find this in the ~/.config/hyprland folder but check the other folders for other specific settings.
+- **Theme**: Everything uses the Catppuccin theme, giving the whole system a clean pastel look!
 
 ### Screenshots
 <details>

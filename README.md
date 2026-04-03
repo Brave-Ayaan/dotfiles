@@ -16,6 +16,7 @@
 
 ### Screenshots
 <details>
+ <summary> </summary>
 <details>
  <summary>Screenshot 1</summary>
 <img src="Images/screenshot_20260327_224239.png" alt="Screenshot 1">

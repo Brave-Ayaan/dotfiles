@@ -16,7 +16,7 @@
 
 ### Screenshots
 <details>
-    <summary>Images of the Desktop</summary>
+    <summary>----</summary>
 <img src="Images/screenshot_20260327_224239.png" alt="Screenshot 1">
 <img src="Images/screenshot_20260327_224404.png" alt="Screenshot 2">
 <img src="Images/screenshot_20260327_224601.png" alt="Screenshot 3">

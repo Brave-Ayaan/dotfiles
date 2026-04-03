@@ -91,6 +91,24 @@
 </details>
 </details>
 
+> [!TIP]
+> If sudo or pacman isn't working try an AUR helper like `yay`.
+> Check out the official hyprland, arch or aconfmgr websites for more information.
+> If you have config or dependencies errors try `hyprctl reload`
+
+> [!NOTE]
+> It is imporant to clone into the .config/aconfmgr folder as that is where aconfmgr looks for the files.
+> Aconfmgr will auto-sudo when needed, don't do step 3 as sudo.
+
+<details>
+ <summary>Automatic</summary>
+ 
+   1. Install aconfmgr using `yay -S aconfmgr-git`
+   2. Clone the github repo using `git clone https://github.com/Brave-Ayaan/dotfiles.git ~/.config/aconfmgr`
+   3. Apply the changes using `aconfmgr apply`
+   4. Reload the system to apply the changes.
+</details>
+
 <a href="https://www.star-history.com/?repos=Brave-Ayaan%2Fdotfiles&type=date&legend=top-left">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Brave-Ayaan/dotfiles&type=date&theme=dark&legend=top-left" />

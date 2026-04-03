@@ -17,18 +17,7 @@
 ### Screenshots
 <details>
     <summary>Images of the Desktop</summary>
-
-- Clone repository: `git clone --depth=1 https://github.com/koeqaife/hyprland-material-you.git`
-- Install all dependencies from depends.txt
-- Build Cython code by using `build.sh` in `hypryou/`
-- Then copy `hypryou` to `/usr/lib/hypryou` and copy `hypryou-assets` to `/usr/share/hypryou`
-- Then use `build.sh` in `build`
-- Move `hypryouctl`, `hypryou-start`, `hypryou-crash-dialog` to `/usr/bin`
-- Copy `assets/hypryou.desktop` to `/usr/share/wayland-sessions/`
-- And run it as `HyprYou` from your display manager (Not `Hyprland`!!)
-- Optional:
-  - You can build `hypryou-utils` or `hypryou-greeter` if you want  
-    > By using `makepkg -si` in `greeter` for `hypryou-greeter` or in `hypryou-utils`
+<img src="Images/">
 
 </details>
 

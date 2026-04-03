@@ -16,6 +16,7 @@
 
 ### Screenshots
 <details>
+<details>
  <summary>Screenshot 1</summary>
 <img src="Images/screenshot_20260327_224239.png" alt="Screenshot 1">
 </details>
@@ -86,6 +87,7 @@
 <details>
  <summary>Screenshot 18</summary>
 <img src="Images/screenshot_20260327_224218.png" alt="Screenshot 18">
+</details>
 </details>
 
 <a href="https://www.star-history.com/?repos=Brave-Ayaan%2Fdotfiles&type=date&legend=top-left">

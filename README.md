@@ -78,3 +78,9 @@
    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Brave-Ayaan/dotfiles&type=date&legend=top-left" />
  </picture>
 </a>
+
+### Credits
+
+- <a href="https://hypr.land/">Hyprland</a> The best TWM for Arch!
+- <a href="https://www.reddit.com/r/unixporn/">UP</a> For inspiration and some config files
+- <a href="https://github.com/gauj">@gauj</a> 
